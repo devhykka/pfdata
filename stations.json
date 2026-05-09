@@ -1,113 +1,4 @@
 {
-  "DEVC": [
-    {
-      "name": "Developer Control",
-      "callsign": "DEV_CTR",
-      "frequency": 129.2,
-      "facility": "Flight Service Station",
-      "line1": "Developer Control | CPDLC [INOP]",
-      "line2": "This is a development station, do not contact.",
-      "line3": "Provides coverage for all regions.",
-      "line4": "Report issues at my.pfatc.net/feedback",
-      "sectors": ["EGPX", "EGTT", "OBBB"]
-    }
-  ],
-  "EURO": [
-    {
-      "name": "Euro Control",
-      "callsign": "EURO_FSS",
-      "frequency": 130.55,
-      "facility": "Flight Service Station",
-      "line1": "Euro Control, Good Day!",
-      "line2": "ATC only if local CTR is offline",
-      "line3": "MAP-WIDE COVERAGE ABOVE FL120",
-      "line4": "Provide feedback at my.pfatc.net/feedback"
-    },
-    {
-      "name": "Euro Control (North)",
-      "callsign": "EURN_FSS",
-      "frequency": 133.45,
-      "facility": "Flight Service Station",
-      "line1": "Euro Control North, Good Day!",
-      "line2": "ATC only if local CTR is offline",
-      "line3": "FIR/UIR ATC for EGPX EGTT EFIN",
-      "line4": "Provide feedback at my.pfatc.net/feedback"
-    },
-    {
-      "name": "Euro Control (East)",
-      "callsign": "EURE_FSS",
-      "frequency": 135.3,
-      "facility": "Flight Service Station",
-      "line1": "Euro Control East, Good Day!",
-      "line2": "ATC only if local CTR is offline",
-      "line3": "FIR/UIR ATC for EFIN LCCC",
-      "line4": "Provide feedback at my.pfatc.net/feedback"
-    },
-    {
-      "name": "Euro Control (West)",
-      "callsign": "EURW_FSS",
-      "frequency": 135.25,
-      "facility": "Flight Service Station",
-      "line1": "Euro Control West, Good Day!",
-      "line2": "ATC only if local CTR is offline",
-      "line3": "FIR/UIR ATC for GCCC LECB",
-      "line4": "Provide feedback at my.pfatc.net/feedback"
-    }
-  ],
-  "GCCC": [
-    {
-      "name": "Canarias Control",
-      "callsign": "GCCC_R6_CTR",
-      "frequency": 123.65,
-      "facility": "Enroute",
-      "line1": "Canarias Control - CPDLC [INOP]",
-      "line2": "SFC/FL660 - map.pfatc.net",
-      "line3": "Charts on charts.pfatc.net",
-      "line4": "We love feedback! my.pfatc.net/feedback"
-    }
-  ],
-  "GCLP": [
-    {
-      "name": "Gran Canaria Approach",
-      "callsign": "GCLP_GCA_APP",
-      "frequency": 124.3,
-      "facility": "Approach/Departure",
-      "line1": "Gran Canaria Approach",
-      "line2": "Covering GCLP below FL125 - map.pfatc.net",
-      "line3": "Charts on charts.pfatc.net",
-      "line4": "We love feedback! my.pfatc.net/feedback"
-    },
-    {
-      "name": "Gran Canaria Tower",
-      "callsign": "GCLP_TWR",
-      "frequency": 118.3,
-      "facility": "Tower",
-      "line1": "Gran Canaria Tower",
-      "line2": "map.pfatc.net",
-      "line3": "Charts on charts.pfatc.net",
-      "line4": "We love feedback! my.pfatc.net/feedback"
-    },
-    {
-      "name": "Gran Canaria Ground",
-      "callsign": "GCLP_GND",
-      "frequency": 121.7,
-      "facility": "Ground",
-      "line1": "Gran Canaria Ground",
-      "line2": "map.pfatc.net",
-      "line3": "Charts on charts.pfatc.net",
-      "line4": "We love feedback! my.pfatc.net/feedback"
-    },
-    {
-      "name": "Gran Canara Clearance",
-      "callsign": "GCLP_DEL",
-      "frequency": 125.0,
-      "facility": "Clearance/Delivery",
-      "line1": "Gran Canaria Clearance",
-      "line2": "map.pfatc.net",
-      "line3": "Charts on charts.pfatc.net",
-      "line4": "We love feedback! my.pfatc.net/feedback"
-    }
-  ],
   "LCCC": [
     {
       "name": "Nicosia Radar",
@@ -266,6 +157,173 @@
       "line4": ""
     }
   ],
+  "EFIN": [
+    {
+      "name": "Helsinki Control",
+      "callsign": "EFIN_D_CTR",
+      "frequency": 121.3,
+      "facility": "Enroute",
+      "line1": "Helsinki Control",
+      "line2": "Submit feedback at my.pfatc.net/feedback",
+      "line3": "",
+      "line4": ""
+    }
+  ],
+  "EFKT": [
+    {
+      "name": "Kittila Tower",
+      "callsign": "EFKT_TWR",
+      "frequency": 118.95,
+      "facility": "Tower",
+      "line1": "Kittila Tower",
+      "line2": "Submit feedback at my.pfatc.net/feedback",
+      "line3": "",
+      "line4": ""
+    },
+    {
+      "name": "Kittila Delivery",
+      "callsign": "EFKT_DEL",
+      "frequency": 123.1,
+      "facility": "Clearance/Delivery",
+      "line1": "Kittila Tower",
+      "line2": "Submit feedback at my.pfatc.net/feedback",
+      "line3": "",
+      "line4": ""
+    }
+  ],
+  "DEVC": [
+    {
+      "name": "Developer Control",
+      "callsign": "DEV_CTR",
+      "frequency": 129.2,
+      "facility": "Flight Service Station",
+      "line1": "Developer Control | CPDLC [INOP]",
+      "line2": "This is a development station, do not contact.",
+      "line3": "Provides coverage for all regions.",
+      "line4": "Report issues at my.pfatc.net/feedback",
+      "sectors": ["EGPX", "EGTT", "OBBB"]
+    }
+  ],
+  "EURO": [
+    {
+      "name": "Euro Control",
+      "callsign": "EURO_FSS",
+      "frequency": 130.55,
+      "facility": "Flight Service Station",
+      "line1": "Euro Control, Good Day!",
+      "line2": "ATC only if local CTR is offline",
+      "line3": "MAP-WIDE COVERAGE ABOVE FL120",
+      "line4": "Provide feedback at my.pfatc.net/feedback"
+    },
+    {
+      "name": "Euro Control (North)",
+      "callsign": "EURN_FSS",
+      "frequency": 133.45,
+      "facility": "Flight Service Station",
+      "line1": "Euro Control North, Good Day!",
+      "line2": "ATC only if local CTR is offline",
+      "line3": "FIR/UIR ATC for EGPX EGTT EFIN",
+      "line4": "Provide feedback at my.pfatc.net/feedback"
+    },
+    {
+      "name": "Euro Control (East)",
+      "callsign": "EURE_FSS",
+      "frequency": 135.3,
+      "facility": "Flight Service Station",
+      "line1": "Euro Control East, Good Day!",
+      "line2": "ATC only if local CTR is offline",
+      "line3": "FIR/UIR ATC for EFIN LCCC",
+      "line4": "Provide feedback at my.pfatc.net/feedback"
+    },
+    {
+      "name": "Euro Control (West)",
+      "callsign": "EURW_FSS",
+      "frequency": 135.25,
+      "facility": "Flight Service Station",
+      "line1": "Euro Control West, Good Day!",
+      "line2": "ATC only if local CTR is offline",
+      "line3": "FIR/UIR ATC for GCCC LECB",
+      "line4": "Provide feedback at my.pfatc.net/feedback"
+    }
+  ],
+  "LGGG": [
+    {
+      "name": "Athinai Radar",
+      "callsign": "LGGG_CTR",
+      "frequency": 129.675,
+      "facility": "Enroute",
+      "line1": "Athinai Radar",
+      "line2": "Charts on charts.pfatc.net",
+      "line3": "Coverage at map.pfatc.net",
+      "line4": "Feedback on my.pfatc.net/feedback"
+    }
+  ],
+  "LPPO": [
+    {
+      "name": "Santa Maria Radar",
+      "callsign": "LPPO_CTR",
+      "frequency": 132.15,
+      "facility": "Enroute",
+      "line1": "Santa Maria Radar",
+      "line2": "Provides Radar Services in MDCS GCCC FIR. Covers all airfields in MDCS GCCC FIR.",
+      "line3": "For updated charts - charts.pfatc.net",
+      "line4": "Feedback on my.pfatc.net/feedback"
+    }
+  ],
+  "GCCC": [
+    {
+      "name": "Canarias Control",
+      "callsign": "GCCC_R6_CTR",
+      "frequency": 123.65,
+      "facility": "Enroute",
+      "line1": "Canarias Control - CPDLC [INOP]",
+      "line2": "SFC/FL660 - map.pfatc.net",
+      "line3": "Charts on charts.pfatc.net",
+      "line4": "We love feedback! my.pfatc.net/feedback"
+    }
+  ],
+  "GCLP": [
+    {
+      "name": "Gran Canaria Approach",
+      "callsign": "GCLP_GCA_APP",
+      "frequency": 124.3,
+      "facility": "Approach/Departure",
+      "line1": "Gran Canaria Approach",
+      "line2": "Covering GCLP below FL125 - map.pfatc.net",
+      "line3": "Charts on charts.pfatc.net",
+      "line4": "We love feedback! my.pfatc.net/feedback"
+    },
+    {
+      "name": "Gran Canaria Tower",
+      "callsign": "GCLP_TWR",
+      "frequency": 118.3,
+      "facility": "Tower",
+      "line1": "Gran Canaria Tower",
+      "line2": "map.pfatc.net",
+      "line3": "Charts on charts.pfatc.net",
+      "line4": "We love feedback! my.pfatc.net/feedback"
+    },
+    {
+      "name": "Gran Canaria Ground",
+      "callsign": "GCLP_GND",
+      "frequency": 121.7,
+      "facility": "Ground",
+      "line1": "Gran Canaria Ground",
+      "line2": "map.pfatc.net",
+      "line3": "Charts on charts.pfatc.net",
+      "line4": "We love feedback! my.pfatc.net/feedback"
+    },
+    {
+      "name": "Gran Canara Clearance",
+      "callsign": "GCLP_DEL",
+      "frequency": 125.0,
+      "facility": "Clearance/Delivery",
+      "line1": "Gran Canaria Clearance",
+      "line2": "map.pfatc.net",
+      "line3": "Charts on charts.pfatc.net",
+      "line4": "We love feedback! my.pfatc.net/feedback"
+    }
+  ],
   "LECB": [
     {
       "name": "Barcelona Control",
@@ -308,30 +366,6 @@
       "line2": "map.pfatc.net",
       "line3": "Charts on charts.pfatc.net",
       "line4": "We love feedback! my.pfatc.net/feedback"
-    }
-  ],
-  "LGGG": [
-    {
-      "name": "Athinai Radar",
-      "callsign": "LGGG_CTR",
-      "frequency": 129.675,
-      "facility": "Enroute",
-      "line1": "Athinai Radar",
-      "line2": "Charts on charts.pfatc.net",
-      "line3": "Coverage at map.pfatc.net",
-      "line4": "Feedback on my.pfatc.net/feedback"
-    }
-  ],
-  "LPPO": [
-    {
-      "name": "Santa Maria Radar",
-      "callsign": "LPPO_CTR",
-      "frequency": 132.15,
-      "facility": "Enroute",
-      "line1": "Santa Maria Radar",
-      "line2": "Provides Radar Services in MDCS GCCC FIR. Covers all airfields in MDCS GCCC FIR.",
-      "line3": "For updated charts - charts.pfatc.net",
-      "line4": "Feedback on my.pfatc.net/feedback"
     }
   ],
   "MDAB": [
@@ -442,40 +476,6 @@
       "line4": ""
     }
   ],
-  "EFIN": [
-    {
-      "name": "Helsinki Control",
-      "callsign": "EFIN_D_CTR",
-      "frequency": 121.3,
-      "facility": "Enroute",
-      "line1": "Helsinki Control",
-      "line2": "Submit feedback at my.pfatc.net/feedback",
-      "line3": "",
-      "line4": ""
-    }
-  ],
-  "EFKT": [
-    {
-      "name": "Kittila Tower",
-      "callsign": "EFKT_TWR",
-      "frequency": 118.95,
-      "facility": "Tower",
-      "line1": "Kittila Tower",
-      "line2": "Submit feedback at my.pfatc.net/feedback",
-      "line3": "",
-      "line4": ""
-    },
-    {
-      "name": "Kittila Delivery",
-      "callsign": "EFKT_DEL",
-      "frequency": 123.1,
-      "facility": "Clearance/Delivery",
-      "line1": "Kittila Tower",
-      "line2": "Submit feedback at my.pfatc.net/feedback",
-      "line3": "",
-      "line4": ""
-    }
-  ],
   "EGFF": [
     {
       "name": "Southampton Tower",
@@ -483,8 +483,8 @@
       "frequency": 118.205,
       "facility": "Tower",
       "line1": "Southampton Tower",
-      "line2": "Pilot materials at wiki.pfatc.net",
-      "line3": "Submit feedback at my.pfatc.net/feedback",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
       "line4": ""
     }
   ],
@@ -495,8 +495,8 @@
       "frequency": 118.205,
       "facility": "Tower",
       "line1": "Southampton Tower",
-      "line2": "Pilot briefings at wiki.pfatc.net",
-      "line3": "Submit feedback at my.pfatc.net/feedback",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
       "line4": ""
     }
   ],
@@ -507,8 +507,8 @@
       "frequency": 126.825,
       "facility": "Approach/Departure",
       "line1": "Gatwick Director",
-      "line2": "Pilot briefings at wiki.pfatc.net",
-      "line3": "Submit feedback at my.pfatc.net/feedback",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
       "line4": ""
     },
     {
@@ -517,8 +517,8 @@
       "frequency": 124.23,
       "facility": "Tower",
       "line1": "Gatwick Tower",
-      "line2": "Pilot briefings at wiki.pfatc.net",
-      "line3": "Submit feedback at my.pfatc.net/feedback",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
       "line4": ""
     },
     {
@@ -527,8 +527,8 @@
       "frequency": 121.805,
       "facility": "Ground",
       "line1": "Gatwick Ground",
-      "line2": "Pilot briefings at wiki.pfatc.net",
-      "line3": "Submit feedback at my.pfatc.net/feedback",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
       "line4": ""
     },
     {
@@ -537,8 +537,8 @@
       "frequency": 134.23,
       "facility": "Ground",
       "line1": "Gatwick Planner",
-      "line2": "Pilot briefings at wiki.pfatc.net",
-      "line3": "Submit feedback at my.pfatc.net/feedback",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
       "line4": ""
     },
     {
@@ -547,8 +547,8 @@
       "frequency": 121.955,
       "facility": "Clearance/Delivery",
       "line1": "Gatwick Delivery",
-      "line2": "Pilot briefings at wiki.pfatc.net",
-      "line3": "Submit feedback at my.pfatc.net/feedback",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
       "line4": ""
     }
   ],
@@ -559,7 +559,7 @@
       "frequency": 135.53,
       "facility": "Enroute",
       "line1": "Scottish Control | CPDLC [INOP]",
-      "line2": "Submit feedback at my.pfatc.net/feedback",
+      "line2": "Submit feedback at feedback.pfatc.net",
       "line3": "",
       "line4": "",
       "sectors": ["EGPX"]
@@ -572,7 +572,7 @@
       "frequency": 127.83,
       "facility": "Enroute",
       "line1": "London Control | CPDLC [INOP]",
-      "line2": "Submit feedback at my.pfatc.net/feedback",
+      "line2": "Submit feedback at feedback.pfatc.net",
       "line3": "",
       "line4": "",
       "sectors": ["EGTT"]
