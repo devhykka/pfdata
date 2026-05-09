@@ -65,7 +65,10 @@ jobs:
 
             ### What should you do?
             1. Remove the changes to the protected files from this PR.
-            2. If you believe these files need to be updated, please contact the repository maintainers directly.
+            2. Make your changes in the relevant files inside the \`.data\` folder instead:
+               - Runway changes → \`.data/runways/\`
+               - Sector changes → \`.data/sectors/\`
+               - Station changes → \`.data/stations/\`
             3. Once the protected files are removed from this PR, the check will re-run automatically.
 
             ---
