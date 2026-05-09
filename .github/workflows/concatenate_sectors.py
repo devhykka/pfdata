@@ -1,18 +1,28 @@
 import os
 import json
+import re
+
+
+def compact_arrays(obj):
+    """Serialise obj with indentation, then collapse multi-line arrays to one line."""
+    raw = json.dumps(obj, indent=2)
+    def collapse(match):
+        return re.sub(r'\s+', ' ', match.group(0))
+    return re.sub(r'\[.*?\]', collapse, raw, flags=re.DOTALL)
 
 
 def build_sectors(source_directory, output_file):
     result = {}
-    for filename in sorted(os.listdir(source_directory)):
-        if not filename.endswith('.json'):
-            continue
-        file_path = os.path.join(source_directory, filename)
-        fir_key = os.path.splitext(filename)[0]
-        with open(file_path, 'r') as infile:
-            result[fir_key] = json.load(infile)
+    for dirpath, _, filenames in os.walk(source_directory):
+        for filename in sorted(filenames):
+            if not filename.endswith('.json'):
+                continue
+            file_path = os.path.join(dirpath, filename)
+            fir_key = os.path.splitext(filename)[0]
+            with open(file_path, 'r') as infile:
+                result[fir_key] = json.load(infile)
     with open(output_file, 'w') as outfile:
-        json.dump(result, outfile, indent=2)
+        outfile.write(compact_arrays(result))
 
 
 def main():

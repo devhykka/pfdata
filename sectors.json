@@ -1,10 +1,21 @@
 {
-    "EGPX": {
-        "name": "Scottish Control",
-        "topdown": [""]
+  "EGKK": [ { "name": "Gatwick Director", "topdown": [ "EGKK" ]
     },
-    "EGTT": {
-        "name": "London Control",
-        "topdown": ["EGFF", "EGKK", "EGLC"]
+    {
+      "name": "Gatwick Tower",
+      "topdown": [ "EGKK" ]
+    },
+    {
+      "name": "Gatwick Ground",
+      "topdown": [ "EGKK" ]
     }
+  ],
+  "EGPX": {
+    "name": "Scottish Control",
+    "topdown": [ "" ]
+  },
+  "EGTT": {
+    "name": "London Control",
+    "topdown": [ "EGFF", "EGKK", "EGLC" ]
+  }
 }

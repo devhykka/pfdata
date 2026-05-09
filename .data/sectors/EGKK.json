@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Gatwick Director",
+    "topdown": ["EGKK"]
+  },
+  {
+    "name": "Gatwick Tower",
+    "topdown": ["EGKK"]
+  },
+  {
+    "name": "Gatwick Ground",
+    "topdown": ["EGKK"]
+  }
+]
