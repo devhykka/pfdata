@@ -10,5 +10,9 @@
   {
     "name": "Gatwick Ground",
     "topdown": ["EGKK"]
+  },
+  {
+    "name": "Gatwick Delivery",
+    "topdown": ["EGKK"]
   }
 ]
