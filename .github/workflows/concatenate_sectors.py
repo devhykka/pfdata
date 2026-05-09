@@ -7,7 +7,7 @@ def compact_arrays(obj):
     """Serialise obj with indentation, then collapse multi-line arrays to one line."""
     raw = json.dumps(obj, indent=2)
     def collapse(match):
-        return re.sub(r'\s+', ' ', match.group(0))
+        return "[" + ", ".join(json.dumps(item) for item in json.loads(match.group(0))) + "]"
     return re.sub(r'\[.*?\]', collapse, raw, flags=re.DOTALL)
 
 
