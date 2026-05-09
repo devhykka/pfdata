@@ -5,11 +5,9 @@
     "frequency": 135.53,
     "facility": "Enroute",
     "line1": "Scottish Control | CPDLC [INOP]",
-    "line2": "Submit feedback at my.pfatc.net/feedback",
+    "line2": "Submit feedback at feedback.pfatc.net",
     "line3": "",
     "line4": "",
-    "sectors": [
-      "EGPX"
-    ]
+    "sectors": ["EGPX"]
   }
 ]

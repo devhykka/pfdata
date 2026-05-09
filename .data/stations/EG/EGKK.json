@@ -5,8 +5,8 @@
     "frequency": 126.825,
     "facility": "Approach/Departure",
     "line1": "Gatwick Director",
-    "line2": "Pilot briefings at wiki.pfatc.net",
-    "line3": "Submit feedback at my.pfatc.net/feedback",
+    "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line3": "Submit feedback at feedback.pfatc.net",
     "line4": ""
   },
   {
@@ -15,8 +15,8 @@
     "frequency": 124.23,
     "facility": "Tower",
     "line1": "Gatwick Tower",
-    "line2": "Pilot briefings at wiki.pfatc.net",
-    "line3": "Submit feedback at my.pfatc.net/feedback",
+    "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line3": "Submit feedback at feedback.pfatc.net",
     "line4": ""
   },
   {
@@ -25,8 +25,8 @@
     "frequency": 121.805,
     "facility": "Ground",
     "line1": "Gatwick Ground",
-    "line2": "Pilot briefings at wiki.pfatc.net",
-    "line3": "Submit feedback at my.pfatc.net/feedback",
+    "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line3": "Submit feedback at feedback.pfatc.net",
     "line4": ""
   },
   {
@@ -35,8 +35,8 @@
     "frequency": 134.23,
     "facility": "Ground",
     "line1": "Gatwick Planner",
-    "line2": "Pilot briefings at wiki.pfatc.net",
-    "line3": "Submit feedback at my.pfatc.net/feedback",
+    "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line3": "Submit feedback at feedback.pfatc.net",
     "line4": ""
   },
   {
@@ -45,8 +45,8 @@
     "frequency": 121.955,
     "facility": "Clearance/Delivery",
     "line1": "Gatwick Delivery",
-    "line2": "Pilot briefings at wiki.pfatc.net",
-    "line3": "Submit feedback at my.pfatc.net/feedback",
+    "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line3": "Submit feedback at feedback.pfatc.net",
     "line4": ""
   }
 ]
