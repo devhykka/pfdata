@@ -1,14 +1,31 @@
 import os
 import json
-import re
 
 
-def compact_arrays(obj):
-    """Serialise obj with indentation, then collapse multi-line arrays to one line."""
-    raw = json.dumps(obj, indent=2)
-    def collapse(match):
-        return "[" + ", ".join(json.dumps(item) for item in json.loads(match.group(0))) + "]"
-    return re.sub(r'\[.*?\]', collapse, raw, flags=re.DOTALL)
+def compact_arrays(obj, indent=0):
+    """Recursively serialise obj, collapsing simple arrays to one line."""
+    pad = "  " * indent
+    inner_pad = "  " * (indent + 1)
+
+    if isinstance(obj, dict):
+        if not obj:
+            return "{}"
+        lines = []
+        for key, value in obj.items():
+            lines.append(f'{inner_pad}{json.dumps(key)}: {compact_arrays(value, indent + 1)}')
+        return "{\n" + ",\n".join(lines) + "\n" + pad + "}"
+
+    if isinstance(obj, list):
+        if not obj:
+            return "[]"
+        if all(not isinstance(item, (dict, list)) for item in obj):
+            return "[" + ", ".join(json.dumps(item) for item in obj) + "]"
+        lines = []
+        for item in obj:
+            lines.append(f'{inner_pad}{compact_arrays(item, indent + 1)}')
+        return "[\n" + ",\n".join(lines) + "\n" + pad + "]"
+
+    return json.dumps(obj)
 
 
 def build_sectors(source_directory, output_file):
@@ -18,9 +35,9 @@ def build_sectors(source_directory, output_file):
             if not filename.endswith('.json'):
                 continue
             file_path = os.path.join(dirpath, filename)
-            fir_key = os.path.splitext(filename)[0]
+            key = os.path.splitext(filename)[0]
             with open(file_path, 'r') as infile:
-                result[fir_key] = json.load(infile)
+                result[key] = json.load(infile)
     with open(output_file, 'w') as outfile:
         outfile.write(compact_arrays(result))
 
