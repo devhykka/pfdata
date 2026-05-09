@@ -24,5 +24,59 @@
   "EGTT": {
     "name": "London Control",
     "topdown": ["EGFF", "EGKK", "EGLC"]
-  }
+  },
+  "LCCC": {
+    "name": "Nicosia Radar",
+    "topdown": ["LCLK", "LCPH", "LCRA"]
+  },
+  "LCLK": [
+    {
+      "name": "Larnaka Approach",
+      "topdown": ["LCLK"]
+    },
+    {
+      "name": "Larnaka Tower",
+      "topdown": ["LCLK"]
+    },
+    {
+      "name": "Larnaka Ground",
+      "topdown": ["LCLK"]
+    },
+    {
+      "name": "Larnaka Delivery",
+      "topdown": ["LCLK"]
+    }
+  ],
+  "LCPH": [
+    {
+      "name": "Paphos Approach",
+      "topdown": ["LCPH"]
+    },
+    {
+      "name": "Paphos Tower",
+      "topdown": ["LCPH"]
+    },
+    {
+      "name": "Paphos Ground",
+      "topdown": ["LCPH"]
+    }
+  ],
+  "LCRA": [
+    {
+      "name": "Akrotiri Approach",
+      "topdown": ["LCRA"]
+    },
+    {
+      "name": "Akrotiri Talkdown",
+      "topdown": ["LCRA"]
+    },
+    {
+      "name": "Akrotiri Tower",
+      "topdown": ["LCRA"]
+    },
+    {
+      "name": "Akrotiri Ground",
+      "topdown": ["LCRA"]
+    }
+  ]
 }
