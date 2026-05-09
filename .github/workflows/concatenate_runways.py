@@ -1,5 +1,14 @@
 import os
 import json
+import re
+
+
+def compact_arrays(obj):
+    """Serialise obj with indentation, then collapse multi-line arrays to one line."""
+    raw = json.dumps(obj, indent=2)
+    def collapse(match):
+        return re.sub(r'\s+', ' ', match.group(0))
+    return re.sub(r'\[.*?\]', collapse, raw, flags=re.DOTALL)
 
 
 def build_runways(source_directory, output_file):
@@ -13,7 +22,7 @@ def build_runways(source_directory, output_file):
             with open(file_path, 'r') as infile:
                 result[airport_icao] = json.load(infile)
     with open(output_file, 'w') as outfile:
-        json.dump(result, outfile, indent=2)
+        outfile.write(compact_arrays(result))
 
 
 def main():
