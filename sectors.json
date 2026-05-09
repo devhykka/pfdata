@@ -1,0 +1,10 @@
+{
+    "EGPX": {
+        "name": "Scottish Control",
+        "topdown": [""]
+    },
+    "EGTT": {
+        "name": "London Control",
+        "topdown": ["EGFF", "EGKK", "EGLC"]
+    }
+}
