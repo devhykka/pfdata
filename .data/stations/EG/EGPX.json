@@ -8,8 +8,6 @@
     "line2": "Submit feedback at my.pfatc.net/feedback",
     "line3": "",
     "line4": "",
-    "sectors": [
-      "EGPX"
-    ]
+    "sectors": ["EGPX"]
   }
 ]

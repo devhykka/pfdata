@@ -8,10 +8,6 @@
     "line2": "This is a development station, do not contact.",
     "line3": "Provides coverage for all regions.",
     "line4": "Report issues at my.pfatc.net/feedback",
-    "sectors": [
-      "EGPX",
-      "EGTT",
-      "OBBB"
-    ]
+    "sectors": ["EGPX", "EGTT", "OBBB"]
   }
 ]
