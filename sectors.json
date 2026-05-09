@@ -19,7 +19,7 @@
   ],
   "EGPX": {
     "name": "Scottish Control",
-    "topdown": [""]
+    "topdown": ["EGPF"]
   },
   "EGTT": {
     "name": "London Control",
