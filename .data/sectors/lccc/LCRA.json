@@ -1,0 +1,18 @@
+[
+   {
+      "name": "Akrotiri Approach",
+      "topdown": ["LCRA"]
+   },
+   {
+      "name": "Akrotiri Talkdown",
+      "topdown": ["LCRA"]
+   },
+   {
+      "name": "Akrotiri Tower",
+      "topdown": ["LCRA"]
+   },
+   {
+      "name": "Akrotiri Ground",
+      "topdown": ["LCRA"]
+   }
+]
