@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Developer Control",
+    "callsign": "DEV_CTR",
+    "frequency": 129.2,
+    "facility": "Flight Service Station",
+    "line1": "Developer Control | CPDLC [INOP]",
+    "line2": "This is a development station, do not contact.",
+    "line3": "Provides coverage for all regions.",
+    "line4": "Report issues at my.pfatc.net/feedback",
+    "sectors": [
+      "EGPX",
+      "EGTT",
+      "OBBB"
+    ]
+  }
+]

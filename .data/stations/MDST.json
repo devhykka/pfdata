@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Cibao Approach",
+    "callsign": "MDST_APP",
+    "frequency": 119.0,
+    "facility": "Approach/Departure",
+    "line1": "Cibao Approach Sector",
+    "line2": "Visit us at my.pfatc.net",
+    "line3": "Leave feedback at my.pfatc.net/feedback",
+    "line4": ""
+  },
+  {
+    "name": "Santiago Tower",
+    "callsign": "MDST_TWR",
+    "frequency": 118.3,
+    "facility": "Tower",
+    "line1": "Local Service",
+    "line2": "Visit us at my.pfatc.net",
+    "line3": "Leave feedback at my.pfatc.net/feedback",
+    "line4": ""
+  },
+  {
+    "name": "Santiago Ground",
+    "callsign": "MDST_GND",
+    "frequency": 121.9,
+    "facility": "Ground",
+    "line1": "Ground Service",
+    "line2": "Visit us at my.pfatc.net",
+    "line3": "Leave feedback at my.pfatc.net/feedback",
+    "line4": ""
+  }
+]

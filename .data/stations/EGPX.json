@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Scottish Control",
+    "callsign": "EGPX_CTR",
+    "frequency": 135.53,
+    "facility": "Enroute",
+    "line1": "Scottish Control | CPDLC [INOP]",
+    "line2": "Submit feedback at my.pfatc.net/feedback",
+    "line3": "",
+    "line4": "",
+    "sectors": [
+      "EGPX"
+    ]
+  }
+]

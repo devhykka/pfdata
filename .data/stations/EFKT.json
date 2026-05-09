@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Kittila Tower",
+    "callsign": "EFKT_TWR",
+    "frequency": 118.95,
+    "facility": "Tower",
+    "line1": "Kittila Tower",
+    "line2": "Submit feedback at my.pfatc.net/feedback",
+    "line3": "",
+    "line4": ""
+  },
+  {
+    "name": "Kittila Delivery",
+    "callsign": "EFKT_DEL",
+    "frequency": 123.1,
+    "facility": "Clearance/Delivery",
+    "line1": "Kittila Tower",
+    "line2": "Submit feedback at my.pfatc.net/feedback",
+    "line3": "",
+    "line4": ""
+  }
+]

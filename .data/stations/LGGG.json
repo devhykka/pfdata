@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Athinai Radar",
+    "callsign": "LGGG_CTR",
+    "frequency": 129.675,
+    "facility": "Enroute",
+    "line1": "Athinai Radar",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Coverage at map.pfatc.net",
+    "line4": "Feedback on my.pfatc.net/feedback"
+  }
+]

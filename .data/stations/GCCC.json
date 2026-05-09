@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Canarias Control",
+    "callsign": "GCCC_R6_CTR",
+    "frequency": 123.65,
+    "facility": "Enroute",
+    "line1": "Canarias Control - CPDLC [INOP]",
+    "line2": "SFC/FL660 - map.pfatc.net",
+    "line3": "Charts on charts.pfatc.net",
+    "line4": "We love feedback! my.pfatc.net/feedback"
+  }
+]
