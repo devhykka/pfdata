@@ -1,10 +1,16 @@
 {
-    "EGPX": {
-        "name": "Scottish Control",
-        "topdown": [""]
-    },
-    "EGTT": {
-        "name": "London Control",
-        "topdown": ["EGFF", "EGKK", "EGLC"]
-    }
+  "EGPX": {
+    "name": "Scottish Control",
+    "topdown": [
+      "EGPF"
+    ]
+  },
+  "EGTT": {
+    "name": "London Control",
+    "topdown": [
+      "EGFF",
+      "EGKK",
+      "EGLC"
+    ]
+  }
 }
