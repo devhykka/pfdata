@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Santo Domingo Control",
+    "callsign": "MDCS_CTR",
+    "frequency": 124.3,
+    "facility": "Enroute",
+    "line1": "Welcome to Santo Domingo Airspace.",
+    "line2": "Visit us at my.pfatc.net",
+    "line3": "Leave feedback at my.pfatc.net/feedback",
+    "line4": ""
+  }
+]

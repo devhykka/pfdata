@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Gatwick Director",
+    "callsign": "EGKK_APP",
+    "frequency": 126.825,
+    "facility": "Approach/Departure",
+    "line1": "Gatwick Director",
+    "line2": "INITIAL CLIMB AS CHARTED",
+    "line3": "Submit feedback at my.pfatc.net/feedback",
+    "line4": ""
+  },
+  {
+    "name": "Gatwick Tower",
+    "callsign": "EGKK_TWR",
+    "frequency": 124.23,
+    "facility": "Tower",
+    "line1": "Gatwick Tower",
+    "line2": "INITIAL CLIMB AS CHARTED",
+    "line3": "Submit feedback at my.pfatc.net/feedback",
+    "line4": ""
+  },
+  {
+    "name": "Gatwick Ground",
+    "callsign": "EGKK_GND",
+    "frequency": 121.805,
+    "facility": "Ground",
+    "line1": "Gatwick Ground",
+    "line2": "INITIAL CLIMB AS CHARTED",
+    "line3": "Submit feedback at my.pfatc.net/feedback",
+    "line4": ""
+  },
+  {
+    "name": "Gatwick Planner",
+    "callsign": "EGKK_P_GND",
+    "frequency": 134.23,
+    "facility": "Ground",
+    "line1": "Gatwick Planner",
+    "line2": "INITIAL CLIMB AS CHARTED",
+    "line3": "Submit feedback at my.pfatc.net/feedback",
+    "line4": ""
+  },
+  {
+    "name": "Gatwick Delivery",
+    "callsign": "EGKK_DEL",
+    "frequency": 121.955,
+    "facility": "Clearance/Delivery",
+    "line1": "Gatwick Delivery",
+    "line2": "INITIAL CLIMB AS CHARTED",
+    "line3": "Submit feedback at my.pfatc.net/feedback",
+    "line4": ""
+  }
+]

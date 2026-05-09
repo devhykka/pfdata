@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Palma Control",
+    "callsign": "LEMH_MXX_APP",
+    "frequency": 120.7,
+    "facility": "Approach/Departure",
+    "line1": "Palma Control - PDC/DCL Datalink [INOP]",
+    "line2": "SFC/FL245 - map.pfatc.net",
+    "line3": "Charts on charts.pfatc.net",
+    "line4": "We love feedback! my.pfatc.net/feedback"
+  },
+  {
+    "name": "Menorca Approach",
+    "callsign": "LEMH_TWR",
+    "frequency": 119.655,
+    "facility": "Tower",
+    "line1": "Menorca Approach - PDC/DCL Datalink [INOP]",
+    "line2": "Procedural APP Service SFC/6000ft - map.pfatc.net",
+    "line3": "Charts on charts.pfatc.net",
+    "line4": "We love feedback! my.pfatc.net/feedback"
+  },
+  {
+    "name": "Menorca Ground",
+    "callsign": "LEMH_GND",
+    "frequency": 121.755,
+    "facility": "Ground",
+    "line1": "Menorca Ground - PDC/DCL Datalink [INOP]",
+    "line2": "map.pfatc.net",
+    "line3": "Charts on charts.pfatc.net",
+    "line4": "We love feedback! my.pfatc.net/feedback"
+  }
+]

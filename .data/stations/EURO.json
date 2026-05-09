@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Euro Control",
+    "callsign": "EURO_FSS",
+    "frequency": 130.55,
+    "facility": "Flight Service Station",
+    "line1": "Euro Control, Good Day!",
+    "line2": "ATC only if local CTR is offline",
+    "line3": "MAP-WIDE COVERAGE ABOVE FL120",
+    "line4": "Provide feedback at my.pfatc.net/feedback"
+  },
+  {
+    "name": "Euro Control (North)",
+    "callsign": "EURN_FSS",
+    "frequency": 133.45,
+    "facility": "Flight Service Station",
+    "line1": "Euro Control North, Good Day!",
+    "line2": "ATC only if local CTR is offline",
+    "line3": "FIR/UIR ATC for EGPX EGTT EFIN",
+    "line4": "Provide feedback at my.pfatc.net/feedback"
+  },
+  {
+    "name": "Euro Control (East)",
+    "callsign": "EURE_FSS",
+    "frequency": 135.3,
+    "facility": "Flight Service Station",
+    "line1": "Euro Control East, Good Day!",
+    "line2": "ATC only if local CTR is offline",
+    "line3": "FIR/UIR ATC for EFIN LCCC",
+    "line4": "Provide feedback at my.pfatc.net/feedback"
+  },
+  {
+    "name": "Euro Control (West)",
+    "callsign": "EURW_FSS",
+    "frequency": 135.25,
+    "facility": "Flight Service Station",
+    "line1": "Euro Control West, Good Day!",
+    "line2": "ATC only if local CTR is offline",
+    "line3": "FIR/UIR ATC for GCCC LECB",
+    "line4": "Provide feedback at my.pfatc.net/feedback"
+  }
+]

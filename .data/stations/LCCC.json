@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Nicosia Radar",
+    "callsign": "LCCC_CTR",
+    "frequency": 128.6,
+    "facility": "Enroute",
+    "line1": "Nicosia Radar",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Coverage at map.pfatc.net",
+    "line4": "Feedback on my.pfatc.net/feedback"
+  },
+  {
+    "name": "Nicosia Radar (East Sector)",
+    "callsign": "LCCC_E_CTR",
+    "frequency": 126.3,
+    "facility": "Enroute",
+    "line1": "Nicosia Radar",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Coverage at map.pfatc.net",
+    "line4": "Feedback on my.pfatc.net/feedback"
+  },
+  {
+    "name": "Nicosia Radar (West Sector)",
+    "callsign": "LCCC_W_CTR",
+    "frequency": 125.5,
+    "facility": "Enroute",
+    "line1": "Nicosia Radar",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Coverage at map.pfatc.net",
+    "line4": "Feedback on my.pfatc.net/feedback"
+  },
+  {
+    "name": "Nicosia Radar (S2 Sector)",
+    "callsign": "LCCC_S2_CTR",
+    "frequency": 124.2,
+    "facility": "Enroute",
+    "line1": "Nicosia Radar",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Coverage at map.pfatc.net",
+    "line4": "Feedback on my.pfatc.net/feedback"
+  }
+]

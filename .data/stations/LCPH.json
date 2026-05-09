@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Paphos Approach",
+    "callsign": "LCPH_APP",
+    "frequency": 130.625,
+    "facility": "Approach/Departure",
+    "line1": "Paphos Approach",
+    "line2": "ATIS on 127.325",
+    "line3": "Charts on charts.pfatc.net",
+    "line4": "Feedback on my.pfatc.net/feedback"
+  },
+  {
+    "name": "Paphos Tower",
+    "callsign": "LCPH_TWR",
+    "frequency": 119.9,
+    "facility": "Tower",
+    "line1": "Paphos Tower",
+    "line2": "ATIS on 127.325",
+    "line3": "Charts on charts.pfatc.net",
+    "line4": "Feedback on my.pfatc.net/feedback"
+  },
+  {
+    "name": "Paphos Ground",
+    "callsign": "LCPH_GND",
+    "frequency": 120.8,
+    "facility": "Ground",
+    "line1": "Paphos Ground",
+    "line2": "ATIS on 127.325",
+    "line3": "Charts on charts.pfatc.net",
+    "line4": "Feedback on my.pfatc.net/feedback"
+  }
+]
