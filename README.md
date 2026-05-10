@@ -5,10 +5,8 @@ Multiple sources of data for the Project Flight flight simulator on Roblox.
 
 Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN** the `.data` folder (and sub-folders) should NOT be edited. All pull requests targeting these files will be invalidated.
 
-## Format
-The appropriate format for files can be found below.
-
-`.data/sectors/{fir}/{sector}.json` - These are enroute sectors. No aerodrome sectors are to be added.
+## Data Files Information
+`.data/sectors/*` | Enroute Sectors only, format:
 ```json
 {
   "name": "Developer Control", <-- This is the name of the sector.
@@ -17,11 +15,9 @@ The appropriate format for files can be found below.
 }
 ```
 
-* - To view all sectors, please refer to `sectors.svg` in the root directory.
+*This data is used for the extend logic, please do not add aerodromes to this folder.*
 
----
-
-`.data/stations/fir/{identifier}` - These are all stations available to connect as.
+`.data/stations/*` | All positions, format:
 ```json
 [
   {
@@ -47,4 +43,27 @@ The appropriate format for files can be found below.
 ]
 ```
 
-These formats are bound to change, please always refer to this file to confirm the formats before contributing to the project.
+```json
+[
+  {
+    "name": "London Control",
+    "callsign": "EGTT_CTR",
+    "frequency": 127.830,
+    "facility": "Enroute",
+    "line1": "London Control | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": ""
+  },
+  {
+    "name": "London Control (West)",
+    "callsign": "EGTT_W_CTR",
+    "frequency": 126.080,
+    "facility": "Enroute",
+    "line1": "London Control | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": ""
+  }
+]
+```
