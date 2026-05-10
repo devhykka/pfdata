@@ -7,7 +7,7 @@ Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN
 
 ## Data Files Information
 `.data/sectors/*` | Enroute Sectors only, format:
-```json
+```
 [
   {
     "name": "London Control",
@@ -19,7 +19,8 @@ Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN
     "topdown": ["EGFF"],
     "station": "EGTT_W"
   }
-]```
+]
+```
 
 *This data is used for the extend logic, please do not add aerodromes to this folder.*
 
