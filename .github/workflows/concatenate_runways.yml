@@ -91,12 +91,22 @@ jobs:
           # Add or remove ICAO codes here as needed (filenames are <CODE>.json)
           # ---------------------------------------------------------------
           APPROVED_CODES=(
+            EFKT
+            EGHI
             EGKK
-            MDPC
+            GCLP
             LCLK
-            LCRA
             LCPH
+            LCRA
+            LEMH
+            MDAB
+            MDCR
+            MDPC
             MDST
+            MTCA
+            LPMA
+            PANC
+            PAFA
           )
           # ---------------------------------------------------------------
 
