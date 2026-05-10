@@ -15,8 +15,86 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  # ── 1. Validate filenames BEFORE building ────────────────────────────────────
+  validate:
+    name: Validate Runway Filenames
     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Check filenames against approved list
+        shell: bash
+        run: |
+          # ---------------------------------------------------------------
+          # APPROVED AIRPORT CODES
+          # Add or remove ICAO codes here as needed (filenames are <CODE>.json)
+          # ---------------------------------------------------------------
+          APPROVED_CODES=(
+            EGKK
+            MDPC
+            LCLK
+            LCRA
+            LCPH
+            MDST
+          )
+          # ---------------------------------------------------------------
+
+          RUNWAY_DIR=".data/runways"
+          FAILED=0
+
+          declare -A APPROVED_MAP
+          for code in "${APPROVED_CODES[@]}"; do
+            APPROVED_MAP["${code}.json"]=1
+          done
+
+          if [ ! -d "$RUNWAY_DIR" ]; then
+            echo "::warning::Directory '$RUNWAY_DIR' does not exist — nothing to validate."
+            exit 0
+          fi
+
+          echo "Scanning '$RUNWAY_DIR' for unexpected files..."
+          echo ""
+
+          while IFS= read -r -d '' filepath; do
+            filename=$(basename "$filepath")
+
+            if [[ "$filename" != *.json ]]; then
+              echo "::error file=$filepath::❌  '$filename' is not a .json file."
+              FAILED=1
+              continue
+            fi
+
+            if [[ -z "${APPROVED_MAP[$filename]+_}" ]]; then
+              echo "::error file=$filepath::❌  '$filename' is not in the approved runway file list."
+              FAILED=1
+            else
+              echo "✅  '$filename' — approved."
+            fi
+          done < <(find "$RUNWAY_DIR" -maxdepth 1 -type f -print0 | sort -z)
+
+          echo ""
+          if [ "$FAILED" -ne 0 ]; then
+            echo "::error::One or more runway files failed validation. See errors above."
+            echo ""
+            echo "Approved filenames:"
+            for code in "${APPROVED_CODES[@]}"; do
+              echo "  • ${code}.json"
+            done
+            exit 1
+          fi
+
+          echo "All runway files passed validation."
+
+  # ── 2. Build only if validation passed ───────────────────────────────────────
+  build:
+    name: Build runways.json
+    runs-on: ubuntu-latest
+    needs: validate
+
     steps:
       - name: Checkout PR branch
         uses: actions/checkout@v4
@@ -52,3 +130,75 @@ jobs:
         with:
           name: Upload cleaned files
           path: runways.json
+
+  # ── 3. Re-validate AFTER the bot commit ──────────────────────────────────────
+  # The bot push won't re-trigger pull_request events, so we validate again here
+  # to confirm the built output is clean.
+  post-build-validate:
+    name: Post-build Filename Validation
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Checkout PR branch (latest, including bot commit)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Re-check filenames against approved list
+        shell: bash
+        run: |
+          # ---------------------------------------------------------------
+          # APPROVED AIRPORT CODES  (keep in sync with the validate job above)
+          # ---------------------------------------------------------------
+          APPROVED_CODES=(
+            EGKK
+            MDPC
+            LCLK
+            LCRA
+            LCPH
+            MDST
+          )
+          # ---------------------------------------------------------------
+
+          RUNWAY_DIR=".data/runways"
+          FAILED=0
+
+          declare -A APPROVED_MAP
+          for code in "${APPROVED_CODES[@]}"; do
+            APPROVED_MAP["${code}.json"]=1
+          done
+
+          if [ ! -d "$RUNWAY_DIR" ]; then
+            echo "::warning::Directory '$RUNWAY_DIR' does not exist — nothing to validate."
+            exit 0
+          fi
+
+          echo "Post-build scan of '$RUNWAY_DIR'..."
+          echo ""
+
+          while IFS= read -r -d '' filepath; do
+            filename=$(basename "$filepath")
+
+            if [[ "$filename" != *.json ]]; then
+              echo "::error file=$filepath::❌  '$filename' is not a .json file."
+              FAILED=1
+              continue
+            fi
+
+            if [[ -z "${APPROVED_MAP[$filename]+_}" ]]; then
+              echo "::error file=$filepath::❌  '$filename' is not in the approved runway file list."
+              FAILED=1
+            else
+              echo "✅  '$filename' — approved."
+            fi
+          done < <(find "$RUNWAY_DIR" -maxdepth 1 -type f -print0 | sort -z)
+
+          echo ""
+          if [ "$FAILED" -ne 0 ]; then
+            echo "::error::Post-build validation failed — unapproved files still present."
+            exit 1
+          fi
+
+          echo "Post-build validation passed."
