@@ -25,6 +25,50 @@
     "name": "London Control",
     "topdown": ["EGFF", "EGKK", "EGLC"]
   },
+  "mdab": {
+    "name": "Aroyyo Barill Tower",
+    "topdown": ["MDAB"]
+  },
+  "mdcs": {
+    "name": "Santo Domingo Control",
+    "topdown": ["MDPC", "MDST"]
+  },
+  "mdpc": [
+    {
+      "name": "Punta Cana Approach",
+      "topdown": ["MDPC"]
+    },
+    {
+      "name": "Punta Cana Tower",
+      "topdown": ["MDPC"]
+    },
+    {
+      "name": "Punta Cana Ground",
+      "topdown": ["MDPC"]
+    },
+    {
+      "name": "Punta Cana Ramp",
+      "topdown": ["MDPC"]
+    },
+    {
+      "name": "Punta Cana Delivery",
+      "topdown": ["MDPC"]
+    }
+  ],
+  "mdst": [
+    {
+      "name": "Cibao Approach",
+      "topdown": ["MDST"]
+    },
+    {
+      "name": "Santiago Tower",
+      "topdown": ["MDST"]
+    },
+    {
+      "name": "Santiago Ground",
+      "topdown": ["MDST"]
+    }
+  ],
   "LCCC": {
     "name": "Nicosia Radar",
     "topdown": ["LCLK", "LCPH", "LCRA"]
