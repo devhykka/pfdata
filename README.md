@@ -9,9 +9,9 @@ Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN
 `.data/sectors/*` | Enroute Sectors only, format:
 ```json
 {
-  "name": "Developer Control", <-- This is the name of the sector.
-  "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"], <-- These are the airports the sector covers top-down.
-  "default": ["EGTT", "LCCC", "LPPC", "EURO", "KZAK", "EKDK", "EHAA", "EGPX", "EGGX"] <-- These are the sectors the position covers.*
+  "name": "Developer Control", // This is the name of the sector.
+  "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"], // These are the airports the sector covers top-down.
+  "default": ["EGTT", "LCCC", "LPPC", "EURO", "KZAK", "EKDK", "EHAA", "EGPX", "EGGX"] // These are the sectors the position covers.*
 }
 ```
 
