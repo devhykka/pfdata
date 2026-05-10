@@ -29,20 +29,6 @@
     "name": "Santo Domingo Control",
     "topdown": ["MDPC", "MDST"]
   },
-  "mdst": [
-    {
-      "name": "Cibao Approach",
-      "topdown": ["MDST"]
-    },
-    {
-      "name": "Santiago Tower",
-      "topdown": ["MDST"]
-    },
-    {
-      "name": "Santiago Ground",
-      "topdown": ["MDST"]
-    }
-  ],
   "LCCC": {
     "name": "Nicosia Radar",
     "topdown": ["LCLK", "LCPH", "LCRA"]
