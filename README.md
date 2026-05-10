@@ -8,6 +8,7 @@ Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN
 ## Data Files Information
 `.data/sectors/*` | Enroute Sectors only, format:
 ```
+json
 [
   {
     "name": "London Control",
@@ -25,7 +26,8 @@ Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN
 *This data is used for the extend logic, please do not add aerodromes to this folder.*
 
 `.data/stations/*` | All positions, format:
-```json
+```
+json
 [
   {
     "name": "Cardiff Radar",
@@ -47,9 +49,11 @@ Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN
     "line3": "Submit feedback at feedback.pfatc.net",
     "line4": ""
   }
-]```
+]
+```
 
-```json
+```
+json
 [
   {
     "name": "London Control",
@@ -71,4 +75,5 @@ Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN
     "line3": "",
     "line4": ""
   }
-]```
+]
+```
