@@ -1,10 +1,20 @@
 [
   {
-    "name": "Southampton Tower",
-    "callsign": "EGHI_TWR",
-    "frequency": 118.205,
+    "name": "Cardiff Radar",
+    "callsign": "EGFF_APP",
+    "frequency": 119.155,
+    "facility": "Approach",
+    "line1": "Cardiff Radar",
+    "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line3": "Submit feedback at feedback.pfatc.net",
+    "line4": ""
+  },
+  {
+    "name": "Cardiff Tower",
+    "callsign": "EGFF_TWR",
+    "frequency": 133.105,
     "facility": "Tower",
-    "line1": "Southampton Tower",
+    "line1": "Cardiff Tower",
     "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
     "line3": "Submit feedback at feedback.pfatc.net",
     "line4": ""

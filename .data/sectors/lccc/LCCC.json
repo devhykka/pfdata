@@ -1,4 +1,5 @@
 {
-   "name": "Nicosia Radar",
-   "topdown": ["LCLK", "LCPH", "LCRA"]
+  "name": "Nicosia Radar",
+  "topdown": ["LCLK", "LCPH", "LCRA"],
+  "default": ["LCCC"]
 }
