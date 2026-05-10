@@ -19,8 +19,8 @@ Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN
     "topdown": ["EGFF"],
     "station": "EGTT_W"
   }
-]
-```
+]```
+
 *This data is used for the extend logic, please do not add aerodromes to this folder.*
 
 `.data/stations/*` | All positions, format:
