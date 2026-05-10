@@ -153,12 +153,22 @@ jobs:
           # APPROVED AIRPORT CODES  (keep in sync with the validate job above)
           # ---------------------------------------------------------------
           APPROVED_CODES=(
+            EFKT
+            EGHI
             EGKK
-            MDPC
+            GCLP
             LCLK
-            LCRA
             LCPH
+            LCRA
+            LEMH
+            MDAB
+            MDCR
+            MDPC
             MDST
+            MTCA
+            LPMA
+            PANC
+            PAFA
           )
           # ---------------------------------------------------------------
 
