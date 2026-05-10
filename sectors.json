@@ -25,10 +25,6 @@
     "name": "London Control",
     "topdown": ["EGFF", "EGKK", "EGLC"]
   },
-  "mdab": {
-    "name": "Aroyyo Barill Tower",
-    "topdown": ["MDAB"]
-  },
   "mdcs": {
     "name": "Santo Domingo Control",
     "topdown": ["MDPC", "MDST"]
