@@ -1,0 +1,14 @@
+[
+   {
+      "name": "Paphos Approach",
+      "topdown": ["LCPH"]
+   },
+   {
+      "name": "Paphos Tower",
+      "topdown": ["LCPH"]
+   },
+   {
+      "name": "Paphos Ground",
+      "topdown": ["LCPH"]
+   }
+]
