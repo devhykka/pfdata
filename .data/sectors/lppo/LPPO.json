@@ -1,0 +1,5 @@
+{
+  "name": "Santa Maria Control",
+  "topdown": ["MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LPMA"],
+  "default": ["LPPO"]
+}

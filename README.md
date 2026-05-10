@@ -8,18 +8,11 @@ Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN
 ## Data Files Information
 `.data/sectors/*` | Enroute Sectors only, format:
 ```json
-[
-  {
-    "name": "London Control",
-    "topdown": ["EGFF", "EGKK", "EGLC"],
-    "station": "EGTT"
-  },
-  {
-    "name": "London Control (West)",
-    "topdown": ["EGFF"],
-    "station": "EGTT_W"
-  }
-]
+{
+  "name": "Developer Control", // This is the name of the sector.
+  "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"], // These are the airports the sector covers top-down.
+  "default": ["EGTT", "LCCC", "LPPC", "EURO", "KZAK", "EKDK", "EHAA", "EGPX", "EGGX"] // These are the sectors the position covers.*
+}
 ```
 
 *This data is used for the extend logic, please do not add aerodromes to this folder.*
