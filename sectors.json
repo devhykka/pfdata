@@ -29,28 +29,6 @@
     "name": "Santo Domingo Control",
     "topdown": ["MDPC", "MDST"]
   },
-  "mdpc": [
-    {
-      "name": "Punta Cana Approach",
-      "topdown": ["MDPC"]
-    },
-    {
-      "name": "Punta Cana Tower",
-      "topdown": ["MDPC"]
-    },
-    {
-      "name": "Punta Cana Ground",
-      "topdown": ["MDPC"]
-    },
-    {
-      "name": "Punta Cana Ramp",
-      "topdown": ["MDPC"]
-    },
-    {
-      "name": "Punta Cana Delivery",
-      "topdown": ["MDPC"]
-    }
-  ],
   "mdst": [
     {
       "name": "Cibao Approach",
