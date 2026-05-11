@@ -5,7 +5,7 @@
     "frequency": 119.0,
     "facility": "Approach/Departure",
     "line1": "Cibao Approach",
-    "line2": "Coverage at map.pfatc.net",
+    "line2": "Charts on charts.pfatc.net",
     "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
     "line4": "Submit feedback at feedback.pfatc.net"
   },
@@ -24,7 +24,7 @@
     "callsign": "MDST_GND",
     "frequency": 121.9,
     "facility": "Ground",
-    "line1": "Santiago Ground",
+    "line1": "Santiago Ground Control",
     "line2": "Charts on charts.pfatc.net",
     "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
     "line4": "Submit feedback at feedback.pfatc.net"
