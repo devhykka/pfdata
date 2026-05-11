@@ -1,29 +1,68 @@
 {
-  "EGKK": [
-    {
-      "name": "Gatwick Director",
-      "topdown": ["EGKK"]
-    },
-    {
-      "name": "Gatwick Tower",
-      "topdown": ["EGKK"]
-    },
-    {
-      "name": "Gatwick Ground",
-      "topdown": ["EGKK"]
-    },
-    {
-      "name": "Gatwick Delivery",
-      "topdown": ["EGKK"]
-    }
-  ],
+  "MDCS": {
+    "name": "Santo Domingo Control",
+    "topdown": ["MDPC", "MDST", "MDAB", "MDCR"],
+    "default": ["MDCS"]
+  },
+  "LPPO": {
+    "name": "Santa Maria Control",
+    "topdown": ["MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LPMA"],
+    "default": ["LPPO"]
+  },
+  "EKDK": {
+    "name": "Copenhagen Control",
+    "topdown": [""],
+    "default": ["EKDK"]
+  },
+  "KZAK": {
+    "name": "Oakland Oceanic",
+    "topdown": [""],
+    "default": ["KZAK"]
+  },
   "EGPX": {
     "name": "Scottish Control",
-    "topdown": [""]
+    "topdown": [""],
+    "default": ["EGPX"]
+  },
+  "OBBB_1": {
+    "name": "Bahrain Radar",
+    "topdown": [""],
+    "default": ["OBBB"]
+  },
+  "EURO": {
+    "name": "Euro Control",
+    "topdown": ["EGKK", "EGLC", "EGFF", "LCLK", "LCPH", "LCRA", "LPMA"],
+    "default": ["EGTT", "LCCC", "LPPC", "EKDK", "EHAA", "EGPX", "EGGX"]
+  },
+  "PAZA": {
+    "name": "Anchorage Center",
+    "topdown": ["PAFA"],
+    "default": ["PAZA"]
+  },
+  "EHAA": {
+    "name": "Amsterdam Radar",
+    "topdown": [""],
+    "default": ["EHAA"]
+  },
+  "MTEG": {
+    "name": "Port Au Prince Center",
+    "topdown": ["MTCA"],
+    "default": ["MTEG"]
   },
   "EGTT": {
     "name": "London Control",
-    "topdown": ["EGFF", "EGKK", "EGLC"]
+    "topdown": ["EGFF", "EGKK", "EGLC"],
+    "default": ["EGTT_W", "EGTT_N", "EGTT_E", "EGTT_S"]
+  },
+  "EGTT_W": {
+    "name": "London Control (West)",
+    "topdown": ["EGFF"],
+    "default": ["EGTT_W"]
+  },
+  "LPPC": {
+    "name": "Lisboa Control",
+    "topdown": ["LPMA"],
+    "default": ["LPPC"]
   },
   "mdcs": {
     "name": "Santo Domingo Control",
@@ -31,56 +70,17 @@
   },
   "LCCC": {
     "name": "Nicosia Radar",
-    "topdown": ["LCLK", "LCPH", "LCRA"]
+    "topdown": ["LCLK", "LCPH", "LCRA"],
+    "default": ["LCCC"]
   },
-  "LCLK": [
-    {
-      "name": "Larnaka Approach",
-      "topdown": ["LCLK"]
-    },
-    {
-      "name": "Larnaka Tower",
-      "topdown": ["LCLK"]
-    },
-    {
-      "name": "Larnaka Ground",
-      "topdown": ["LCLK"]
-    },
-    {
-      "name": "Larnaka Delivery",
-      "topdown": ["LCLK"]
-    }
-  ],
-  "LCPH": [
-    {
-      "name": "Paphos Approach",
-      "topdown": ["LCPH"]
-    },
-    {
-      "name": "Paphos Tower",
-      "topdown": ["LCPH"]
-    },
-    {
-      "name": "Paphos Ground",
-      "topdown": ["LCPH"]
-    }
-  ],
-  "LCRA": [
-    {
-      "name": "Akrotiri Approach",
-      "topdown": ["LCRA"]
-    },
-    {
-      "name": "Akrotiri Talkdown",
-      "topdown": ["LCRA"]
-    },
-    {
-      "name": "Akrotiri Tower",
-      "topdown": ["LCRA"]
-    },
-    {
-      "name": "Akrotiri Ground",
-      "topdown": ["LCRA"]
-    }
-  ]
+  "DEVC": {
+    "name": "Developer Control",
+    "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"],
+    "default": ["EGTT", "LCCC", "LPPC", "EURO", "KZAK", "EKDK", "EHAA", "EGPX", "EGGX"]
+  },
+  "EGGX": {
+    "name": "Shanwick Oceanic",
+    "topdown": [""],
+    "default": ["EGGX"]
+  }
 }
