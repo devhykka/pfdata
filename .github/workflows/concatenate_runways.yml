@@ -92,6 +92,8 @@ jobs:
           # ---------------------------------------------------------------
           APPROVED_CODES=(
             EFKT
+            EGFF
+            EGLC
             EGHI
             EGKK
             GCLP
