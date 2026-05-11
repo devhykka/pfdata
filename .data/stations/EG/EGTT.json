@@ -2,7 +2,7 @@
   {
     "name": "London Control",
     "callsign": "EGTT_CTR",
-    "frequency": 127.830,
+    "frequency": 129.205,
     "facility": "Enroute",
     "line1": "London Control | CPDLC [INOP]",
     "line2": "Submit feedback at feedback.pfatc.net",
