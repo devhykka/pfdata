@@ -4,49 +4,49 @@
     "callsign": "MDPC_APP",
     "frequency": 119.75,
     "facility": "Approach/Departure",
-    "line1": "Punta Cana Approach Sector",
-    "line2": "Visit us at my.pfatc.net",
-    "line3": "Leave feedback at my.pfatc.net/feedback",
-    "line4": ""
+    "line1": "Punta Cana Approach",
+    "line2": "Coverage at map.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   },
   {
     "name": "Punta Cana Tower",
     "callsign": "MDPC_TWR",
     "frequency": 118.8,
     "facility": "Tower",
-    "line1": "Local Service",
-    "line2": "Visit us at my.pfatc.net",
-    "line3": "Leave feedback at my.pfatc.net/feedback",
-    "line4": ""
+    "line1": "Punta Cana Tower",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   },
   {
     "name": "Punta Cana Ground",
     "callsign": "MDPC_GND",
     "frequency": 121.9,
     "facility": "Ground",
-    "line1": "Ground Service",
-    "line2": "Visit us at my.pfatc.net",
-    "line3": "Leave feedback at my.pfatc.net/feedback",
-    "line4": ""
+    "line1": "Punta Cana Ground",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   },
   {
     "name": "Punta Cana Ramp",
     "callsign": "MDPC_R_GND",
     "frequency": 131.75,
     "facility": "Ground",
-    "line1": "Ground Service",
-    "line2": "Visit us at my.pfatc.net",
-    "line3": "Leave feedback at my.pfatc.net/feedback",
-    "line4": ""
+    "line1": "Punta Cana Ramp",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   },
   {
     "name": "Punta Cana Delivery",
     "callsign": "MDPC_DEL",
     "frequency": 121.65,
     "facility": "Clearance/Delivery",
-    "line1": "Clearance Delivery Service",
-    "line2": "Visit us at my.pfatc.net",
-    "line3": "Leave feedback at my.pfatc.net/feedback",
-    "line4": ""
+    "line1": "Punta Cana Delivery",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   }
 ]
