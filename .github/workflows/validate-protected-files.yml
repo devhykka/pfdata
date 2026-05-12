@@ -20,52 +20,19 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const protectedFiles = ['runways.json', 'sectors.json', 'stations.json', 'waypoints.json'];
-
-            // Get the files changed in this PR
-            const { data: prFiles } = await github.rest.pulls.listFiles({
+            const { data: files } = await github.rest.pulls.listFiles({
               owner: context.repo.owner,
               repo: context.repo.repo,
               pull_number: context.payload.pull_request.number,
             });
-
-            const changedProtected = prFiles
+            const protectedFiles = ['runways.json', 'sectors.json', 'stations.json', 'waypoints.json'];
+            const violations = files
               .map(f => f.filename)
               .filter(filename =>
                 protectedFiles.some(p => filename === p || filename.endsWith('/' + p))
               );
-
-            // If no protected files are in the PR diff at all, pass immediately
-            if (changedProtected.length === 0) {
-              core.info('No protected files in PR diff — OK.');
-              core.setOutput('violations', '');
-              core.setOutput('has_violations', 'false');
-              return;
-            }
-
-            // Protected files are in the diff — check who made the HEAD commit
-            const headSha = context.payload.pull_request.head.sha;
-            const { data: headCommit } = await github.rest.repos.getCommit({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              ref: headSha,
-            });
-
-            const headAuthor = headCommit.author ? headCommit.author.login : '';
-            core.info('HEAD commit author: ' + headAuthor);
-
-            // If the HEAD commit is from the bot, the human change has been
-            // superseded — pass.
-            if (headAuthor === 'github-actions[bot]') {
-              core.info('HEAD commit is from bot — protected file changes are bot-managed, OK.');
-              core.setOutput('violations', '');
-              core.setOutput('has_violations', 'false');
-              return;
-            }
-
-            // HEAD commit is from a human and touches protected files — fail.
-            core.setOutput('violations', changedProtected.join(', '));
-            core.setOutput('has_violations', 'true');
+            core.setOutput('violations', violations.join(', '));
+            core.setOutput('has_violations', violations.length > 0 ? 'true' : 'false');
 
       - name: Post PR comment on violation
         if: steps.changed-files.outputs.has_violations == 'true'
