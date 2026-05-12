@@ -26,17 +26,47 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const { data: files } = await github.rest.pulls.listFiles({
+            // Skip if the PR was opened by the Actions bot
+            const prAuthor = context.payload.pull_request.user.login;
+            if (prAuthor === 'github-actions[bot]') {
+              core.info('PR author is github-actions[bot] — skipping protected file check.');
+              core.setOutput('violations', '');
+              core.setOutput('has_violations', 'false');
+              return;
+            }
+
+            // Get all commits and filter to human-only
+            const { data: commits } = await github.rest.pulls.listCommits({
               owner: context.repo.owner,
               repo: context.repo.repo,
               pull_number: context.payload.pull_request.number,
             });
+            const humanCommits = commits.filter(c => (c.author?.login ?? '') !== 'github-actions[bot]');
+
+            if (humanCommits.length === 0) {
+              core.info('All commits are from github-actions[bot] — skipping protected file check.');
+              core.setOutput('violations', '');
+              core.setOutput('has_violations', 'false');
+              return;
+            }
+
+            // Collect files touched only by human commits
             const protectedFiles = ['stations.json'];
-            const violations = files
-              .map(f => f.filename)
-              .filter(filename =>
-                protectedFiles.some(p => filename === p || filename.endsWith('/' + p))
-              );
+            const humanChangedFiles = new Set();
+            for (const commit of humanCommits) {
+              const { data: commitData } = await github.rest.repos.getCommit({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: commit.sha,
+              });
+              for (const file of commitData.files ?? []) {
+                humanChangedFiles.add(file.filename);
+              }
+            }
+
+            const violations = [...humanChangedFiles].filter(filename =>
+              protectedFiles.some(p => filename === p || filename.endsWith('/' + p))
+            );
             core.setOutput('violations', violations.join(', '));
             core.setOutput('has_violations', violations.length > 0 ? 'true' : 'false');
 
