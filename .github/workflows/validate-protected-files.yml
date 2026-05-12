@@ -22,7 +22,6 @@ jobs:
           script: |
             const protectedFiles = ['runways.json', 'sectors.json', 'stations.json', 'waypoints.json'];
 
-            // Fetch all commits in the PR (paginate to handle long histories)
             let allCommits = [];
             let page = 1;
             while (true) {
@@ -38,8 +37,6 @@ jobs:
               page++;
             }
 
-            // For each protected file, find the LAST commit that touched it
-            // and check whether that commit was by a human or the bot.
             const violations = [];
             for (const protectedFile of protectedFiles) {
               for (const commit of [...allCommits].reverse()) {
@@ -48,16 +45,16 @@ jobs:
                   repo: context.repo.repo,
                   ref: commit.sha,
                 });
-                const touchesFile = (commitData.files ?? []).some(f =>
+                const touches = (commitData.files ?? []).some(f =>
                   f.filename === protectedFile || f.filename.endsWith('/' + protectedFile)
                 );
-                if (touchesFile) {
-                  const author = commit.author?.login ?? '';
+                if (touches) {
+                  const author = commit.author ? commit.author.login : '';
                   if (author !== 'github-actions[bot]') {
-                    core.info('❌ ' + protectedFile + ' was last modified by human: ' + author);
+                    core.info('Last commit touching ' + protectedFile + ' was by human: ' + author);
                     violations.push(protectedFile);
                   } else {
-                    core.info('✅ ' + protectedFile + ' was last modified by github-actions[bot] — OK.');
+                    core.info('Last commit touching ' + protectedFile + ' was by bot — OK.');
                   }
                   break;
                 }
@@ -73,7 +70,7 @@ jobs:
         with:
           script: |
             const violations = '${{ steps.changed-files.outputs.violations }}';
-            const fileList = violations.split(', ').map(f => `- \`${f}\``).join('\n');
+            const fileList = violations.split(', ').map(f => '- `' + f + '`').join('\n');
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
