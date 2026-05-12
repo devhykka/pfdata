@@ -15,22 +15,39 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-      - name: Check PR does not touch protected files
+      - name: Check triggering commit does not touch protected files
         id: changed-files
         uses: actions/github-script@v7
         with:
           script: |
-            const { data: files } = await github.rest.pulls.listFiles({
+            const protectedFiles = ['runways.json', 'sectors.json', 'stations.json', 'waypoints.json'];
+
+            // Only look at the files changed in the commit that triggered this workflow,
+            // not the entire PR diff. This avoids false positives from bot commits earlier
+            // in the PR that also touched these files.
+            const { data: commitData } = await github.rest.repos.getCommit({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              pull_number: context.payload.pull_request.number,
+              ref: context.payload.pull_request.head.sha,
             });
-            const protectedFiles = ['runways.json', 'sectors.json', 'stations.json', 'waypoints.json'];
-            const violations = files
+
+            const author = commitData.author ? commitData.author.login : '';
+            core.info('Triggering commit author: ' + author);
+
+            // If the commit that just fired this workflow was from the bot, pass immediately.
+            if (author === 'github-actions[bot]') {
+              core.info('Triggering commit is from bot — skipping.');
+              core.setOutput('violations', '');
+              core.setOutput('has_violations', 'false');
+              return;
+            }
+
+            const violations = (commitData.files ?? [])
               .map(f => f.filename)
               .filter(filename =>
                 protectedFiles.some(p => filename === p || filename.endsWith('/' + p))
               );
+
             core.setOutput('violations', violations.join(', '));
             core.setOutput('has_violations', violations.length > 0 ? 'true' : 'false');
 
