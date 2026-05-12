@@ -48,7 +48,7 @@
       "frequency": 130.2,
       "facility": "Approach/Departure",
       "line1": "Larnaka Approach",
-      "line2": "Charts on charts.pfatc.net",
+      "line2": "Charts at charts.pfatc.net",
       "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
       "line4": "Submit feedback at feedback.pfatc.net"
     },
@@ -58,7 +58,7 @@
       "frequency": 121.2,
       "facility": "Tower",
       "line1": "Larnaka Tower",
-      "line2": "Charts on charts.pfatc.net",
+      "line2": "Charts at charts.pfatc.net",
       "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
       "line4": "Submit feedback at feedback.pfatc.net"
     },
@@ -68,7 +68,7 @@
       "frequency": 119.4,
       "facility": "Ground",
       "line1": "Larnaka Ground",
-      "line2": "Charts on charts.pfatc.net",
+      "line2": "Charts at charts.pfatc.net",
       "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
       "line4": "Submit feedback at feedback.pfatc.net"
     },
@@ -78,7 +78,7 @@
       "frequency": 120.575,
       "facility": "Clearance/Delivery",
       "line1": "Larnaka Clearance",
-      "line2": "Charts on charts.pfatc.net",
+      "line2": "Charts at charts.pfatc.net",
       "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
       "line4": "Submit feedback at feedback.pfatc.net"
     }
@@ -100,7 +100,7 @@
       "frequency": 119.9,
       "facility": "Tower",
       "line1": "Paphos Tower",
-      "line2": "Charts on charts.pfatc.net",
+      "line2": "Charts at charts.pfatc.net",
       "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
       "line4": "Submit feedback at feedback.pfatc.net"
     },
@@ -110,7 +110,7 @@
       "frequency": 120.8,
       "facility": "Ground",
       "line1": "Paphos Ground",
-      "line2": "Charts on charts.pfatc.net",
+      "line2": "Charts at charts.pfatc.net",
       "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
       "line4": "Submit feedback at feedback.pfatc.net"
     }
