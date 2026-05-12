@@ -58,12 +58,12 @@ jobs:
                 );
                 if (touchesFile) {{
                   const author = commit.author?.login ?? '';
-                  if (author !== 'github-actions[bot]') {{
-                    core.info(`❌ '${{protectedFile}}' was last modified by human: ${{author}}`);
+                  if (author !== 'github-actions[bot]') {
+                    core.info('❌ ' + protectedFile + ' was last modified by human: ' + author);
                     violations.push(protectedFile);
-                  }} else {{
-                    core.info(`✅ '${{protectedFile}}' was last modified by github-actions[bot] — OK.`);
-                  }}
+                  } else {
+                    core.info('✅ ' + protectedFile + ' was last modified by github-actions[bot] — OK.');
+                  }
                   break;
                 }}
               }}
