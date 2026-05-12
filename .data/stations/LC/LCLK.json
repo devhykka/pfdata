@@ -5,9 +5,9 @@
     "frequency": 130.2,
     "facility": "Approach/Departure",
     "line1": "Larnaka Approach",
-    "line2": "ATIS on 126.550",
-    "line3": "Charts on charts.pfatc.net",
-    "line4": "Feedback on my.pfatc.net/feedback"
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   },
   {
     "name": "Larnaca Tower",
@@ -15,9 +15,9 @@
     "frequency": 121.2,
     "facility": "Tower",
     "line1": "Larnaka Tower",
-    "line2": "ATIS on 126.550",
-    "line3": "Charts on charts.pfatc.net",
-    "line4": "Feedback on my.pfatc.net/feedback"
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   },
   {
     "name": "Larnaca Ground",
@@ -25,9 +25,9 @@
     "frequency": 119.4,
     "facility": "Ground",
     "line1": "Larnaka Ground",
-    "line2": "ATIS on 126.550",
-    "line3": "Charts on charts.pfatc.net",
-    "line4": "Feedback on my.pfatc.net/feedback"
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   },
   {
     "name": "Larnaca Clearance",
@@ -35,8 +35,8 @@
     "frequency": 120.575,
     "facility": "Clearance/Delivery",
     "line1": "Larnaka Clearance",
-    "line2": "ATIS on 126.550",
-    "line3": "Charts on charts.pfatc.net",
-    "line4": "Feedback on my.pfatc.net/feedback"
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   }
 ]

@@ -4,39 +4,39 @@
     "callsign": "LCRA_APP",
     "frequency": 123.6,
     "facility": "Approach/Departure",
-    "line1": "'Akrotiri Radar'",
-    "line2": "Feedback at my.pfatc.net/feedback",
-    "line3": "",
-    "line4": ""
+    "line1": "Akrotiri Approach",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   },
   {
     "name": "Akrotiri Talkdown",
     "callsign": "LCRA_P_APP",
     "frequency": 125.7,
     "facility": "Approach/Departure",
-    "line1": "'Akrotiri Talkdown'",
-    "line2": "Feedback at my.pfatc.net/feedback",
-    "line3": "",
-    "line4": ""
+    "line1": "Akrotiri Talkdown",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   },
   {
     "name": "Akrotiri Tower",
     "callsign": "LCRA_TWR",
     "frequency": 130.075,
     "facility": "Tower",
-    "line1": "'Akrotiri Tower'",
-    "line2": "Feedback at my.pfatc.net/feedback",
-    "line3": "",
-    "line4": ""
+    "line1": "Akrotiri Tower",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   },
   {
     "name": "Akrotiri Ground",
     "callsign": "LCRA_GND",
     "frequency": 122.1,
     "facility": "Ground",
-    "line1": "'Akrotiri Ground'",
-    "line2": "Feedback at my.pfatc.net/feedback",
-    "line3": "",
-    "line4": ""
+    "line1": "Akrotiri Ground",
+    "line2": "Charts on charts.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
   }
 ]
