@@ -20,51 +20,50 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            // Skip the check entirely if the PR was opened by the Actions bot
-            const prAuthor = context.payload.pull_request.user.login;
-            if (prAuthor === 'github-actions[bot]') {
-              core.info('PR author is github-actions[bot] — skipping protected file check.');
-              core.setOutput('violations', '');
-              core.setOutput('has_violations', 'false');
-              return;
-            }
-
-            // Get all commits in the PR and filter to human-only commits
-            const { data: commits } = await github.rest.pulls.listCommits({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: context.payload.pull_request.number,
-            });
-            const humanCommits = commits.filter(c => {
-              const author = c.author?.login ?? '';
-              return author !== 'github-actions[bot]';
-            });
-
-            // If every commit in the PR is from the bot, nothing to check
-            if (humanCommits.length === 0) {
-              core.info('All commits are from github-actions[bot] — skipping protected file check.');
-              core.setOutput('violations', '');
-              core.setOutput('has_violations', 'false');
-              return;
-            }
-
-            // Collect all files touched by human commits only
             const protectedFiles = ['runways.json', 'sectors.json', 'stations.json', 'waypoints.json'];
-            const humanChangedFiles = new Set();
-            for (const commit of humanCommits) {
-              const { data: commitData } = await github.rest.repos.getCommit({
+
+            // Fetch all commits in the PR (paginate to handle long histories)
+            let allCommits = [];
+            let page = 1;
+            while (true) {
+              const { data: batch } = await github.rest.pulls.listCommits({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                ref: commit.sha,
+                pull_number: context.payload.pull_request.number,
+                per_page: 100,
+                page,
               });
-              for (const file of commitData.files ?? []) {
-                humanChangedFiles.add(file.filename);
+              allCommits = allCommits.concat(batch);
+              if (batch.length < 100) break;
+              page++;
+            }
+
+            // For each protected file, find the LAST commit that touched it
+            // and check whether that commit was by a human or the bot.
+            const violations = [];
+            for (const protectedFile of protectedFiles) {
+              for (const commit of [...allCommits].reverse()) {
+                const { data: commitData } = await github.rest.repos.getCommit({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  ref: commit.sha,
+                });
+                const touchesFile = (commitData.files ?? []).some(f =>
+                  f.filename === protectedFile || f.filename.endsWith('/' + protectedFile)
+                );
+                if (touchesFile) {
+                  const author = commit.author?.login ?? '';
+                  if (author !== 'github-actions[bot]') {
+                    core.info(`❌ '${protectedFile}' was last modified by human: ${author}`);
+                    violations.push(protectedFile);
+                  } else {
+                    core.info(`✅ '${protectedFile}' was last modified by github-actions[bot] — OK.`);
+                  }
+                  break;
+                }
               }
             }
 
-            const violations = [...humanChangedFiles].filter(filename =>
-              protectedFiles.some(p => filename === p || filename.endsWith('/' + p))
-            );
             core.setOutput('violations', violations.join(', '));
             core.setOutput('has_violations', violations.length > 0 ? 'true' : 'false');
 
