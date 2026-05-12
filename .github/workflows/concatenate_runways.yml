@@ -28,44 +28,41 @@ jobs:
           script: |
             const protectedFile = 'runways.json';
 
-            let allCommits = [];
-            let page = 1;
-            while (true) {
-              const { data: batch } = await github.rest.pulls.listCommits({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                pull_number: context.payload.pull_request.number,
-                per_page: 100,
-                page,
-              });
-              allCommits = allCommits.concat(batch);
-              if (batch.length < 100) break;
-              page++;
+            // Check if the protected file is in the PR diff at all
+            const { data: prFiles } = await github.rest.pulls.listFiles({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+            });
+
+            const inDiff = prFiles.some(f =>
+              f.filename === protectedFile || f.filename.endsWith('/' + protectedFile)
+            );
+
+            if (!inDiff) {
+              core.info(protectedFile + ' not in PR diff — OK.');
+              core.setOutput('has_violations', 'false');
+              return;
             }
 
-            let violated = false;
-            for (const commit of [...allCommits].reverse()) {
-              const { data: commitData } = await github.rest.repos.getCommit({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                ref: commit.sha,
-              });
-              const touches = (commitData.files ?? []).some(f =>
-                f.filename === protectedFile || f.filename.endsWith('/' + protectedFile)
-              );
-              if (touches) {
-                const author = commit.author ? commit.author.login : '';
-                if (author !== 'github-actions[bot]') {
-                  core.info('Last commit touching ' + protectedFile + ' was by human: ' + author);
-                  violated = true;
-                } else {
-                  core.info('Last commit touching ' + protectedFile + ' was by bot — OK.');
-                }
-                break;
-              }
-            }
+            // File is in the diff — check if HEAD commit is from the bot
+            const headSha = context.payload.pull_request.head.sha;
+            const { data: headCommit } = await github.rest.repos.getCommit({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: headSha,
+            });
 
-            core.setOutput('has_violations', violated ? 'true' : 'false');
+            const headAuthor = headCommit.author ? headCommit.author.login : '';
+            core.info('HEAD commit author: ' + headAuthor);
+
+            if (headAuthor === 'github-actions[bot]') {
+              core.info('HEAD commit is from bot — OK.');
+              core.setOutput('has_violations', 'false');
+            } else {
+              core.info('HEAD commit is from human and touches ' + protectedFile + ' — violation.');
+              core.setOutput('has_violations', 'true');
+            }
 
       - name: Post PR comment on violation
         if: steps.changed-files.outputs.has_violations == 'true'
