@@ -6,7 +6,7 @@
     "facility": "Approach/Departure",
     "line1": "Paphos Approach",
     "line2": "ATIS on 127.325",
-    "line3": "Charts on charts.pfatc.net",
+    "line3": "Charts at charts.pfatc.net",
     "line4": "Feedback on my.pfatc.net/feedback"
   },
   {
@@ -16,7 +16,7 @@
     "facility": "Tower",
     "line1": "Paphos Tower",
     "line2": "ATIS on 127.325",
-    "line3": "Charts on charts.pfatc.net",
+    "line3": "Charts at charts.pfatc.net",
     "line4": "Feedback on my.pfatc.net/feedback"
   },
   {
@@ -26,7 +26,7 @@
     "facility": "Ground",
     "line1": "Paphos Ground",
     "line2": "ATIS on 127.325",
-    "line3": "Charts on charts.pfatc.net",
+    "line3": "Charts at charts.pfatc.net",
     "line4": "Feedback on my.pfatc.net/feedback"
   }
 ]

@@ -6,7 +6,7 @@
     "facility": "Approach/Departure",
     "line1": "Larnaka Approach",
     "line2": "ATIS on 126.550",
-    "line3": "Charts on charts.pfatc.net",
+    "line3": "Charts at charts.pfatc.net",
     "line4": "Feedback on my.pfatc.net/feedback"
   },
   {
@@ -16,7 +16,7 @@
     "facility": "Tower",
     "line1": "Larnaka Tower",
     "line2": "ATIS on 126.550",
-    "line3": "Charts on charts.pfatc.net",
+    "line3": "Charts at charts.pfatc.net",
     "line4": "Feedback on my.pfatc.net/feedback"
   },
   {
@@ -26,7 +26,7 @@
     "facility": "Ground",
     "line1": "Larnaka Ground",
     "line2": "ATIS on 126.550",
-    "line3": "Charts on charts.pfatc.net",
+    "line3": "Charts at charts.pfatc.net",
     "line4": "Feedback on my.pfatc.net/feedback"
   },
   {
@@ -36,7 +36,7 @@
     "facility": "Clearance/Delivery",
     "line1": "Larnaka Clearance",
     "line2": "ATIS on 126.550",
-    "line3": "Charts on charts.pfatc.net",
+    "line3": "Charts at charts.pfatc.net",
     "line4": "Feedback on my.pfatc.net/feedback"
   }
 ]

@@ -5,7 +5,7 @@
     "frequency": 128.6,
     "facility": "Enroute",
     "line1": "Nicosia Radar",
-    "line2": "Charts on charts.pfatc.net",
+    "line2": "Charts at charts.pfatc.net",
     "line3": "Coverage at map.pfatc.net",
     "line4": "Feedback on my.pfatc.net/feedback"
   },
@@ -15,7 +15,7 @@
     "frequency": 126.3,
     "facility": "Enroute",
     "line1": "Nicosia Radar",
-    "line2": "Charts on charts.pfatc.net",
+    "line2": "Charts at charts.pfatc.net",
     "line3": "Coverage at map.pfatc.net",
     "line4": "Feedback on my.pfatc.net/feedback"
   },
@@ -25,7 +25,7 @@
     "frequency": 125.5,
     "facility": "Enroute",
     "line1": "Nicosia Radar",
-    "line2": "Charts on charts.pfatc.net",
+    "line2": "Charts at charts.pfatc.net",
     "line3": "Coverage at map.pfatc.net",
     "line4": "Feedback on my.pfatc.net/feedback"
   },
@@ -35,7 +35,7 @@
     "frequency": 124.2,
     "facility": "Enroute",
     "line1": "Nicosia Radar",
-    "line2": "Charts on charts.pfatc.net",
+    "line2": "Charts at charts.pfatc.net",
     "line3": "Coverage at map.pfatc.net",
     "line4": "Feedback on my.pfatc.net/feedback"
   }
