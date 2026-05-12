@@ -64,6 +64,10 @@
     "topdown": ["LPMA"],
     "default": ["LPPC"]
   },
+  "mdcs": {
+    "name": "Santo Domingo Control",
+    "topdown": ["MDPC", "MDST"]
+  },
   "LCCC": {
     "name": "Nicosia Radar",
     "topdown": ["LCLK", "LCPH", "LCRA"],
