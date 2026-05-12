@@ -128,6 +128,7 @@ jobs:
             exit 0
           fi
           git commit -m "Update sectors.json"
+          git pull --rebase
           git push
 
       - name: Upload artifacts

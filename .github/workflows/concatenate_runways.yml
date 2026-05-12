@@ -215,6 +215,7 @@ jobs:
             exit 0
           fi
           git commit -m "Update runways.json"
+          git pull --rebase
           git push
 
       - name: Upload artifacts
