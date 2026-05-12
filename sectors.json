@@ -4,6 +4,11 @@
     "topdown": ["MDPC", "MDST", "MDAB", "MDCR"],
     "default": ["MDCS"]
   },
+  "mdcs": {
+    "name": "Santo Domingo Control",
+    "topdown": ["MDPC", "MDST", "MDAB", "MDCR"],
+    "default": ["MDCS"]
+  },
   "LPPO": {
     "name": "Santa Maria Control",
     "topdown": ["MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LPMA"],
@@ -55,7 +60,7 @@
     "default": ["EGTT_W", "EGTT_N", "EGTT_E", "EGTT_S"]
   },
   "EGTT_W": {
-    "name": "London Control (West)",
+    "name": "London Control (Berry Head)",
     "topdown": ["EGFF"],
     "default": ["EGTT_W"]
   },
@@ -63,10 +68,6 @@
     "name": "Lisboa Control",
     "topdown": ["LPMA"],
     "default": ["LPPC"]
-  },
-  "mdcs": {
-    "name": "Santo Domingo Control",
-    "topdown": ["MDPC", "MDST"]
   },
   "LCCC": {
     "name": "Nicosia Radar",
