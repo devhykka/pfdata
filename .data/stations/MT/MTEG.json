@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Port Au Prince Center",
+    "callsign": "MTEG_CTR",
+    "frequency": 124.5,
+    "facility": "Enroute",
+    "line1": "Port Au Prince Center",
+    "line2": "Coverage at map.pfatc.net",
+    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line4": "Submit feedback at feedback.pfatc.net"
+  }
+]
