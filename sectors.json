@@ -103,6 +103,10 @@
     "name": "Santa Maria Control",
     "topdown": ["MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LPMA"]
   },
+  "EDYY": {
+    "name": "Maastricht Radar",
+    "topdown": [""]
+  },
   "EKDK": {
     "name": "Copenhagen Control",
     "topdown": [""]
