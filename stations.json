@@ -1,4 +1,90 @@
 {
+  "PAZA": [
+    {
+      "name": "Anchorage Center",
+      "callsign": "PAZA_D_CTR",
+      "frequency": 0.0,
+      "facility": "Enroute",
+      "line1": "Anchorage Center | CPDLC [INOP]",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["PAZA_N", "PAZA_S"]
+    },
+    {
+      "name": "Anchorage Center North",
+      "callsign": "PAZA_N_CTR",
+      "frequency": 0.0,
+      "facility": "Enroute",
+      "line1": "Anchorage Center North | CPDLC [INOP]",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["PAZA_N"]
+    },
+    {
+      "name": "Anchorage Center South",
+      "callsign": "PAZA_S_CTR",
+      "frequency": 0.0,
+      "facility": "Enroute",
+      "line1": "Anchorage Center South | CPDLC [INOP]",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["PAZA_S"]
+    }
+  ],
+  "EKDK": [
+    {
+      "name": "Copenhagen Control",
+      "callsign": "EKDK_CTR",
+      "frequency": 0.0,
+      "facility": "Enroute",
+      "line1": "Copenhagen Control | CPDLC [INOP]",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["EKDK"]
+    }
+  ],
+  "KZAK": [
+    {
+      "name": "Oakland Radio",
+      "callsign": "KZAK_FSS",
+      "frequency": 0.0,
+      "facility": "Flight Service Station",
+      "line1": "Oakland Radio | CPDLC [INOP]",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["KZAK"]
+    }
+  ],
+  "EHAA": [
+    {
+      "name": "Amsterdam Radar",
+      "callsign": "EHAA_CTR",
+      "frequency": 0.0,
+      "facility": "Enroute",
+      "line1": "Amsterdam Radar | CPDLC [INOP]",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["EHAA"]
+    }
+  ],
+  "MTEG": [
+    {
+      "name": "Port Au Prince Center",
+      "callsign": "MTEG_CTR",
+      "frequency": 124.5,
+      "facility": "Enroute",
+      "line1": "Port Au Prince Center",
+      "line2": "Coverage at map.pfatc.net",
+      "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line4": "Submit feedback at feedback.pfatc.net"
+    }
+  ],
   "EGFF": [
     {
       "name": "Cardiff Radar",
@@ -19,6 +105,19 @@
       "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
       "line3": "Submit feedback at feedback.pfatc.net",
       "line4": ""
+    }
+  ],
+  "EGGX": [
+    {
+      "name": "Shanwick Radio",
+      "callsign": "EGGX_CTR",
+      "frequency": 0.0,
+      "facility": "Enroute",
+      "line1": "Shanwick Radio | CPDLC [INOP]",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["EGGX"]
     }
   ],
   "EGKK": [
@@ -128,6 +227,17 @@
       "line3": "",
       "line4": "",
       "sectors": ["EGPX_N"]
+    },
+    {
+      "name": "Scottish Control (West Deancross)",
+      "callsign": "EGPX_WD_CTR",
+      "frequency": 133.875,
+      "facility": "Enroute",
+      "line1": "Scottish Control | CPDLC [INOP]",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["EGPX_WD"]
     }
   ],
   "EGTT": [
@@ -293,20 +403,21 @@
       "line1": "Developer Control | CPDLC [INOP]",
       "line2": "This is a development station, do not contact.",
       "line3": "Provides coverage for all regions.",
-      "line4": "Report issues at my.pfatc.net/feedback"
+      "line4": "Report issues at my.pfatc.net/feedback",
+      "sectors": ["EGTT_W", "EGTT_SC", "EGTT_N", "EGPX_W", "EGPX_S", "EGPX_N", "EGPX_D", "LPPC", "EHAA", "EKDK", "OBBB", "LCCC_S0", "LCCC_S2", "LCCC_S3", "LCCC_S4", "LCCC_W", "LCCC_E", "MDCS", "MTEG", "EGGX", "KZAK", "PAZA_N", "PAZA_S", "EISN"]
     }
   ],
-  "EURO": [
+  "EDYY": [
     {
-      "name": "Euro Control",
-      "callsign": "EURO_FSS",
+      "name": "Maastricht Upper Area Control",
+      "callsign": "EDYY_FSS",
       "frequency": 130.55,
       "facility": "Flight Service Station",
-      "line1": "Euro Control, Good Day!",
+      "line1": "Maastricht Upper Area | CPDLC [INOP]",
       "line2": "ATC only if local CTR is offline",
       "line3": "MAP-WIDE COVERAGE ABOVE FL120",
       "line4": "Submit feedback at feedback.pfatc.net",
-      "sectors": ["EGTT_W", "EGTT_SC", "EGTT_N", "EGPX_N", "EGPX_S", "EGPX_W", "EGPX_D", "LPPC", "LCCC_S0", "LCCC_S2", "LCCC_S3", "LCCC_S4", "LCCC_E", "LCCC_W"]
+      "sectors": ["EGTT_W", "EGTT_SC", "EGTT_N", "EGPX_W", "EGPX_S", "EGPX_N", "EGPX_D", "LPPC", "EHAA", "EKDK", "LCCC_S0", "LCCC_S2", "LCCC_S3", "LCCC_S4", "LCCC_W", "LCCC_E", "EISN"]
     }
   ],
   "LPPO": [
@@ -315,10 +426,11 @@
       "callsign": "LPPO_CTR",
       "frequency": 132.15,
       "facility": "Enroute",
-      "line1": "Santa Maria Radar",
+      "line1": "Santa Maria Radar | CPDLC [INOP]",
       "line2": "Provides Radar Services in MDCS MTEG LPPC FIR. Covers all airfields in MDCS MTEG LPPC FIR.",
-      "line3": "Charts on charts.pfatc.net",
-      "line4": "Submit feedback at feedback.pfatc.net"
+      "line3": "Submit feedback at feedback.pfatc.net",
+      "line4": "",
+      "sectors": ["LPPC", "MDCS", "MTEG"]
     }
   ],
   "LCCC": [
@@ -481,6 +593,30 @@
       "line2": "Charts on charts.pfatc.net",
       "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
       "line4": "Submit feedback at feedback.pfatc.net"
+    }
+  ],
+  "OBBB": {
+    "name": "Bahrain Radar",
+    "callsign": "OBBB_1_CTR",
+    "frequency": 0.0,
+    "facility": "Enroute",
+    "line1": "Bahrain Radar | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["OBBB"]
+  },
+  "LPPC": [
+    {
+      "name": "Lisboa Control",
+      "callsign": "LPPC_O_CTR",
+      "frequency": 0.0,
+      "facility": "Enroute",
+      "line1": "Lisboa Control | CPDLC [INOP]",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["LPPC"]
     }
   ]
 }
