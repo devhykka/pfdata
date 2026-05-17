@@ -7,7 +7,8 @@
     "line1": "Nicosia Radar",
     "line2": "Coverage at map.pfatc.net",
     "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
-    "line4": "Submit feedback at feedback.pfatc.net"
+    "line4": "Submit feedback at feedback.pfatc.net",
+    "sectors": ["LCCC_E", "LCCC_W", "LCCC_S2", "LCCC_S0", "LCCC_S4", "LCCC_S3"]
   },
   {
     "name": "Nicosia Radar (East Sector)",
@@ -17,7 +18,8 @@
     "line1": "Nicosia Radar",
     "line2": "Coverage at map.pfatc.net",
     "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
-    "line4": "Submit feedback at feedback.pfatc.net"
+    "line4": "Submit feedback at feedback.pfatc.net",
+    "sectors": ["LCCC_E", "LCCC_S0"]
   },
   {
     "name": "Nicosia Radar (West Sector)",
@@ -27,7 +29,8 @@
     "line1": "Nicosia Radar",
     "line2": "Coverage at map.pfatc.net",
     "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
-    "line4": "Submit feedback at feedback.pfatc.net"
+    "line4": "Submit feedback at feedback.pfatc.net",
+    "sectors": ["LCCC_W"]
   },
   {
     "name": "Nicosia Radar (South 2 Sector)",
@@ -37,6 +40,7 @@
     "line1": "Nicosia Radar",
     "line2": "Coverage at map.pfatc.net",
     "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
-    "line4": "Submit feedback at feedback.pfatc.net"
+    "line4": "Submit feedback at feedback.pfatc.net",
+    "sectors": ["LCCC_S2"]
   }
 ]

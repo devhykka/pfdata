@@ -1,5 +1,4 @@
 {
   "name": "Nicosia Radar (Sector 2)",
-  "topdown": ["LCPH"],
-  "default": ["LCCC_S2"]
+  "topdown": ["LCPH"]
 }

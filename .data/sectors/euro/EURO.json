@@ -1,5 +1,4 @@
 {
   "name": "Euro Control",
-  "topdown": ["EGKK", "EGLC", "EGFF", "LCLK", "LCPH", "LCRA", "LPMA"],
-  "default": ["EGTT", "LCCC", "LPPC", "EKDK", "EHAA", "EGPX", "EGGX"]
+  "topdown": ["EGKK", "EGLC", "EGFF", "LCLK", "LCPH", "LCRA", "LPMA"]
 }
