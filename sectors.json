@@ -14,10 +14,35 @@
     "topdown": [""],
     "default": ["KZAK"]
   },
-  "LCCC": {
-    "name": "Nicosia Radar",
-    "topdown": ["LCLK", "LCPH", "LCRA"],
-    "default": ["LCCC"]
+  "LCCC_E": {
+    "name": "Nicosia Radar (East)",
+    "topdown": [""],
+    "default": ["LCCC_E"]
+  },
+  "LCCC_S0": {
+    "name": "Nicosia Radar (Sector 0)",
+    "topdown": [""],
+    "default": ["LCCC_S0"]
+  },
+  "LCCC_S2": {
+    "name": "Nicosia Radar (Sector 2)",
+    "topdown": ["LCPH"],
+    "default": ["LCCC_S2"]
+  },
+  "LCCC_S3": {
+    "name": "Nicosia Radar (Sector 3)",
+    "topdown": [""],
+    "default": ["LCCC_S3"]
+  },
+  "LCCC_S4": {
+    "name": "Nicosia Radar (Sector 4)",
+    "topdown": ["LCRA"],
+    "default": ["LCCC_S4"]
+  },
+  "LCCC_W": {
+    "name": "Nicosia Radar (West)",
+    "topdown": ["LCLK"],
+    "default": ["LCCC_W"]
   },
   "OBBB_1": {
     "name": "Bahrain Radar",
@@ -39,10 +64,15 @@
     "topdown": [""],
     "default": ["EHAA"]
   },
-  "EGTT": {
-    "name": "London Control",
-    "topdown": ["EGFF", "EGKK", "EGLC"],
-    "default": ["EGTT_W", "EGTT_N", "EGTT_E", "EGTT_S"]
+  "EGTT_N": {
+    "name": "London Control (North)",
+    "topdown": [""],
+    "default": ["EGTT_N"]
+  },
+  "EGTT_SC": {
+    "name": "London Control (South Central)",
+    "topdown": ["EGLC", "EGKK"],
+    "default": ["EGTT_SC"]
   },
   "EGTT_W": {
     "name": "London Control (Berry Head)",
@@ -64,15 +94,40 @@
     "topdown": [""],
     "default": ["EGPX"]
   },
+  "EGPX_D": {
+    "name": "Scottish Control (Deancross)",
+    "topdown": [""],
+    "default": ["EGPX_D"]
+  },
+  "EGPX_E": {
+    "name": "Scottish Control (East)",
+    "topdown": [""],
+    "default": ["EGPX_E"]
+  },
+  "EGPX_N": {
+    "name": "Scottish Control (North)",
+    "topdown": [""],
+    "default": ["EGPX_N"]
+  },
+  "EGPX_W": {
+    "name": "Scottish Control (West)",
+    "topdown": [""],
+    "default": ["EGPX_W"]
+  },
   "EGGX": {
     "name": "Shanwick Oceanic",
     "topdown": [""],
     "default": ["EGGX"]
   },
-  "PAZA": {
-    "name": "Anchorage Center",
-    "topdown": ["PAFA"],
-    "default": ["PAZA"]
+  "PAZA_N": {
+    "name": "Anchorage Center (North)",
+    "topdown": [""],
+    "default": ["PAZA_N"]
+  },
+  "PAZA_S": {
+    "name": "Anchorage Center (South)",
+    "topdown": [""],
+    "default": ["PAZA_S"]
   },
   "LPPO": {
     "name": "Santa Maria Control",
