@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Santa Maria Radar",
+    "callsign": "LPPO_CTR",
+    "frequency": 132.15,
+    "facility": "Enroute",
+    "line1": "Santa Maria Radar | CPDLC [INOP]",
+    "line2": "Provides Radar Services in MDCS MTEG LPPC FIR. Covers all airfields in MDCS MTEG LPPC FIR.",
+    "line3": "Submit feedback at feedback.pfatc.net",
+    "line4": "",
+    "sectors": ["LPPC", "MDCS", "MTEG"]
+  }
+]

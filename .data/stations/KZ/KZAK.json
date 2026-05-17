@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Oakland Radio",
+    "callsign": "KZAK_FSS",
+    "frequency": 0.0,
+    "facility": "Flight Service Station",
+    "line1": "Oakland Radio | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["KZAK"]
+  }
+]

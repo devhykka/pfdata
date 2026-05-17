@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Copenhagen Control",
+    "callsign": "EKDK_CTR",
+    "frequency": 0.0,
+    "facility": "Enroute",
+    "line1": "Copenhagen Control | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["EKDK"]
+  }
+]

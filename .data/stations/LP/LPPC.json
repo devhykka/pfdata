@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Lisboa Control",
+    "callsign": "LPPC_O_CTR",
+    "frequency": 0.0,
+    "facility": "Enroute",
+    "line1": "Lisboa Control | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["LPPC"]
+  }
+]
