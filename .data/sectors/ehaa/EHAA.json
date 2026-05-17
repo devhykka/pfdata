@@ -1,5 +1,4 @@
 {
   "name": "Amsterdam Radar",
-  "topdown": [""],
-  "default": ["EHAA"]
+  "topdown": [""]
 }

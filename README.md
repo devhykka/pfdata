@@ -11,7 +11,13 @@ Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN
 {
   "name": "Developer Control", // This is the name of the sector.
   "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"], // These are the airports the sector covers top-down.
-  "default": ["EGTT", "LCCC", "LPPC", "EURO", "KZAK", "EKDK", "EHAA", "EGPX", "EGGX"] // These are the sectors the position covers.*
+}
+```
+
+```json
+{
+  "name": "London Control (Bandbox)", // This is the name of the sector.
+  "topdown": ["EGKK", "EGLC", "EGFF"], // These are the airports the sector covers top-down.
 }
 ```
 
@@ -53,7 +59,8 @@ Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN
     "line1": "London Control | CPDLC [INOP]",
     "line2": "Submit feedback at feedback.pfatc.net",
     "line3": "",
-    "line4": ""
+    "line4": "",
+    "sectors": ["EGTT_N", "EGTT_W", "EGTT_SC"]
   },
   {
     "name": "London Control (West)",
@@ -63,7 +70,8 @@ Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN
     "line1": "London Control | CPDLC [INOP]",
     "line2": "Submit feedback at feedback.pfatc.net",
     "line3": "",
-    "line4": ""
+    "line4": "",
+    "sectors": ["EGTT_W"]
   }
 ]
 ```

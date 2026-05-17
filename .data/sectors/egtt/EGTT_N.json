@@ -1,5 +1,4 @@
 {
   "name": "London Control (North)",
-  "topdown": [""],
-  "default": ["EGTT_N"]
+  "topdown": [""]
 }

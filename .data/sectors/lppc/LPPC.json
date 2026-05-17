@@ -1,5 +1,4 @@
 {
   "name": "Lisboa Control",
-  "topdown": ["LPMA"],
-  "default": ["LPPC"]
+  "topdown": ["LPMA"]
 }

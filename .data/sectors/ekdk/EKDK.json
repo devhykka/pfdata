@@ -1,5 +1,4 @@
 {
   "name": "Copenhagen Control",
-  "topdown": [""],
-  "default": ["EKDK"]
+  "topdown": [""]
 }
