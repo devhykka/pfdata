@@ -120,12 +120,12 @@
     "default": ["EGGX"]
   },
   "PAZA_N": {
-    "name": "Anchorage Center North",
+    "name": "Anchorage Center (North)",
     "topdown": [""],
     "default": ["PAZA_N"]
   },
   "PAZA_S": {
-    "name": "Anchorage Center South",
+    "name": "Anchorage Center (South)",
     "topdown": [""],
     "default": ["PAZA_S"]
   },
