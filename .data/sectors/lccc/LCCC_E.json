@@ -1,0 +1,5 @@
+{
+  "name": "Nicosia Radar (East)",
+  "topdown": [""],
+  "default": ["LCCC_E"]
+}
