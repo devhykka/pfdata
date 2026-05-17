@@ -1,13 +1,13 @@
 [
   {
-    "name": "Developer Control",
-    "callsign": "DEVC_FSS",
-    "frequency": 129.2,
+    "name": "Maastricht Upper Area Control",
+    "callsign": "EDYY_FSS",
+    "frequency": 130.55,
     "facility": "Flight Service Station",
-    "line1": "Developer Control | CPDLC [INOP]",
-    "line2": "This is a development station, do not contact.",
-    "line3": "Provides coverage for all regions.",
-    "line4": "Report issues at my.pfatc.net/feedback",
+    "line1": "Maastricht Upper Area | CPDLC [INOP]",
+    "line2": "ATC only if local CTR is offline",
+    "line3": "MAP-WIDE COVERAGE ABOVE FL120",
+    "line4": "Submit feedback at feedback.pfatc.net",
     "sectors": [
       "EGTT_W",
       "EGTT_SC",
