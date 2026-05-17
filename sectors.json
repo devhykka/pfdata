@@ -6,137 +6,110 @@
   },
   "mdcs": {
     "name": "Santo Domingo Control",
-    "topdown": ["MDPC", "MDST", "MDAB", "MDCR"],
-    "default": ["MDCS"]
+    "topdown": ["MDPC", "MDST", "MDAB", "MDCR"]
   },
   "KZAK": {
     "name": "Oakland Oceanic",
-    "topdown": [""],
-    "default": ["KZAK"]
+    "topdown": [""]
   },
   "LCCC_E": {
     "name": "Nicosia Radar (East)",
-    "topdown": [""],
-    "default": ["LCCC_E"]
+    "topdown": [""]
   },
   "LCCC_S0": {
     "name": "Nicosia Radar (Sector 0)",
-    "topdown": [""],
-    "default": ["LCCC_S0"]
+    "topdown": [""]
   },
   "LCCC_S2": {
     "name": "Nicosia Radar (Sector 2)",
-    "topdown": ["LCPH"],
-    "default": ["LCCC_S2"]
+    "topdown": ["LCPH"]
   },
   "LCCC_S3": {
     "name": "Nicosia Radar (Sector 3)",
-    "topdown": [""],
-    "default": ["LCCC_S3"]
+    "topdown": [""]
   },
   "LCCC_S4": {
     "name": "Nicosia Radar (Sector 4)",
-    "topdown": ["LCRA"],
-    "default": ["LCCC_S4"]
+    "topdown": ["LCRA"]
   },
   "LCCC_W": {
     "name": "Nicosia Radar (West)",
-    "topdown": ["LCLK"],
-    "default": ["LCCC_W"]
+    "topdown": ["LCLK"]
   },
   "OBBB_1": {
     "name": "Bahrain Radar",
-    "topdown": [""],
-    "default": ["OBBB"]
+    "topdown": [""]
   },
   "EURO": {
     "name": "Euro Control",
-    "topdown": ["EGKK", "EGLC", "EGFF", "LCLK", "LCPH", "LCRA", "LPMA"],
-    "default": ["EGTT", "LCCC", "LPPC", "EKDK", "EHAA", "EGPX", "EGGX"]
+    "topdown": ["EGKK", "EGLC", "EGFF", "LCLK", "LCPH", "LCRA", "LPMA"]
   },
   "DEVC": {
     "name": "Developer Control",
-    "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"],
-    "default": ["EGTT", "LCCC", "LPPC", "EURO", "KZAK", "EKDK", "EHAA", "EGPX", "EGGX"]
+    "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"]
   },
   "EHAA": {
     "name": "Amsterdam Radar",
-    "topdown": [""],
-    "default": ["EHAA"]
+    "topdown": [""]
   },
   "EGTT_N": {
     "name": "London Control (North)",
-    "topdown": [""],
-    "default": ["EGTT_N"]
+    "topdown": [""]
   },
   "EGTT_SC": {
     "name": "London Control (South Central)",
-    "topdown": ["EGLC", "EGKK"],
-    "default": ["EGTT_SC"]
+    "topdown": ["EGLC", "EGKK"]
   },
   "EGTT_W": {
     "name": "London Control (Berry Head)",
-    "topdown": ["EGFF"],
-    "default": ["EGTT_W"]
+    "topdown": ["EGFF"]
   },
   "LPPC": {
     "name": "Lisboa Control",
-    "topdown": ["LPMA"],
-    "default": ["LPPC"]
+    "topdown": ["LPMA"]
   },
   "MTEG": {
     "name": "Port Au Prince Center",
-    "topdown": ["MTCA"],
-    "default": ["MTEG"]
+    "topdown": ["MTCA"]
   },
   "EGPX_D": {
     "name": "Scottish Control (Deancross)",
-    "topdown": [""],
-    "default": ["EGPX_D"]
+    "topdown": [""]
   },
   "EGPX_E": {
     "name": "Scottish Control (East)",
-    "topdown": [""],
-    "default": ["EGPX_E"]
+    "topdown": [""]
   },
   "EGPX_N": {
     "name": "Scottish Control (North)",
-    "topdown": [""],
-    "default": ["EGPX_N"]
+    "topdown": [""]
   },
   "EGPX_S": {
     "name": "Scottish Control (South)",
-    "topdown": [""],
-    "default": ["EGPX_S"]
+    "topdown": [""]
   },
   "EGPX_W": {
     "name": "Scottish Control (West)",
-    "topdown": [""],
-    "default": ["EGPX_W"]
+    "topdown": [""]
   },
   "EGGX": {
     "name": "Shanwick Oceanic",
-    "topdown": [""],
-    "default": ["EGGX"]
+    "topdown": [""]
   },
   "PAZA_N": {
     "name": "Anchorage Center (North)",
-    "topdown": [""],
-    "default": ["PAZA_N"]
+    "topdown": [""]
   },
   "PAZA_S": {
     "name": "Anchorage Center (South)",
-    "topdown": [""],
-    "default": ["PAZA_S"]
+    "topdown": [""]
   },
   "LPPO": {
     "name": "Santa Maria Control",
-    "topdown": ["MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LPMA"],
-    "default": ["LPPO"]
+    "topdown": ["MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LPMA"]
   },
   "EKDK": {
     "name": "Copenhagen Control",
-    "topdown": [""],
-    "default": ["EKDK"]
+    "topdown": [""]
   }
 }
