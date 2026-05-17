@@ -9,25 +9,15 @@
     "topdown": ["MDPC", "MDST", "MDAB", "MDCR"],
     "default": ["MDCS"]
   },
-  "LPPO": {
-    "name": "Santa Maria Control",
-    "topdown": ["MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LPMA"],
-    "default": ["LPPO"]
-  },
-  "EKDK": {
-    "name": "Copenhagen Control",
-    "topdown": [""],
-    "default": ["EKDK"]
-  },
   "KZAK": {
     "name": "Oakland Oceanic",
     "topdown": [""],
     "default": ["KZAK"]
   },
-  "EGPX": {
-    "name": "Scottish Control",
-    "topdown": [""],
-    "default": ["EGPX"]
+  "LCCC": {
+    "name": "Nicosia Radar",
+    "topdown": ["LCLK", "LCPH", "LCRA"],
+    "default": ["LCCC"]
   },
   "OBBB_1": {
     "name": "Bahrain Radar",
@@ -39,20 +29,15 @@
     "topdown": ["EGKK", "EGLC", "EGFF", "LCLK", "LCPH", "LCRA", "LPMA"],
     "default": ["EGTT", "LCCC", "LPPC", "EKDK", "EHAA", "EGPX", "EGGX"]
   },
-  "PAZA": {
-    "name": "Anchorage Center",
-    "topdown": ["PAFA"],
-    "default": ["PAZA"]
+  "DEVC": {
+    "name": "Developer Control",
+    "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"],
+    "default": ["EGTT", "LCCC", "LPPC", "EURO", "KZAK", "EKDK", "EHAA", "EGPX", "EGGX"]
   },
   "EHAA": {
     "name": "Amsterdam Radar",
     "topdown": [""],
     "default": ["EHAA"]
-  },
-  "MTEG": {
-    "name": "Port Au Prince Center",
-    "topdown": ["MTCA"],
-    "default": ["MTEG"]
   },
   "EGTT": {
     "name": "London Control",
@@ -69,19 +54,34 @@
     "topdown": ["LPMA"],
     "default": ["LPPC"]
   },
-  "LCCC": {
-    "name": "Nicosia Radar",
-    "topdown": ["LCLK", "LCPH", "LCRA"],
-    "default": ["LCCC"]
+  "MTEG": {
+    "name": "Port Au Prince Center",
+    "topdown": ["MTCA"],
+    "default": ["MTEG"]
   },
-  "DEVC": {
-    "name": "Developer Control",
-    "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"],
-    "default": ["EGTT", "LCCC", "LPPC", "EURO", "KZAK", "EKDK", "EHAA", "EGPX", "EGGX"]
+  "EGPX": {
+    "name": "Scottish Control",
+    "topdown": [""],
+    "default": ["EGPX"]
   },
   "EGGX": {
     "name": "Shanwick Oceanic",
     "topdown": [""],
     "default": ["EGGX"]
+  },
+  "PAZA": {
+    "name": "Anchorage Center",
+    "topdown": ["PAFA"],
+    "default": ["PAZA"]
+  },
+  "LPPO": {
+    "name": "Santa Maria Control",
+    "topdown": ["MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LPMA"],
+    "default": ["LPPO"]
+  },
+  "EKDK": {
+    "name": "Copenhagen Control",
+    "topdown": [""],
+    "default": ["EKDK"]
   }
 }

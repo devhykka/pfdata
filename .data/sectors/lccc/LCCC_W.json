@@ -1,5 +1,0 @@
-{
-  "name": "Nicosia Radar (West)",
-  "topdown": ["LCLK"],
-  "default": ["LCCC_W"]
-}

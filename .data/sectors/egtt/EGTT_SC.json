@@ -1,5 +1,0 @@
-{
-  "name": "London Control (South Central)",
-  "topdown": ["EGLC", "EGKK"],
-  "default": ["EGTT_SC"]
-}
