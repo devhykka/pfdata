@@ -1,0 +1,5 @@
+{
+  "name": "Nicosia Radar (Sector 4)",
+  "topdown": ["LCRA"],
+  "default": ["LCCC_S4"]
+}

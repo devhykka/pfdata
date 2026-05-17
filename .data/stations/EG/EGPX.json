@@ -8,6 +8,50 @@
     "line2": "Submit feedback at feedback.pfatc.net",
     "line3": "",
     "line4": "",
-    "sectors": ["EGPX"]
+    "sectors": ["EGPX_W", "EGPX_S", "EGPX_D", "EGPX_N"]
+  },
+  {
+    "name": "Scottish Control (West)",
+    "callsign": "EGPX_W_CTR",
+    "frequency": 132.730,
+    "facility": "Enroute",
+    "line1": "Scottish Control | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["EGPX_W"]
+  },
+  {
+    "name": "Scottish Control (South)",
+    "callsign": "EGPX_S_CTR",
+    "frequency": 134.775,
+    "facility": "Enroute",
+    "line1": "Scottish Control | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["EGPX_S"]
+  },
+  {
+    "name": "Scottish Control (Deancross)",
+    "callsign": "EGPX_D_CTR",
+    "frequency": 135.855,
+    "facility": "Enroute",
+    "line1": "Scottish Control | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["EGPX_D"]
+  },
+  {
+    "name": "Scottish Control (North)",
+    "callsign": "EGPX_N_CTR",
+    "frequency": 129.225,
+    "facility": "Enroute",
+    "line1": "Scottish Control | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["EGPX_N"]
   }
 ]

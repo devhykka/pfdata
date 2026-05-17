@@ -7,7 +7,8 @@
     "line1": "London Control | CPDLC [INOP]",
     "line2": "Submit feedback at feedback.pfatc.net",
     "line3": "",
-    "line4": ""
+    "line4": "",
+    "sectors": ["EGTT_W", "EGTT_SC", "EGTT_N"]
   },
   {
     "name": "London Control (West)",
@@ -17,6 +18,29 @@
     "line1": "London Control | CPDLC [INOP]",
     "line2": "Submit feedback at feedback.pfatc.net",
     "line3": "",
-    "line4": ""
+    "line4": "",
+    "sectors": ["EGTT_W"]
+  },
+  {
+    "name": "London Control (South Central)",
+    "callsign": "EGTT_SC_CTR",
+    "frequency": 132.605,
+    "facility": "Enroute",
+    "line1": "London Control | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["EGTT_SC"]
+  },
+  {
+    "name": "London Control (North)",
+    "callsign": "EGTT_N_CTR",
+    "frequency": 133.705,
+    "facility": "Enroute",
+    "line1": "London Control | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["EGTT_N"]
   }
 ]
