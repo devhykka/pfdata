@@ -1,11 +1,6 @@
 {
   "MDCS": {
     "name": "Santo Domingo Control",
-    "topdown": ["MDPC", "MDST", "MDAB", "MDCR"],
-    "default": ["MDCS"]
-  },
-  "mdcs": {
-    "name": "Santo Domingo Control",
     "topdown": ["MDPC", "MDST", "MDAB", "MDCR"]
   },
   "KZAK": {

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Anchorage Center",
+    "callsign": "PAZA_D_CTR",
+    "frequency": 0.0,
+    "facility": "Enroute",
+    "line1": "Anchorage Center | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["PAZA_N", "PAZA_S"]
+  },
+  {
+    "name": "Anchorage Center North",
+    "callsign": "PAZA_N_CTR",
+    "frequency": 0.0,
+    "facility": "Enroute",
+    "line1": "Anchorage Center North | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["PAZA_N"]
+  },
+  {
+    "name": "Anchorage Center South",
+    "callsign": "PAZA_S_CTR",
+    "frequency": 0.0,
+    "facility": "Enroute",
+    "line1": "Anchorage Center South | CPDLC [INOP]",
+    "line2": "Submit feedback at feedback.pfatc.net",
+    "line3": "",
+    "line4": "",
+    "sectors": ["PAZA_S"]
+  }
+]
