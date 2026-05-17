@@ -13,9 +13,11 @@ concurrency:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   build:
+    name: Build waypoints.json
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PR branch
@@ -45,6 +47,7 @@ jobs:
             exit 0
           fi
           git commit -m "Update waypoints.json"
+          git pull --rebase
           git push
 
       - name: Upload artifacts

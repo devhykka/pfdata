@@ -70,7 +70,7 @@
     "default": ["EGTT_SC"]
   },
   "EGTT_W": {
-    "name": "London Control (West)",
+    "name": "London Control (Berry Head)",
     "topdown": ["EGFF"],
     "default": ["EGTT_W"]
   },
