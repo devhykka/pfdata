@@ -409,14 +409,14 @@
   ],
   "EDYY": [
     {
-      "name": "Maastricht Upper Area Control",
-      "callsign": "EDYY_FSS",
-      "frequency": 130.55,
-      "facility": "Flight Service Station",
-      "line1": "Maastricht Upper Area | CPDLC [INOP]",
-      "line2": "ATC only if local CTR is offline",
-      "line3": "MAP-WIDE COVERAGE ABOVE FL120",
-      "line4": "Submit feedback at feedback.pfatc.net",
+      "name": "Maastricht Radar",
+      "callsign": "EDYY_CTR",
+      "frequency": 135.51,
+      "facility": "Enroute",
+      "line1": "Maastricht Radar | CPDLC [EDYY]",
+      "line2": "Coverage above FL145 if local ATC is offline.",
+      "line3": "Submit feedback at feedback.pfatc.net",
+      "line4": "",
       "sectors": ["EGTT_W", "EGTT_SC", "EGTT_N", "EGPX_W", "EGPX_S", "EGPX_N", "EGPX_D", "LPPC", "EHAA", "EKDK", "LCCC_S0", "LCCC_S2", "LCCC_S3", "LCCC_S4", "LCCC_W", "LCCC_E", "EISN"]
     }
   ],
