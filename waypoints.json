@@ -1,150 +1,1496 @@
 [
-  { "name": "MAROG", "x": 92.37, "y": 102.59, "type": "WAYPOINT" },
-  { "name": "PC199", "x": 84.97, "y": 102.75, "type": "WAYPOINT" },
-  { "name": "PC103", "x": 94.16, "y": 105.85, "type": "WAYPOINT" },
-  { "name": "PC106", "x": 90.57, "y": 108.19, "type": "WAYPOINT" },
-  { "name": "MIBNI", "x": 83.77, "y": 107.16, "type": "WAYPOINT" },
-  { "name": "PC200", "x": 73.71, "y": 105.63, "type": "WAYPOINT" },
-  { "name": "ETBOD", "x": 62.45, "y": 103.08, "type": "WAYPOINT" },
-  { "name": "KATOK", "x": 107.06, "y": 93.72, "type": "WAYPOINT" },
-  { "name": "PC114", "x": 92.64, "y": 94.53, "type": "WAYPOINT" },
-  { "name": "PC201", "x": 84.43, "y": 93.55, "type": "WAYPOINT" },
-  { "name": "CHUMA", "x": 93.35, "y": 83.87, "type": "WAYPOINT" },
-  { "name": "PC202", "x": 83.72, "y": 84.96, "type": "WAYPOINT" },
-  { "name": "PIXAR", "x": 79.86, "y": 77.39, "type": "WAYPOINT" },
-  { "name": "AGNAL", "x": 74.74, "y": 102.31, "type": "WAYPOINT" },
-  { "name": "BEREL", "x": 71.24, "y": 94.06, "type": "WAYPOINT" },
-  { "name": "VOGEP", "x": 63.06, "y": 85.38, "type": "WAYPOINT" },
-  { "name": "POKEG", "x": 67.24, "y": 75, "type": "WAYPOINT" },
-  { "name": "BETIR", "x": 87.68, "y": 80, "type": "WAYPOINT" },
-  { "name": "ILOBI", "x": 79.93, "y": 82.88, "type": "WAYPOINT" },
-  { "name": "DASVO", "x": 77.99, "y": 93.81, "type": "WAYPOINT" },
-  { "name": "PC203", "x": 88.74, "y": 98.31, "type": "WAYPOINT" },
-  { "name": "LETAD", "x": 100.56, "y": 96.22, "type": "WAYPOINT" },
-  { "name": "VIRTO", "x": 99.24, "y": 101.25, "type": "WAYPOINT" },
-  { "name": "MESPA", "x": 99.61, "y": 103.25, "type": "WAYPOINT" },
-  { "name": "ANTEX", "x": 117.99, "y": 101.88, "type": "WAYPOINT" },
-  { "name": "PIXES", "x": 73.93, "y": 85.06, "type": "WAYPOINT" },
-  { "name": "MUNOZ", "x": 109.75, "y": 89.25, "type": "WAYPOINT" },
-  { "name": "ELTAN", "x": 109.75, "y": 75.94, "type": "WAYPOINT" },
-  { "name": "GINRE", "x": 136.95, "y": 73.81, "type": "WAYPOINT" },
-  { "name": "MORSS", "x": 148.82, "y": 61.44, "type": "WAYPOINT" },
-  { "name": "RIXOT", "x": 148.82, "y": 44.56, "type": "WAYPOINT" },
-  { "name": "MEROS", "x": 136.7, "y": 49.81, "type": "WAYPOINT" },
-  { "name": "SARGO", "x": 121.2, "y": 49.81, "type": "WAYPOINT" },
-  { "name": "MADAS", "x": 100.45, "y": 53.56, "type": "WAYPOINT" },
-  { "name": "CANDE", "x": 79.08, "y": 53.56, "type": "WAYPOINT" },
-  { "name": "PELIN", "x": 67.24, "y": 60.31, "type": "WAYPOINT" },
-  { "name": "TUGPU", "x": 174.82, "y": 37.44, "type": "WAYPOINT" },
-  { "name": "AMULU", "x": 151.94, "y": 31.44, "type": "WAYPOINT" },
-  { "name": "CARBO", "x": 143.99, "y": 0, "type": "WAYPOINT" },
-  { "name": "PELOR", "x": 240, "y": 0, "type": "WAYPOINT" },
-  { "name": "RATSU", "x": 79.08, "y": 0, "type": "WAYPOINT" },
-  { "name": "HOIST", "x": 0, "y": 0, "type": "WAYPOINT" },
-  { "name": "AMUBA", "x": 240, "y": 37.44, "type": "WAYPOINT" },
-  { "name": "BODLO", "x": 0, "y": 75, "type": "WAYPOINT" },
-  { "name": "NEGON", "x": 109.75, "y": 135, "type": "WAYPOINT" },
-  { "name": "AMBIN", "x": 0, "y": 135, "type": "WAYPOINT" },
-  { "name": "BALMA", "x": 240, "y": 135, "type": "WAYPOINT" },
-  { "name": "PNA", "x": 87.44, "y": 102.59, "type": "VOR-DME" },
-  { "name": "BONEK", "x": 140.93, "y": 86.35, "type": "WAYPOINT" },
-  { "name": "LUBES", "x": 136.19, "y": 91.4, "type": "WAYPOINT" },
-  { "name": "KURSA", "x": 135.96, "y": 99.25, "type": "WAYPOINT" },
-  { "name": "DAROS", "x": 146.57, "y": 87.84, "type": "WAYPOINT" },
-  { "name": "ADLAS", "x": 151.13, "y": 89.03, "type": "WAYPOINT" },
-  { "name": "NORDI", "x": 145.45, "y": 95.6, "type": "WAYPOINT" },
-  { "name": "OTESA", "x": 161.69, "y": 85.65, "type": "WAYPOINT" },
-  { "name": "LK400", "x": 161.65, "y": 88.59, "type": "WAYPOINT" },
-  { "name": "SOBOS", "x": 167.26, "y": 89.15, "type": "WAYPOINT" },
-  { "name": "RUDER", "x": 171.94, "y": 87.96, "type": "WAYPOINT" },
-  { "name": "REXAL", "x": 166.51, "y": 95.53, "type": "WAYPOINT" },
-  { "name": "EMEDA", "x": 164.63, "y": 103.46, "type": "WAYPOINT" },
-  { "name": "ROKIK", "x": 164.38, "y": 86.15, "type": "WAYPOINT" },
-  { "name": "MURAT", "x": 171.57, "y": 85.15, "type": "WAYPOINT" },
-  { "name": "KRASI", "x": 176.44, "y": 78.94, "type": "WAYPOINT" },
-  { "name": "AMAKO", "x": 167.32, "y": 93.53, "type": "WAYPOINT" },
-  { "name": "BOSIS", "x": 162.69, "y": 99.15, "type": "WAYPOINT" },
-  { "name": "BETID", "x": 151.76, "y": 105.46, "type": "WAYPOINT" },
-  { "name": "ESERI", "x": 134.7, "y": 106.59, "type": "WAYPOINT" },
-  { "name": "NIMSI", "x": 124.76, "y": 103.21, "type": "WAYPOINT" },
-  { "name": "LK601", "x": 157.29, "y": 93.78, "type": "WAYPOINT" },
-  { "name": "RIMEX", "x": 153.07, "y": 97.96, "type": "WAYPOINT" },
-  { "name": "PEEKO", "x": 148.38, "y": 95.9, "type": "WAYPOINT" },
-  { "name": "GIPRO", "x": 147.26, "y": 98.4, "type": "WAYPOINT" },
-  { "name": "KOBER", "x": 171.94, "y": 94.95, "type": "WAYPOINT" },
-  { "name": "LCA", "x": 159.82, "y": 91.21, "type": "VOR-DME" },
-  { "name": "BELOW", "x": 150, "y": 50, "type": "NDB" },
-  { "name": "HAZEL", "x": 123.140625, "y": 35.015625, "type": "WAYPOINT" },
-  { "name": "MAY", "x": 129.59375, "y": 40.6875, "type": "VOR-DME" },
-  { "name": "TEBRA", "x": 138.75, "y": 31.625, "type": "NDB" },
-  { "name": "BODSO", "x": 134.375, "y": 23.8125, "type": "WAYPOINT" },
-  { "name": "KONAN", "x": 162.06, "y": 40.71, "type": "WAYPOINT" },
-  { "name": "MIKEL", "x": 114.25, "y": 27.75, "type": "WAYPOINT" },
-  { "name": "LEDGO", "x": 105.4375, "y": 42.4375, "type": "WAYPOINT" },
-  { "name": "KITTL", "x": 163.34375, "y": 7.6875, "type": "WAYPOINT" },
-  { "name": "HTML", "x": 161.59375, "y": 2.3125, "type": "WAYPOINT" },
-  { "name": "KRDSH", "x": 158, "y": 6.25, "type": "WAYPOINT" },
-  { "name": "KETF", "x": 150.3125, "y": 4.15625, "type": "WAYPOINT" },
-  { "name": "DELTA", "x": 159.53125, "y": 14.06, "type": "WAYPOINT" },
-  { "name": "ROSE", "x": 152.34375, "y": 18.84, "type": "WAYPOINT" },
-  { "name": "ROBUX", "x": 169, "y": 19.625, "type": "NDB" },
-  { "name": "LIMA", "x": 163.25, "y": 25, "type": "WAYPOINT" },
-  { "name": "SUDIP", "x": 173.1875, "y": 27.1875, "type": "WAYPOINT" },
-  { "name": "KIT", "x": 186.5625, "y": 27.1875, "type": "WAYPOINT" },
-  { "name": "BRAVO", "x": 178.5625, "y": 35.5, "type": "WAYPOINT" },
-  { "name": "EFLA", "x": 190.4375, "y": 42.25, "type": "WAYPOINT" },
-  { "name": "KKWO6", "x": 125.49, "y": 34.57, "type": "WAYPOINT" },
-  { "name": "KKWO8", "x": 121.56, "y": 35.46, "type": "WAYPOINT" },
-  { "name": "KKS11", "x": 121.96, "y": 37.22, "type": "WAYPOINT" },
-  { "name": "KKS2O", "x": 122.68, "y": 39.93, "type": "WAYPOINT" },
-  { "name": "KKS25", "x": 123.34, "y": 42.32, "type": "WAYPOINT" },
-  { "name": "BOGNA", "x": 127.46, "y": 46.54, "type": "WAYPOINT" },
-  { "name": "KKWO7", "x": 124.91, "y": 34.72, "type": "WAYPOINT" },
-  { "name": "KKWO9", "x": 120.05, "y": 37.19, "type": "WAYPOINT" },
-  { "name": "NOVMA", "x": 114.1, "y": 39.09, "type": "WAYPOINT" },
-  { "name": "KKWO4", "x": 124.46, "y": 34.94, "type": "WAYPOINT" },
-  { "name": "KKSO6", "x": 124.7, "y": 36.02, "type": "WAYPOINT" },
-  { "name": "KKSO9", "x": 125.89, "y": 36.16, "type": "WAYPOINT" },
-  { "name": "KKS14", "x": 133.76, "y": 37.92, "type": "WAYPOINT" },
-  { "name": "KKS33", "x": 138.07, "y": 37.12, "type": "WAYPOINT" },
-  { "name": "WIZAD", "x": 142.78, "y": 36.28, "type": "WAYPOINT" },
-  { "name": "VASUX", "x": 118.65, "y": 47.12, "type": "WAYPOINT" },
-  { "name": "DISVO", "x": 120.35, "y": 45.08, "type": "WAYPOINT" },
-  { "name": "TELTU", "x": 122.63, "y": 43.14, "type": "WAYPOINT" },
-  { "name": "HOLLY", "x": 128.4, "y": 39.78, "type": "WAYPOINT" },
-  { "name": "WILLO", "x": 122.81, "y": 36.63, "type": "WAYPOINT" },
-  { "name": "TIMBA", "x": 131.84, "y": 34.74, "type": "WAYPOINT" },
-  { "name": "KKE64", "x": 134.63, "y": 36.88, "type": "WAYPOINT" },
-  { "name": "AMDUT", "x": 137.45, "y": 39.11, "type": "WAYPOINT" },
-  { "name": "KUNAV", "x": 143.19, "y": 44.26, "type": "WAYPOINT" },
-  { "name": "IMVUR", "x": 118.39, "y": 31.35, "type": "WAYPOINT" },
-  { "name": "KKEO5", "x": 134.54, "y": 32.49, "type": "WAYPOINT" },
-  { "name": "KKNO9", "x": 133.48, "y": 28.13, "type": "WAYPOINT" },
-  { "name": "KKW19", "x": 126.2, "y": 29.65, "type": "WAYPOINT" },
-  { "name": "KKEO3", "x": 132.93, "y": 32.89, "type": "WAYPOINT" },
-  { "name": "SFD", "x": 134.21, "y": 43.74, "type": "VOR-DME" },
-  { "name": "TUNBY", "x": 142.44, "y": 32.97, "type": "WAYPOINT" },
-  { "name": "DET", "x": 142.99, "y": 30.5, "type": "VOR-DME" },
-  { "name": "FRANE", "x": 144.28, "y": 27.19, "type": "WAYPOINT" },
-  { "name": "ACORN", "x": 129.19, "y": 30.62, "type": "WAYPOINT" },
-  { "name": "EPSOM", "x": 124.8, "y": 31.71, "type": "WAYPOINT" },
-  { "name": "VALDI", "x": 129.71, "y": -0.06, "type": "WAYPOINT" },
-  { "name": "BEKET", "x": 122.2, "y": 2.29, "type": "WAYPOINT" },
-  { "name": "OVDAN", "x": 134.17, "y": 11.59, "type": "WAYPOINT" },
-  { "name": "BEREP", "x": 143.79, "y": 10.11, "type": "WAYPOINT" },
-  { "name": "RIMOL", "x": 117.04, "y": 12.46, "type": "WAYPOINT" },
-  { "name": "GOSAM", "x": 116.41, "y": 21.06, "type": "WAYPOINT" },
-  { "name": "NEXUS", "x": 123.84, "y": 19.5, "type": "WAYPOINT" },
-  { "name": "LAKEY", "x": 120.79, "y": 25.36, "type": "WAYPOINT" },
-  { "name": "GASKO", "x": 125.09, "y": 25.05, "type": "WAYPOINT" },
-  { "name": "DUFFY", "x": 110.7, "y": 25.68, "type": "WAYPOINT" },
-  { "name": "LUSAT", "x": 110.7, "y": 31.78, "type": "WAYPOINT" },
-  { "name": "ERABI", "x": 103.03, "y": 33.34, "type": "WAYPOINT" },
-  { "name": "WTD", "x": 109.06, "y": 38.27, "type": "NDB" },
-  { "name": "EMILI", "x": 174.22, "y": 100.44, "type": "WAYPOINT" },
-  { "name": "PHA", "x": 133.38, "y": 99.47, "type": "VOR-DME" },
-  { "name": "ANANE", "x": 138.002, "y": 116.031, "type": "WAYPOINT" },
-  { "name": "IREFA", "x": 167.53, "y": 108.94, "type": "WAYPOINT" },
-  { "name": "LCRA", "x": 147.014, "y": 101.043, "type": "WAYPOINT" },
-  { "name": "MEZUS", "x": 124.284, "y": 108.94, "type": "WAYPOINT" }
+  {
+    "name": "BALNA",
+    "x": 243.1,
+    "y": 133.11,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "DEGOS",
+    "x": 250.77,
+    "y": 137.26,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "NIMAT",
+    "x": 258.65,
+    "y": 141.62,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BAGSO",
+    "x": 266.47,
+    "y": 154.19,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "VATRY",
+    "x": 266.47,
+    "y": 168.65,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LESLU",
+    "x": 233.79,
+    "y": 190.87,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LEDGO",
+    "x": 246.92,
+    "y": 184.62,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BANBA",
+    "x": 258.78,
+    "y": 179.31,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "DINIM",
+    "x": 162.93,
+    "y": 190.87,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ELSOX",
+    "x": 174.74,
+    "y": 190.87,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "GIPER",
+    "x": 193.33,
+    "y": 190.87,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MAPAG",
+    "x": 213.66,
+    "y": 190.87,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LIMRI",
+    "x": 162.93,
+    "y": 174.93,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "TOBOR",
+    "x": 162.93,
+    "y": 158.99,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "NEBIN",
+    "x": 162.93,
+    "y": 143.04,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "DOGAL",
+    "x": 162.93,
+    "y": 127.1,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "NIBOG",
+    "x": 212.74,
+    "y": 110.19,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "GOMUP",
+    "x": 212.74,
+    "y": 91.86,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BALIX",
+    "x": 212.74,
+    "y": 73.53,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RATSU",
+    "x": 212.74,
+    "y": 18.58,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ATSIX",
+    "x": 212.74,
+    "y": 55.22,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LUSEN",
+    "x": 212.74,
+    "y": 36.9,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RUBEX",
+    "x": 248.4,
+    "y": 110.67,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MATIK",
+    "x": 240.77,
+    "y": 18.58,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "OSBON",
+    "x": 282.59,
+    "y": 18.58,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RIXUN",
+    "x": 305.1,
+    "y": 18.58,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "SOSAR",
+    "x": 323.54,
+    "y": 18.58,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "GUNPA",
+    "x": 342.86,
+    "y": 18.58,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "TRSTN",
+    "x": 281.78,
+    "y": 87.74,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KRDSH",
+    "x": 309.81,
+    "y": 153.25,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MINTY",
+    "x": 300.26,
+    "y": 223.18,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "HIDEN",
+    "x": 306.63,
+    "y": 166.39,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "GARYY",
+    "x": -35.96,
+    "y": 41.9,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ARKIL",
+    "x": 233.79,
+    "y": 207.04,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LULOX",
+    "x": 233.79,
+    "y": 223.22,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "GAPLA",
+    "x": 233.79,
+    "y": 239.39,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "TAKAS",
+    "x": 233.79,
+    "y": 255.56,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "TOJAQ",
+    "x": 253.24,
+    "y": 251.42,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "DAWLY",
+    "x": 273,
+    "y": 247.38,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ORIST",
+    "x": 292.14,
+    "y": 243.08,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KOTEM",
+    "x": 309.27,
+    "y": 243.22,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MEZRE",
+    "x": 327.41,
+    "y": 243.08,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KUNAV",
+    "x": 338.59,
+    "y": 239.88,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KESAX",
+    "x": 343.67,
+    "y": 255.27,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "OPALE",
+    "x": 349.04,
+    "y": 271.67,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "DOREN",
+    "x": 354.27,
+    "y": 287.21,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "VESAR",
+    "x": 372.27,
+    "y": 278.64,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "SUMAM",
+    "x": 365.88,
+    "y": 256.87,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "TAKAS",
+    "x": 366.75,
+    "y": 243.95,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "OLMAV",
+    "x": 362.61,
+    "y": 231.32,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RINTI",
+    "x": 362.65,
+    "y": 219.71,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KONAN",
+    "x": 374.36,
+    "y": 217.09,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "XAMAN",
+    "x": 376.77,
+    "y": 199.76,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "SOMVA",
+    "x": 385.28,
+    "y": 172.04,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "GODOS",
+    "x": 389.6,
+    "y": 158.17,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "EBAGO",
+    "x": 393.49,
+    "y": 144.3,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "GOVRA",
+    "x": 397.53,
+    "y": 130.43,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ACAGE",
+    "x": 327.99,
+    "y": 130.43,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BENUX",
+    "x": 368.49,
+    "y": 130.43,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ATNAK",
+    "x": 398.14,
+    "y": 102.93,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "VAXIT",
+    "x": 397.83,
+    "y": 116.88,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PEPIN",
+    "x": 342.86,
+    "y": 53.36,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ORVIK",
+    "x": 356.92,
+    "y": 65.75,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RIGVO",
+    "x": 370.47,
+    "y": 78.14,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ALOTI",
+    "x": 384.33,
+    "y": 90.54,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "TOMBI",
+    "x": 308.8,
+    "y": 308.76,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KATOK",
+    "x": 245.22,
+    "y": 320.87,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ANTEX",
+    "x": 245.22,
+    "y": 334.97,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MELLA",
+    "x": 245.22,
+    "y": 357.39,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "SATOE",
+    "x": 245.22,
+    "y": 379.1,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "NEGON",
+    "x": 245.22,
+    "y": 392.47,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "POKAK",
+    "x": 232.59,
+    "y": 398.32,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "TEKOL",
+    "x": 215.38,
+    "y": 398.32,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KARUM",
+    "x": 197.52,
+    "y": 398.32,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BEROX",
+    "x": 180,
+    "y": 398.32,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "VESKA",
+    "x": 162.44,
+    "y": 398.32,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KISAS",
+    "x": 145.78,
+    "y": 398.32,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PALAS",
+    "x": 147.09,
+    "y": 374.23,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PIGBI",
+    "x": 148.25,
+    "y": 358.84,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ETBOD",
+    "x": 146.07,
+    "y": 326.62,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ASIVO",
+    "x": 239.99,
+    "y": 312.53,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BETIR",
+    "x": 230.27,
+    "y": 305.23,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "CHUMA",
+    "x": 220.54,
+    "y": 297.92,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LERED",
+    "x": 164.22,
+    "y": 282.63,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PIXAR",
+    "x": 182.66,
+    "y": 285.58,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "POKEG",
+    "x": 201.23,
+    "y": 288.54,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "SEKAR",
+    "x": 152.9,
+    "y": 282.63,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MALVN",
+    "x": 136.93,
+    "y": 282.63,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BOTES",
+    "x": 121.69,
+    "y": 281.47,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ALBBE",
+    "x": 107.32,
+    "y": 279.44,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BODLO",
+    "x": 93.38,
+    "y": 277.26,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "JOSES",
+    "x": 85.43,
+    "y": 289.31,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MODIT",
+    "x": 77.49,
+    "y": 301.36,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "DEPSI",
+    "x": 69.54,
+    "y": 313.41,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KEBET",
+    "x": 61.59,
+    "y": 325.45,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "NOSIS",
+    "x": 80.84,
+    "y": 341.66,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MUPOV",
+    "x": 99.37,
+    "y": 357.87,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LENOM",
+    "x": 119.22,
+    "y": 374.08,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KUNAD",
+    "x": 93.38,
+    "y": 260.71,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LUMES",
+    "x": 104.56,
+    "y": 252.58,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KOKES",
+    "x": 117.19,
+    "y": 242.13,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ERNIK",
+    "x": 127.64,
+    "y": 228.63,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KUTAL",
+    "x": 140.27,
+    "y": 223.7,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "AGURA",
+    "x": 140.27,
+    "y": 208.17,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LISKI",
+    "x": 152.03,
+    "y": 199.02,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "IRKID",
+    "x": 193.62,
+    "y": 276.58,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "NAVIX",
+    "x": 217.35,
+    "y": 266.93,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BEXAL",
+    "x": 323.95,
+    "y": 301.58,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "DEGUN",
+    "x": 339.11,
+    "y": 294.39,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BONEK",
+    "x": 291.14,
+    "y": 310.92,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "GOSGA",
+    "x": 273.49,
+    "y": 313.07,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LEPRU",
+    "x": 255.83,
+    "y": 315.23,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ALLEG",
+    "x": 397.42,
+    "y": 266.84,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "NIKAS",
+    "x": 397.42,
+    "y": 283.29,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "FANOS",
+    "x": 397.42,
+    "y": 299.73,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BALMA",
+    "x": 397.42,
+    "y": 316.18,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RUDER",
+    "x": 397.42,
+    "y": 332.63,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "DIRRE",
+    "x": 397.42,
+    "y": 349.08,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KOBER",
+    "x": 397.42,
+    "y": 365.53,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LITAN",
+    "x": 397.42,
+    "y": 381.98,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "INBAR",
+    "x": 397.42,
+    "y": 398.43,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PASOS",
+    "x": 361.66,
+    "y": 398.43,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LAKTO",
+    "x": 325.93,
+    "y": 398.43,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RASDA",
+    "x": 289.87,
+    "y": 398.43,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KAVOS",
+    "x": 254,
+    "y": 398.43,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ALKIS",
+    "x": 245.22,
+    "y": 346.28,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ASLIB",
+    "x": 295.47,
+    "y": 143.07,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "REDFA",
+    "x": 381.23,
+    "y": 185.9,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "GENOS",
+    "x": 245.22,
+    "y": 364.83,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ODUKU",
+    "x": 353.66,
+    "y": 195.57,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BPK",
+    "x": 318.47,
+    "y": 183.88,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LAM",
+    "x": 311.08,
+    "y": 178.31,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BCN",
+    "x": 293.09,
+    "y": 179.63,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LEKCI",
+    "x": 306.83,
+    "y": 194.14,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "EXMOR",
+    "x": 277.75,
+    "y": 218.82,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "NOVMA",
+    "x": 283.1,
+    "y": 222.02,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "IMVUR",
+    "x": 295.24,
+    "y": 213.25,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BOGNA",
+    "x": 315.26,
+    "y": 238.68,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "WIZAD",
+    "x": 359.5,
+    "y": 225.27,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "SFD",
+    "x": 342.9,
+    "y": 234.48,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ODVIK",
+    "x": 354.48,
+    "y": 217.05,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LAPPA",
+    "x": 333.92,
+    "y": 252.62,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "GALOZ",
+    "x": 229.4,
+    "y": 270.72,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LUBES",
+    "x": 289.76,
+    "y": 343.2,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "NORDI",
+    "x": 300.91,
+    "y": 342.77,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "EMEDA",
+    "x": 352.86,
+    "y": 386.22,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ESERI",
+    "x": 286.64,
+    "y": 376.55,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RDFLG",
+    "x": 225.39,
+    "y": 246.03,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "TKA",
+    "x": 153.39,
+    "y": 274.73,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "GAL",
+    "x": 110.25,
+    "y": 254.45,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PUYVO",
+    "x": 153.39,
+    "y": 251.49,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ENN",
+    "x": 126.09,
+    "y": 251.33,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "FAI",
+    "x": 167.51,
+    "y": 224.26,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "SHMMR",
+    "x": 197.15,
+    "y": 236.98,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "TEXOS",
+    "x": 219.22,
+    "y": 324.51,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PC101",
+    "x": 219.68,
+    "y": 318.27,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PC106",
+    "x": 220.15,
+    "y": 336.48,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PC103",
+    "x": 225.23,
+    "y": 332.06,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MIBNI",
+    "x": 181.15,
+    "y": 331.17,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RETAK",
+    "x": 144.98,
+    "y": 297.21,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MAROG",
+    "x": 219.22,
+    "y": 328.14,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PC202",
+    "x": 199.87,
+    "y": 312.92,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PC200",
+    "x": 203.23,
+    "y": 326.1,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PC198",
+    "x": 203.23,
+    "y": 327.81,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ST530",
+    "x": 184.04,
+    "y": 314.71,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ST551",
+    "x": 187.24,
+    "y": 307.54,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KODIX",
+    "x": 200.26,
+    "y": 333.98,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ST548",
+    "x": 158.53,
+    "y": 301.61,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ST571",
+    "x": 154.86,
+    "y": 299.74,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MA647",
+    "x": 299.72,
+    "y": 297.5,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MA401",
+    "x": 274.58,
+    "y": 298.04,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PS702",
+    "x": 333.81,
+    "y": 276.13,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MA402",
+    "x": 271.71,
+    "y": 303.39,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MA403",
+    "x": 255.72,
+    "y": 296.99,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RIMEX",
+    "x": 321,
+    "y": 356.69,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "GIPRO",
+    "x": 312.3,
+    "y": 356.85,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "NIMSI",
+    "x": 259.06,
+    "y": 364.83,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PH950",
+    "x": 302.2,
+    "y": 359.46,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PH901",
+    "x": 294.52,
+    "y": 359,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PH965",
+    "x": 289.28,
+    "y": 364.05,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "SOBOS",
+    "x": 377.37,
+    "y": 334.74,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "REXAL",
+    "x": 362.85,
+    "y": 355.95,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "AMAKO",
+    "x": 374.32,
+    "y": 353.14,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ADLAS",
+    "x": 316.44,
+    "y": 329.98,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BOSIS",
+    "x": 350.56,
+    "y": 372.45,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LK601",
+    "x": 327.71,
+    "y": 351.23,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LK400",
+    "x": 343.07,
+    "y": 334.62,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KKS25",
+    "x": 310.02,
+    "y": 230.4,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KKW08",
+    "x": 309.8,
+    "y": 218.32,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KKW09",
+    "x": 302.9,
+    "y": 218.6,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MID",
+    "x": 293.16,
+    "y": 221.46,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KKW19",
+    "x": 308.15,
+    "y": 212.12,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KKN09",
+    "x": 329.76,
+    "y": 210.91,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KKE05",
+    "x": 329.99,
+    "y": 216.68,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KKE04",
+    "x": 336.61,
+    "y": 215.22,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KKS13",
+    "x": 312.34,
+    "y": 222.76,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KKS14",
+    "x": 328.91,
+    "y": 224.48,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MAY",
+    "x": 345.55,
+    "y": 228.71,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LCE02",
+    "x": 337.67,
+    "y": 199.52,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LCE01",
+    "x": 330.07,
+    "y": 207.91,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LCE04",
+    "x": 341.46,
+    "y": 192.97,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LCN03",
+    "x": 325.9,
+    "y": 196.83,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LCN02",
+    "x": 318.8,
+    "y": 198.23,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LCW01",
+    "x": 319.26,
+    "y": 207.94,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ELREW",
+    "x": 296.53,
+    "y": 155.7,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BAJJA",
+    "x": 272.15,
+    "y": 174.92,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "IZLAW",
+    "x": 275.84,
+    "y": 228.7,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "FARJO",
+    "x": 258.06,
+    "y": 234.06,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "CDF",
+    "x": 282.82,
+    "y": 201.15,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PILIM",
+    "x": 299.9,
+    "y": 278.02,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MA533",
+    "x": 307.43,
+    "y": 284.94,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "EKNOT",
+    "x": 310.77,
+    "y": 301.92,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PILIM",
+    "x": 298.72,
+    "y": 265.35,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "IBBAN",
+    "x": 285.38,
+    "y": 250.65,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KICAS",
+    "x": 311.82,
+    "y": 253.24,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RAKUN",
+    "x": 327.08,
+    "y": 265.91,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "NIDUL",
+    "x": 227.21,
+    "y": 282.68,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MA542",
+    "x": 262.59,
+    "y": 263.03,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LCA",
+    "x": 335.29,
+    "y": 343.76,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "DAROS",
+    "x": 304.39,
+    "y": 320.77,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "OTESA",
+    "x": 322.12,
+    "y": 334.3,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PHA",
+    "x": 285.87,
+    "y": 356.32,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KURSA",
+    "x": 297.6,
+    "y": 356.85,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "TOBAL",
+    "x": 257.1,
+    "y": 333.49,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PH940",
+    "x": 270.86,
+    "y": 344.19,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ANEBI",
+    "x": 184.28,
+    "y": 346.21,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "AGNAL",
+    "x": 195.92,
+    "y": 316.38,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "NADAX",
+    "x": 168.69,
+    "y": 348.44,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "PC109",
+    "x": 185.38,
+    "y": 373.17,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BEREL",
+    "x": 188.57,
+    "y": 299.37,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MESPA",
+    "x": 233.43,
+    "y": 339.8,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "WILLO",
+    "x": 325.8,
+    "y": 233.95,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ARNUN",
+    "x": 347.79,
+    "y": 205.78,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "AMDUT",
+    "x": 355.83,
+    "y": 244.82,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "DISIT",
+    "x": 299.11,
+    "y": 189.46,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "KIDLI",
+    "x": 303.04,
+    "y": 199.07,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "MID",
+    "x": 313.35,
+    "y": 214.27,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RIBEL",
+    "x": 299.81,
+    "y": 129.13,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ABEVI",
+    "x": 295.61,
+    "y": 120.32,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "RUHUN",
+    "x": 277.94,
+    "y": 193.59,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "DAVAZ",
+    "x": 252.86,
+    "y": 199.95,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BRUCE",
+    "x": 270.08,
+    "y": 104.21,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "LONDU",
+    "x": 185.51,
+    "y": 164.84,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "DEVOL",
+    "x": 205.43,
+    "y": 139.68,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "OSGAR",
+    "x": 230.59,
+    "y": 161.35,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "IBATU",
+    "x": 237.23,
+    "y": 140.21,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "BAZNA",
+    "x": 339.19,
+    "y": 165.88,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "ODMOS",
+    "x": 347.75,
+    "y": 141.25,
+    "type": "WAYPOINT"
+  },
+  {
+    "name": "IRDUK",
+    "x": 367.32,
+    "y": 156.62,
+    "type": "WAYPOINT"
+  }
 ]
