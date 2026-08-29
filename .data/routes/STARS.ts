@@ -45,7 +45,7 @@ export const STARS: TStars = {
 	"PAFA": {
 		"2L": {
 			"LIBER5": [
-				"CAWIN", "LIBER", "GLOWS"
+				"CAWIN", "STARC", "GLOWS"
 			],
 			"HRDNG4": [
 				"HRDNG", "RNDRR", "KRIIS"
@@ -53,7 +53,7 @@ export const STARS: TStars = {
 		},
 		"20R": {
 			"LIBER5": [
-				"CAWIN", "LIBER", "STARC", "MINRR"
+				"CAWIN", "STARC", "MINRR"
 			],
 			"HRDNG4": [
 				"HRDNG", "RNDRR", "ROAAD"
@@ -297,21 +297,6 @@ export const STARS: TStars = {
 				"KICAS", "PILIM"
 			]
 		},
-	},
-
-	"PAFA": {
-		"02L": {
-			"Vectors": []
-		},
-		"02R": {
-			"Vectors": []
-		},
-		"20R": {
-			"Vectors": []
-		},
-		"20L": {
-			"Vectors": []
-		}
 	}
 }
 
