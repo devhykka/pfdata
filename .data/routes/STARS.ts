@@ -210,10 +210,26 @@ export const STARS: TStars = {
 
 	"LCPH": {
 		"11": {
-			"Vectors": []
-		},
-		"29": {
-			"Vectors": []
+			"NORDI1T": [
+                "NORDI", "PHA"
+            ],
+			"TOBAL1T": [
+                "TOBAL", "PH940", "PHA"
+            ],
+			"GIPRO1A": [
+                "GIPRO", "KURSA", "PHA"
+            ]
+            },
+        "29": {
+           "NORDI1T": [
+                "NORDI", "PHA"
+            ],
+			"TOBAL1T": [
+                "TOBAL", "PH940", "PHA"
+            ],
+			"GIPRO1A": [
+                "GIPRO", "KURSA", "PHA"
+            ]
 		}
 	},
 
