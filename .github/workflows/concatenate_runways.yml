@@ -35,10 +35,8 @@ jobs:
           # Add or remove ICAO codes here as needed (filenames are <CODE>.json)
           # ---------------------------------------------------------------
           APPROVED_CODES=(
-            EFKT
             EGFF
             EGLC
-            EGHI
             EGKK
             GCLP
             LCLK
