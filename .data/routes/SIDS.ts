@@ -123,7 +123,7 @@ export const SIDS: TSids = {
                  "KKN09", "KKW19" , "IMVUR" 
             ],
             "ODVIK2Z": [ 
-                 "KKE04", "KKE10", "KKE17", "ODVIK"
+                 "KKE04", "ODVIK"
             ],
 			"SFD4Z": [
 				"KKE05", "SFD"
@@ -134,13 +134,13 @@ export const SIDS: TSids = {
 		},
 		"26L": {
 			"BOGNA1X": [
-				"KKW06", "KKW08", "KKS11", "KKS20", "KKS25", "BOGNA"
+				"KKW08", "KKS25", "BOGNA"
 			],
 			"NOVMA1X": [
-				"KKW07", "KKW09", "NOVMA"
+				"KKW09", "MID", "NOVMA"
 			],
 			"WIZAD1X": [
-				"KKW04", "KKW06", "KKS09", "KKS14", "KKS33", "WIZAD"
+				"KKW08", "KKS13", "KKS14", "MAY", "WIZAD"
 			],
 			"SFD1X": [
 				"KKW08", "KKS13", "SFD"
@@ -218,7 +218,7 @@ export const SIDS: TSids = {
 		},
 		"22": {
 			"LUBES1W": [
-				"LK601", "RIMEX", "PEEKO", "NORDI", "LUBES"
+				"LK601", "RIMEX", "LUBES"
 			],
 			"KURSA1W": [
 				"LK601", "RIMEX", "GIPRO", "KURSA"
