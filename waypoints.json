@@ -270,25 +270,25 @@
     "type": "WAYPOINT"
   },
   {
-    "name": "DOREN",
+    "name": "SITET",
     "x": 354.27,
     "y": 287.21,
     "type": "WAYPOINT"
   },
   {
-    "name": "VESAR",
+    "name": "VESAN",
     "x": 372.27,
     "y": 278.64,
     "type": "WAYPOINT"
   },
   {
-    "name": "SUMAM",
+    "name": "SUMUM",
     "x": 365.88,
     "y": 256.87,
     "type": "WAYPOINT"
   },
   {
-    "name": "TAKAS",
+    "name": "ABNED",
     "x": 366.75,
     "y": 243.95,
     "type": "WAYPOINT"
@@ -1416,7 +1416,7 @@
     "type": "WAYPOINT"
   },
   {
-    "name": "MID",
+    "name": "OCK",
     "x": 313.35,
     "y": 214.27,
     "type": "WAYPOINT"
