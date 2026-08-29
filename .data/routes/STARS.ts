@@ -210,10 +210,26 @@ export const STARS: TStars = {
 
 	"LCPH": {
 		"11": {
-			"Vectors": []
-		},
-		"29": {
-			"Vectors": []
+			"NORDI1T": [
+                "NORDI", "PHA"
+            ],
+			"TOBAL1T": [
+                "TOBAL", "PH940", "PHA"
+            ],
+			"GIPRO1A": [
+                "GIPRO", "KURSA", "PHA"
+            ]
+            },
+        "29": {
+           "NORDI1T": [
+                "NORDI", "PHA"
+            ],
+			"TOBAL1T": [
+                "TOBAL", "PH940", "PHA"
+            ],
+			"GIPRO1A": [
+                "GIPRO", "KURSA", "PHA"
+            ]
 		}
 	},
 
@@ -222,6 +238,58 @@ export const STARS: TStars = {
 			"Vectors": []
 		},
 		"28": {
+			"Vectors": []
+		}
+	},
+
+	"LPMA": {
+		"05": {
+			"RAKUN1P": [
+				"RAKUN", "PILIM"
+			],
+			"EKNOT1P": [
+				"EKNOT", "MA533", "PILIM"
+			],
+			"NIDUL1P": [
+				"NIDUL", "MA542", "MA538", "PILIM"
+			],
+			"IBBAN1P": [
+				"IBBAN", "MA538", "PILIM"
+			],
+			"KICAS1P": [
+				"KICAS", "PILIM"
+			]
+		},
+		"23": {
+			"RAKUN1P": [
+				"RAKUN", "PILIM"
+			],
+			"EKNOT1P": [
+				"EKNOT", "MA533", "PILIM"
+			],
+			"NIDUL1P": [
+				"NIDUL", "MA542", "MA538", "PILIM"
+			],
+			"IBBAN1P": [
+				"IBBAN", "MA538", "PILIM"
+			],
+			"KICAS1P": [
+				"KICAS", "PILIM"
+			]
+		},
+	},
+
+	"PAFA": {
+		"02L": {
+			"Vectors": []
+		},
+		"02R": {
+			"Vectors": []
+		},
+		"20R": {
+			"Vectors": []
+		},
+		"20L": {
 			"Vectors": []
 		}
 	}
