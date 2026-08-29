@@ -271,7 +271,7 @@ def validate_waypoints(repo_root, report):
                         f"Waypoints {unique_names} share the exact same coordinates ({x}, {y}).")
 
 
-def validate_callsigns(repo_root, report):
+def validate_callsigns(repo_root, report, verbose_callsigns=False):
     path = os.path.join(repo_root, "callsigns.json")
     if not os.path.isfile(path):
         return
@@ -291,10 +291,17 @@ def validate_callsigns(repo_root, report):
 
     # Large pre-existing backlog here, and ICAO 3-letter codes are legitimately
     # reused by different real-world airlines in different regions — non-blocking.
-    dup_count = sum(1 for v in icao_seen.values() if len(v) > 1)
-    if dup_count:
+    dupes = {icao: callsigns for icao, callsigns in icao_seen.items() if len(callsigns) > 1}
+    if not dupes:
+        return
+
+    if verbose_callsigns:
+        for icao, callsigns in sorted(dupes.items()):
+            report.add(WARNING, "duplicate-icao", path,
+                        f"ICAO '{icao}' has {len(callsigns)} callsign entries: {callsigns}")
+    else:
         report.add(WARNING, "duplicate-icao", path,
-                    f"{dup_count} ICAO code(s) have more than one callsign entry. "
+                    f"{len(dupes)} ICAO code(s) have more than one callsign entry. "
                     f"Run with --verbose-callsigns to list them.")
 
 
@@ -327,6 +334,9 @@ def main():
     parser.add_argument("--repo-root", default=".")
     parser.add_argument("--json", default="validation-report.json")
     parser.add_argument("--markdown", default="validation-report.md")
+    parser.add_argument("--verbose-callsigns", action="store_true",
+                         help="List every duplicate ICAO code in callsigns.json individually "
+                              "instead of a single summary line.")
     args = parser.parse_args()
 
     repo_root = os.path.abspath(args.repo_root)
@@ -336,7 +346,7 @@ def main():
     validate_sectors(repo_root, report)
     validate_stations(repo_root, report)
     validate_waypoints(repo_root, report)
-    validate_callsigns(repo_root, report)
+    validate_callsigns(repo_root, report, verbose_callsigns=args.verbose_callsigns)
 
     for i in report.issues:
         rel = os.path.relpath(i["file"], repo_root) if os.path.isabs(i["file"]) else i["file"]
