@@ -1,7 +1,7 @@
 name: Auto-generate runways.json (PR)
 
 on:
-  pull_request_target:
+  pull_request:
     branches: [ main ]
     paths:
       - ".data/runways/**"
@@ -126,6 +126,7 @@ jobs:
         run: python .github/workflows/concatenate_runways.py
 
       - name: Commit changes (if any) and push back to PR
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -136,7 +137,18 @@ jobs:
           fi
           git commit -m "Update runways.json"
           git pull --rebase
-          git push
+          if git push; then
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Explain when auto-push isn't possible (fork PRs)
+        if: steps.commit.outputs.pushed == 'false'
+        run: |
+          echo "::error::runways.json is out of date and this PR is from a fork, so the bot has no permission to push the update here."
+          echo "::error::Please run 'python .github/workflows/concatenate_runways.py' locally and commit the updated runways.json, or ask a maintainer to enable 'Allow edits from maintainers' on this PR."
+          exit 1
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
