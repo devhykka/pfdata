@@ -189,21 +189,27 @@ export const STARS: TStars = {
 	"LCLK": {
 		"04": {
 			"LUBES1R": [
-				"LUBES", "NORDI", "PEEKO"
+				"LUBES", "RIMEX"
 			],
-			"KURSA1R": [
-				"KURSA", "GIPRO", "RIMEX"
+			"PHA1R": [
+				"PHA", "KURSA", "GIPRO", "RIMEX"
+			],
+			"LUBES1A": [
+				"LUBES", "LCA"
+			],
+			"PHA1C": [
+				"PHA", "LCA"
 			]
 		},
 		"22": {
 			"BONEK1R": [
-				"BONEK", "ADLAS", "AMAKO", "SOBOS", "ROKIK"
+				"BONEK", "DAROS", "ADLAS", "OTESA", "LCA"
 			],
-			"NIMSI1R": [
-				"NIMSI", "ESERI", "BETID", "BOSIS", "AMAKO", "SOBOS", "ROKIK"
+			"LUBES1A": [
+				"LUBES", "LCA"
 			],
-			"KRASI1V": [
-				"KRASI", "MURAT", "ROKIK"
+			"PHA1C": [
+				"PHA", "LCA"
 			]
 		}
 	},
