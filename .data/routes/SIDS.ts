@@ -13,55 +13,55 @@ export const SIDS: TSids = {
 				"MAROG", "KATOK"
 			],
 			"CHUMA2T": [
-				"MAROG", "PC114", "CHUMA"
+				"MAROG", "PC101","CHUMA"
 			],
 			"PIXAR2T": [
-				"MAROG", "PC114", "PIXAR"
+				"MAROG", "PC101", "PIXAR"
 			],
 			"ETBOD2T": [
-				"MAROG", "PC103", "PC106", "MIBNI", "PC200", "ETBOD"
+				"MAROG", "PC103", "PC106", "MIBNI", "ETBOD"
 			]
 		},
 		"27": {
 			"KATOK3T": [
-				"PC199", "PC201", "PC114", "KATOK"
+				"PC198", "PC202", "KATOK"
 			],
 			"CHUMA3T": [
-				"PC199", "PC201", "PC114", "CHUMA"
+				"PC198", "PC202", "CHUMA"
 			],
 			"PIXAR3T": [
-				"PC199", "PC201", "PC202", "PIXAR"
+				"PC198", "PC202", "PIXAR"
 			],
 			"ETBOD3T": [
-				"PC199", "PC201", "PC202", "PIXAR"
+				"PC198", "MIBNI", "ETBOD"
 			]
 		},
 		"08": {
 			"KATOK2T": [
-				"MAROG", "KATOK"
+				"TEXOS", "KATOK"
 			],
 			"CHUMA2T": [
-				"MAROG", "PC114", "CHUMA"
+				"TEXOS", "PC101", "CHUMA"
 			],
 			"PIXAR2T": [
-				"MAROG", "PC114", "PIXAR"
+				"TEXOS", "PC101", "PIXAR"
 			],
 			"ETBOD2T": [
-				"MAROG", "PC103", "PC106", "MIBNI", "PC200", "ETBOD"
+				"TEXOS", "PC103", "PC106", "MIBNI", "ETBOD"
 			]
 		},
 		"26": {
 			"KATOK3T": [
-				"PC199", "PC201", "PC114", "KATOK"
+				"PC200", "PC202", "KATOK"
 			],
 			"CHUMA3T": [
-				"PC199", "PC201", "PC114", "CHUMA"
+				"PC200", "PC202", "CHUMA"
 			],
 			"PIXAR3T": [
-				"PC199", "PC201", "PC202", "PIXAR"
+				"PC200", "PC202", "PIXAR"
 			],
 			"ETBOD3T": [
-				"PC199", "PC201", "PC202", "PIXAR"
+				"PC200", "MIBNI", "ETBOD"
 			]
 		}
 	},
