@@ -41,6 +41,26 @@ export const STARS: TStars = {
 			]
 		}
 	},
+	
+	"PAFA": {
+		"2L": {
+			"LIBER5": [
+				"CAWIN", "LIBER", "GLOWS"
+			],
+			"HRDNG4": [
+				"HRDNG", "RNDRR", "KRIIS"
+			]
+		},
+		"20R": {
+			"LIBER5": [
+				"CAWIN", "LIBER", "STARC", "MINRR"
+			],
+			"HRDNG4": [
+				"HRDNG", "RNDRR", "ROAAD"
+			]
+		
+		}
+	},
 
 	"MDPC": {
 		"08": {
