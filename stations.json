@@ -39,17 +39,6 @@
     {
       "name": "Santo Domingo Control",
       "callsign": "MDCS_CTR",
-      "frequency": 124.3,
-      "facility": "Enroute",
-      "line1": "Santo Domingo Control",
-      "line2": "Coverage at map.pfatc.net",
-      "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
-      "line4": "Submit feedback at feedback.pfatc.net",
-      "sectors": ["MDCS"]
-    },
-    {
-      "name": "Santo Domingo Control",
-      "callsign": "MDCS_N_CTR",
       "frequency": 124.8,
       "facility": "Enroute",
       "line1": "Santo Domingo Control",
@@ -60,8 +49,19 @@
     },
     {
       "name": "Santo Domingo Control",
+      "callsign": "MDCS_N_CTR",
+      "frequency": 124.3,
+      "facility": "Enroute",
+      "line1": "Santo Domingo Control",
+      "line2": "Coverage at map.pfatc.net",
+      "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line4": "Submit feedback at feedback.pfatc.net",
+      "sectors": ["MDCS"]
+    },
+    {
+      "name": "Santo Domingo Control",
       "callsign": "MDCS_S_CTR",
-      "frequency": 127.8,
+      "frequency": 124.6,
       "facility": "Enroute",
       "line1": "Santo Domingo Control",
       "line2": "Coverage at map.pfatc.net",
@@ -74,7 +74,7 @@
     {
       "name": "Punta Cana Approach",
       "callsign": "MDPC_APP",
-      "frequency": 119.7,
+      "frequency": 119.750,
       "facility": "Approach/Departure",
       "line1": "Punta Cana Approach",
       "line2": "Charts on charts.pfatc.net",
@@ -197,7 +197,7 @@
     {
       "name": "Antoine Simon Information",
       "callsign": "MTCA_RDO",
-      "frequency": 118.5,
+      "frequency": 118.9,
       "facility": "Tower",
       "line1": "Antoine Simon Information",
       "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
@@ -221,7 +221,7 @@
     {
       "name": "Lisboa Control",
       "callsign": "LPPC_CTR",
-      "frequency": 130.9,
+      "frequency": 132.555,
       "facility": "Enroute",
       "line1": "Lisboa Control | CPDLC [INOP]",
       "line2": "Coverage at map.pfatc.net",
@@ -234,7 +234,7 @@
     {
       "name": "Nicosia Radar",
       "callsign": "LCCC_CTR",
-      "frequency": 124.2,
+      "frequency": 128.605,
       "facility": "Enroute",
       "line1": "Nicosia Radar",
       "line2": "Coverage at map.pfatc.net",
@@ -245,7 +245,7 @@
     {
       "name": "Nicosia Radar (East Sector)",
       "callsign": "LCCC_E_CTR",
-      "frequency": 126.3,
+      "frequency": 126.305,
       "facility": "Enroute",
       "line1": "Nicosia Radar",
       "line2": "Coverage at map.pfatc.net",
@@ -256,7 +256,7 @@
     {
       "name": "Nicosia Radar (West Sector)",
       "callsign": "LCCC_W_CTR",
-      "frequency": 125.5,
+      "frequency": 125.505,
       "facility": "Enroute",
       "line1": "Nicosia Radar",
       "line2": "Coverage at map.pfatc.net",
@@ -267,7 +267,7 @@
     {
       "name": "Nicosia Radar (South 1 Sector)",
       "callsign": "LCCC_S1_CTR",
-      "frequency": 128.6,
+      "frequency": 124.205,
       "facility": "Enroute",
       "line1": "Nicosia Radar",
       "line2": "Coverage at map.pfatc.net",
@@ -278,7 +278,7 @@
     {
       "name": "Nicosia Radar (South 2 Sector)",
       "callsign": "LCCC_S2_CTR",
-      "frequency": 124.2,
+      "frequency": 129.555,
       "facility": "Enroute",
       "line1": "Nicosia Radar",
       "line2": "Coverage at map.pfatc.net",
@@ -291,7 +291,7 @@
     {
       "name": "Larnaca Approach",
       "callsign": "LCLK_APP",
-      "frequency": 130.2,
+      "frequency": 130.205,
       "facility": "Approach/Departure",
       "line1": "Larnaka Approach",
       "line2": "Charts at charts.pfatc.net",
@@ -301,7 +301,7 @@
     {
       "name": "Larnaca Tower",
       "callsign": "LCLK_TWR",
-      "frequency": 121.2,
+      "frequency": 121.205,
       "facility": "Tower",
       "line1": "Larnaka Tower",
       "line2": "Charts at charts.pfatc.net",
@@ -311,7 +311,7 @@
     {
       "name": "Larnaca Ground",
       "callsign": "LCLK_GND",
-      "frequency": 119.4,
+      "frequency": 121.905,
       "facility": "Ground",
       "line1": "Larnaka Ground",
       "line2": "Charts at charts.pfatc.net",
@@ -333,7 +333,7 @@
     {
       "name": "Paphos Approach",
       "callsign": "LCPH_APP",
-      "frequency": 120.8,
+      "frequency": 119.905,
       "facility": "Approach/Departure",
       "line1": "Paphos Approach",
       "line2": "Charts at charts.pfatc.net",
@@ -343,7 +343,7 @@
     {
       "name": "Paphos Tower",
       "callsign": "LCPH_TWR",
-      "frequency": 119.9,
+      "frequency": 119.905,
       "facility": "Tower",
       "line1": "Paphos Tower",
       "line2": "Charts at charts.pfatc.net",
@@ -353,7 +353,7 @@
     {
       "name": "Paphos Ground",
       "callsign": "LCPH_GND",
-      "frequency": 120.8,
+      "frequency": 120.805,
       "facility": "Ground",
       "line1": "Paphos Ground",
       "line2": "Charts at charts.pfatc.net",
@@ -385,7 +385,7 @@
     {
       "name": "Akrotiri Tower",
       "callsign": "LCRA_TWR",
-      "frequency": 130.07,
+      "frequency": 130.075,
       "facility": "Tower",
       "line1": "Akrotiri Tower",
       "line2": "Charts on charts.pfatc.net",
@@ -461,8 +461,18 @@
     },
     {
       "name": "Gatwick Ground",
-      "callsign": "EGKK_GND",
+      "callsign": "EGKK_S_GND",
       "frequency": 121.805,
+      "facility": "Ground",
+      "line1": "Gatwick Ground",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
+      "line4": ""
+    },
+     {
+      "name": "Gatwick Ground",
+      "callsign": "EGKK_N_GND",
+      "frequency": 121.540,
       "facility": "Ground",
       "line1": "Gatwick Ground",
       "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
@@ -494,7 +504,7 @@
     {
       "name": "Scottish Control",
       "callsign": "EGPX_CTR",
-      "frequency": 125.53,
+      "frequency": 121.375,
       "facility": "Enroute",
       "line1": "Scottish Control | CPDLC [INOP]",
       "line2": "Submit feedback at feedback.pfatc.net",
