@@ -263,10 +263,26 @@ export const SIDS: TSids = {
 
 	"LCRA": {
 		"10": {
-			"Vectors": []
+			"WEST SID 1": [
+				"AKR", "MEZUS"
+			],
+			"WEST SID 2": [
+				"AKR", "ANANE"
+			],
+			"EAST SID 3": [
+				"AKR", "IREFA"
+			]
 		},
 		"28": {
-			"Vectors": []
+			"WEST SID 1": [
+				"AKR", "MEZUS"
+			],
+			"WEST SID 2": [
+				"AKR", "ANANE"
+			],
+			"EAST SID 3": [
+				"AKR", "IREFA"
+			]
 		}
 	},
 

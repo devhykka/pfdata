@@ -238,7 +238,15 @@ export const STARS: TStars = {
 			"Vectors": []
 		},
 		"28": {
-			"Vectors": []
+			"ANANE BRAVO": [
+				"ANANE", "AKR"
+			],
+			"IREFA BRAVO": [
+				"IREFA", "AKR"
+			],
+			"MEZUS BRAVO": [
+				"MEZUS", "AKR"
+			]
 		}
 	},
 
