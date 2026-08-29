@@ -1,0 +1,76 @@
+name: Validate data (PR)
+
+# Runs on pull_request (NOT pull_request_target), which is the safe trigger
+# for code coming from forks: GitHub automatically gives the GITHUB_TOKEN
+# read-only permissions and no secrets when the PR is from a fork, no matter
+# what the `permissions:` block below says. That means this job can safely
+# check out and run the PR's own version of validate_data.py.
+#
+# Because this token can't post comments on fork PRs, this workflow only
+# validates and uploads the result as an artifact. A second workflow,
+# data-validate-report.yml, runs afterwards (via workflow_run) in the base
+# repo's trusted context and posts the actual PR comment. This two-workflow
+# split is the standard safe pattern for "run untrusted code, then take a
+# privileged action based on the result" — see:
+# https://securitylab.github.com/resources/github-actions-preventing-pwn-requests/
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - ".data/**"
+      - "waypoints.json"
+      - "callsigns.json"
+      - ".github/workflows/validate_data.py"
+      - ".github/workflows/data-validate.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: data-validate-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Check for duplicates / errors
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v4
+        # Default ref/repo for `pull_request` already resolves to the PR's
+        # merge commit — no need to (and should not) pin to the fork's head
+        # explicitly here, since this job never gets write access anyway.
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run validator
+        id: run
+        continue-on-error: true
+        run: |
+          python .github/workflows/validate_data.py \
+            --repo-root . \
+            --json validation-report.json \
+            --markdown validation-report.md
+
+      - name: Record PR number for the report workflow
+        run: echo "${{ github.event.pull_request.number }}" > pr-number.txt
+
+      - name: Upload validation report
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: |
+            validation-report.json
+            validation-report.md
+            pr-number.txt
+          retention-days: 5
+
+      - name: Fail the check if errors were found
+        if: steps.run.outcome == 'failure'
+        run: |
+          echo "Validation found blocking errors — see the job log or the PR comment above."
+          exit 1

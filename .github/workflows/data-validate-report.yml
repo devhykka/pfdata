@@ -1,0 +1,80 @@
+name: Validate data (report to PR)
+
+# Triggered after "Validate data (PR)" finishes, in the BASE repo's trusted
+# context — this job never checks out or executes the fork's code, it only
+# downloads the report artifact the previous job produced and posts a
+# comment. That's what makes it safe to grant it write permissions even
+# though the originating PR may be from an untrusted fork.
+#
+# Note: github.event.workflow_run.pull_requests is only populated for PRs
+# from branches within the SAME repository — it's empty for fork PRs. So we
+# read the PR number back out of the artifact instead of relying on it.
+
+on:
+  workflow_run:
+    workflows: ["Validate data (PR)"]
+    types: [completed]
+
+permissions:
+  pull-requests: write
+  actions: read
+  contents: read
+
+jobs:
+  comment:
+    name: Post validation report on PR
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.event == 'pull_request'
+    steps:
+      - name: Download validation report artifact
+        id: dl
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: validation-report
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+
+      - name: Post or update PR comment
+        if: steps.dl.outcome == 'success'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            const prNumber = parseInt(fs.readFileSync('pr-number.txt', 'utf8').trim(), 10);
+            let reportMd = '_No report body was produced._';
+            let counts = { errorCount: 0, warningCount: 0 };
+            try {
+              reportMd = fs.readFileSync('validation-report.md', 'utf8');
+            } catch (e) {}
+            try {
+              counts = JSON.parse(fs.readFileSync('validation-report.json', 'utf8'));
+            } catch (e) {}
+
+            const marker = '<!-- data-validation-report -->';
+            const header = counts.errorCount > 0
+              ? `## ${marker}\n## 🛑 Data validation: ${counts.errorCount} error(s), ${counts.warningCount} warning(s)`
+              : `## ${marker}\n## ✅ Data validation passed${counts.warningCount ? ` (${counts.warningCount} warning(s))` : ''}`;
+
+            const body = `${header}\n\n${reportMd}\n\n<sub>Updated automatically from workflow run ${context.payload.workflow_run.html_url}</sub>`;
+
+            const { owner, repo } = context.repo;
+            const comments = await github.rest.issues.listComments({
+              owner, repo, issue_number: prNumber, per_page: 100,
+            });
+            const existing = comments.data.find(c => c.body && c.body.includes(marker));
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner, repo, comment_id: existing.id, body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner, repo, issue_number: prNumber, body,
+              });
+            }
+
+      - name: Note missing artifact
+        if: steps.dl.outcome != 'success'
+        run: echo "No validation-report artifact found for this run — nothing to post."

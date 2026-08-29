@@ -1,0 +1,72 @@
+name: Validate data (direct push)
+
+# Pushing straight to main requires write access to THIS repo, so there is
+# no fork-trust concern here (unlike the PR workflows) — this job can run
+# with full permissions in one step.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".data/**"
+      - "waypoints.json"
+      - "callsigns.json"
+      - ".github/workflows/validate_data.py"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  validate:
+    name: Check for duplicates / errors
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run validator
+        id: run
+        continue-on-error: true
+        run: |
+          python .github/workflows/validate_data.py \
+            --repo-root . \
+            --json validation-report.json \
+            --markdown validation-report.md
+
+      - name: Open an issue mentioning the pusher
+        if: steps.run.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const reportMd = fs.readFileSync('validation-report.md', 'utf8');
+            const pusher = context.actor;
+            const sha = context.sha.substring(0, 7);
+
+            const body = [
+              `@${pusher} — a direct push to \`main\` (${sha}) failed data validation.`,
+              '',
+              'This bypassed pull request review, so no PR comment could be posted. Please fix and push a follow-up commit, or open a PR next time so this gets caught before merge.',
+              '',
+              reportMd,
+              '',
+              `<sub>Commit: ${context.payload.head_commit ? context.payload.head_commit.url : sha}</sub>`,
+            ].join('\n');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🛑 Data validation failed on direct push to main (${sha})`,
+              body,
+              labels: ['data-validation'],
+            });
+
+      - name: Fail the job if errors were found
+        if: steps.run.outcome == 'failure'
+        run: exit 1

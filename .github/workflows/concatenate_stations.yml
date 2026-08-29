@@ -1,7 +1,15 @@
 name: Auto-generate stations.json (PR)
 
+# Uses `pull_request`, not `pull_request_target`. The build job below checks
+# out and executes this PR's own version of concatenate_stations.py — for a
+# genuine fork PR, GitHub forces the token in this run to read-only with no
+# secrets, no matter what `permissions:` below asks for, so that's safe. It
+# also means a real fork can never authenticate to push back here anyway;
+# the "Commit changes" step below detects that and fails with an
+# explanation instead of a confusing raw git error. Same-repo PRs (not
+# forks) keep the original auto-commit-back behaviour unchanged.
 on:
-  pull_request_target:
+  pull_request:
     branches: [ main ]
     paths:
       - ".data/stations/**"
@@ -38,6 +46,7 @@ jobs:
         run: python .github/workflows/concatenate_stations.py
 
       - name: Commit changes (if any) and push back to PR
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -48,7 +57,18 @@ jobs:
           fi
           git commit -m "Update stations.json"
           git pull --rebase
-          git push
+          if git push; then
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Explain when auto-push isn't possible (fork PRs)
+        if: steps.commit.outputs.pushed == 'false'
+        run: |
+          echo "::error::stations.json is out of date and this PR is from a fork, so the bot has no permission to push the update here."
+          echo "::error::Please run 'python .github/workflows/concatenate_stations.py' locally and commit the updated stations.json, or ask a maintainer to enable 'Allow edits from maintainers' on this PR."
+          exit 1
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
