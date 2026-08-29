@@ -1,0 +1,13 @@
+# Project owners
+* @jyang365 @devhykka
+
+# Protected files, only to be edited by repository maintainers
+
+/.data/ @jyang365 @devhykka
+/.idea/ @jyang365 @devhykka
+callsigns.json @jyang365 @devhykka
+runways.json @jyang365 @devhykka
+sectors.json @jyang365 @devhykka
+stations.json @jyang365 @devhykka
+waypoints.json @jyang365 @devhykka
+README.md @jyang365 @devhykka
