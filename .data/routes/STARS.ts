@@ -224,6 +224,21 @@ export const STARS: TStars = {
 		"28": {
 			"Vectors": []
 		}
+	},
+
+	"PAFA": {
+		"02L": {
+			"Vectors": []
+		},
+		"02R": {
+			"Vectors": []
+		},
+		"20R": {
+			"Vectors": []
+		},
+		"20L": {
+			"Vectors": []
+		}
 	}
 }
 
