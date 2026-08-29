@@ -48,7 +48,7 @@ export const STARS: TStars = {
 				"CAWIN", "STARC", "GLOWS"
 			],
 			"HRDNG4": [
-				"HRDNG", "RNDRR", "KRIIS"
+				"RDFLG", "HRDNG", "RNDRR", "KRIIS"
 			]
 		},
 		"20R": {
@@ -56,7 +56,7 @@ export const STARS: TStars = {
 				"CAWIN", "STARC", "MINRR"
 			],
 			"HRDNG4": [
-				"HRDNG", "RNDRR", "ROAAD"
+				"RDFLG", "HRDNG", "RNDRR", "ROAAD"
 			]
 		
 		}
