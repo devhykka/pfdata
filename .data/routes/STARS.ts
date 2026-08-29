@@ -226,6 +226,43 @@ export const STARS: TStars = {
 		}
 	},
 
+	"LPMA": {
+		"05": {
+			"RAKUN1P": [
+				"RAKUN", "PILIM"
+			],
+			"EKNOT1P": [
+				"EKNOT", "MA533", "PILIM"
+			],
+			"NIDUL1P": [
+				"NIDUL", "MA542", "MA538", "PILIM"
+			],
+			"IBBAN1P": [
+				"IBBAN", "MA538", "PILIM"
+			],
+			"KICAS1P": [
+				"KICAS", "PILIM"
+			]
+		},
+		"23": {
+			"RAKUN1P": [
+				"RAKUN", "PILIM"
+			],
+			"EKNOT1P": [
+				"EKNOT", "MA533", "PILIM"
+			],
+			"NIDUL1P": [
+				"NIDUL", "MA542", "MA538", "PILIM"
+			],
+			"IBBAN1P": [
+				"IBBAN", "MA538", "PILIM"
+			],
+			"KICAS1P": [
+				"KICAS", "PILIM"
+			]
+		},
+	},
+
 	"PAFA": {
 		"02L": {
 			"Vectors": []
