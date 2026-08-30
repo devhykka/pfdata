@@ -13,7 +13,7 @@
     }
   ],
   "OBBB": {
-    "name": "Bahrain Control",
+    "name": "Bahrain Radar",
     "callsign": "OBBB_1_CTR",
     "frequency": 126.75,
     "facility": "Enroute",
