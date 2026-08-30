@@ -65,58 +65,58 @@ export const STARS: TStars = {
 	"MDPC": {
 		"08": {
 			"POKEG1W": [
-				"POKEG", "VOGEP", "BEREL", "AGNAL"
+				"POKEG", "BEREL", "AGNAL"
 			],
 			"BETIR1W": [
-				"BETIR", "ILOBI", "PIXES", "BEREL", "AGNAL"
+				"BETIR", "AGNAL"
 			],
 			"KATOK1W": [
-				"KATOK", "LETAD", "BEREL", "AGNAL"
+				"KATOK", "AGNAL"
 			],
 			"ANTEX1W": [
-				"ANTEX", "LETAD", "BEREL", "AGNAL"
+				"ANTEX", "KATOK", "AGNAL"
 			]
 		},
 		"09": {
-			"POKEG1W": [
-				"POKEG", "VOGEP", "BEREL", "AGNAL"
+			"POKEG2B": [
+				"POKEG", "BEREL", "AGNAL"
 			],
-			"BETIR1W": [
-				"BETIR", "ILOBI", "PIXES", "BEREL", "AGNAL"
+			"BETIR2B": [
+				"BETIR", "AGNAL"
 			],
-			"KATOK1W": [
-				"KATOK", "LETAD", "BEREL", "AGNAL"
+			"KATOK2B": [
+				"KATOK", "AGNAL"
 			],
-			"ANTEX1W": [
-				"ANTEX", "LETAD", "BEREL", "AGNAL"
+			"ANTEX2B": [
+				"ANTEX", "KATOK", "AGNAL"
 			]
 		},
 		"26": {
 			"POKEG1C": [
-				"POKEG", "VOGEP", "BEREL", "DASVO", "PC203", "LETAD", "VIRTO"
+				"POKEG", "BEREL", "AGNAL", "PC101"
 			],
 			"BETIR1C": [
-				"BETIR", "ILOBI", "PIXES", "BEREL", "DASVO", "PC203", "LETAD", "VIRTO"
+				"BETIR", "PC101"
 			],
 			"KATOK1C": [
-				"KATOK", "LETAD", "VIRTO"
+				"KATOK", "PC101"
 			],
 			"ANTEX1C": [
-				"ANTEX", "VIRTO"
+				"ANTEX", "PC101"
 			]
 		},
 		"27": {
-			"POKEG1C": [
-				"POKEG", "VOGEP", "BEREL", "DASVO", "PC203", "LETAD", "MESPA"
+			"POKEG2C": [
+				"POKEG", "BEREL", "AGNAL", "PC203", "LETAD", "MESPA"
 			],
-			"BETIR1C": [
-				"BETIR", "ILOBI", "PIXES", "BEREL", "DASVO", "PC203", "LETAD", "MESPA"
+			"BETIR2C": [
+				"BETIR", "PC101", "MAROG"
 			],
-			"KATOK1C": [
-				"KATOK", "LETAD", "MESPA"
+			"KATOK2C": [
+				"KATOK", "MAROG"
 			],
-			"ANTEX1C": [
-				"ANTEX", "MESPA"
+			"ANTEX2C": [
+				"ANTEX", "MAROG"
 			]
 		}
 	},
@@ -209,21 +209,27 @@ export const STARS: TStars = {
 	"LCLK": {
 		"04": {
 			"LUBES1R": [
-				"LUBES", "NORDI", "PEEKO"
+				"LUBES", "RIMEX"
 			],
-			"KURSA1R": [
-				"KURSA", "GIPRO", "RIMEX"
+			"PHA1R": [
+				"PHA", "KURSA", "GIPRO", "RIMEX"
+			],
+			"LUBES1A": [
+				"LUBES", "LCA"
+			],
+			"PHA1C": [
+				"PHA", "LCA"
 			]
 		},
 		"22": {
 			"BONEK1R": [
-				"BONEK", "ADLAS", "AMAKO", "SOBOS", "ROKIK"
+				"BONEK", "DAROS", "ADLAS", "OTESA", "LCA"
 			],
-			"NIMSI1R": [
-				"NIMSI", "ESERI", "BETID", "BOSIS", "AMAKO", "SOBOS", "ROKIK"
+			"LUBES1A": [
+				"LUBES", "LCA"
 			],
-			"KRASI1V": [
-				"KRASI", "MURAT", "ROKIK"
+			"PHA1C": [
+				"PHA", "LCA"
 			]
 		}
 	},
