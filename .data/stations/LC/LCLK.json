@@ -1,42 +1,42 @@
 [
-  {
-    "name": "Larnaca Approach",
-    "callsign": "LCLK_APP",
-    "frequency": 130.2,
-    "facility": "Approach/Departure",
-    "line1": "Larnaka Approach",
-    "line2": "Charts at charts.pfatc.net",
-    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
-    "line4": "Submit feedback at feedback.pfatc.net"
-  },
-  {
-    "name": "Larnaca Tower",
-    "callsign": "LCLK_TWR",
-    "frequency": 121.2,
-    "facility": "Tower",
-    "line1": "Larnaka Tower",
-    "line2": "Charts at charts.pfatc.net",
-    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
-    "line4": "Submit feedback at feedback.pfatc.net"
-  },
-  {
-    "name": "Larnaca Ground",
-    "callsign": "LCLK_GND",
-    "frequency": 119.4,
-    "facility": "Ground",
-    "line1": "Larnaka Ground",
-    "line2": "Charts at charts.pfatc.net",
-    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
-    "line4": "Submit feedback at feedback.pfatc.net"
-  },
-  {
-    "name": "Larnaca Clearance",
-    "callsign": "LCLK_DEL",
-    "frequency": 120.575,
-    "facility": "Clearance/Delivery",
-    "line1": "Larnaka Clearance",
-    "line2": "Charts at charts.pfatc.net",
-    "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
-    "line4": "Submit feedback at feedback.pfatc.net"
-  }
+ {
+      "name": "Larnaca Approach",
+      "callsign": "LCLK_APP",
+      "frequency": 130.205,
+      "facility": "Approach/Departure",
+      "line1": "Larnaka Approach",
+      "line2": "Charts at charts.pfatc.net",
+      "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line4": "Submit feedback at feedback.pfatc.net"
+    },
+    {
+      "name": "Larnaca Tower",
+      "callsign": "LCLK_TWR",
+      "frequency": 121.205,
+      "facility": "Tower",
+      "line1": "Larnaka Tower",
+      "line2": "Charts at charts.pfatc.net",
+      "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line4": "Submit feedback at feedback.pfatc.net"
+    },
+    {
+      "name": "Larnaca Ground",
+      "callsign": "LCLK_GND",
+      "frequency": 121.905,
+      "facility": "Ground",
+      "line1": "Larnaka Ground",
+      "line2": "Charts at charts.pfatc.net",
+      "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line4": "Submit feedback at feedback.pfatc.net"
+    },
+    {
+      "name": "Larnaca Clearance",
+      "callsign": "LCLK_DEL",
+      "frequency": 120.58,
+      "facility": "Clearance/Delivery",
+      "line1": "Larnaka Clearance",
+      "line2": "Charts at charts.pfatc.net",
+      "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line4": "Submit feedback at feedback.pfatc.net"
+    }
 ]

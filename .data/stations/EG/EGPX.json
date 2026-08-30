@@ -2,7 +2,7 @@
   {
     "name": "Scottish Control",
     "callsign": "EGPX_CTR",
-    "frequency": 135.53,
+    "frequency": 121.375,
     "facility": "Enroute",
     "line1": "Scottish Control | CPDLC [INOP]",
     "line2": "Submit feedback at feedback.pfatc.net",
@@ -13,7 +13,7 @@
   {
     "name": "Scottish Control (West)",
     "callsign": "EGPX_W_CTR",
-    "frequency": 132.730,
+    "frequency": 132.73,
     "facility": "Enroute",
     "line1": "Scottish Control | CPDLC [INOP]",
     "line2": "Submit feedback at feedback.pfatc.net",

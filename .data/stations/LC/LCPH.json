@@ -2,7 +2,7 @@
   {
     "name": "Paphos Approach",
     "callsign": "LCPH_APP",
-    "frequency": 130.625,
+    "frequency": 119.905,
     "facility": "Approach/Departure",
     "line1": "Paphos Approach",
     "line2": "Charts at charts.pfatc.net",
@@ -12,7 +12,7 @@
   {
     "name": "Paphos Tower",
     "callsign": "LCPH_TWR",
-    "frequency": 119.9,
+    "frequency": 119.905,
     "facility": "Tower",
     "line1": "Paphos Tower",
     "line2": "Charts at charts.pfatc.net",
@@ -22,7 +22,7 @@
   {
     "name": "Paphos Ground",
     "callsign": "LCPH_GND",
-    "frequency": 120.8,
+    "frequency": 120.805,
     "facility": "Ground",
     "line1": "Paphos Ground",
     "line2": "Charts at charts.pfatc.net",

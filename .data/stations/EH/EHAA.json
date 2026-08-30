@@ -2,7 +2,7 @@
   {
     "name": "Amsterdam Radar",
     "callsign": "EHAA_CTR",
-    "frequency": 0.0,
+    "frequency": 125.75,
     "facility": "Enroute",
     "line1": "Amsterdam Radar | CPDLC [INOP]",
     "line2": "Submit feedback at feedback.pfatc.net",
