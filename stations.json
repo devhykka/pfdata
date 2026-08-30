@@ -171,7 +171,7 @@
     {
       "name": "Maastricht Radar",
       "callsign": "EDYY_CTR",
-      "frequency": 135.96,
+      "frequency": 135.51,
       "facility": "Enroute",
       "line1": "Maastricht Radar | CPDLC [EDYY]",
       "line2": "Coverage above FL145 if local ATC is offline.",
