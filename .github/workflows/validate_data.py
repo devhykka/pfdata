@@ -36,14 +36,24 @@ WARNING = "warning"
 
 class Report:
     def __init__(self):
-        self.issues = []  # list of dicts: severity, category, file, message
+        self.issues = []  # list of dicts: severity, category, file, message, detail, row
 
-    def add(self, severity, category, file, message):
+    def add(self, severity, category, file, message, detail=None, row=None):
+        """`message` is the short, single-line form used in GitHub Actions
+        annotations and the job log. `detail`, if given, is a longer
+        (optionally markdown/HTML) block used instead of `message` in the
+        PR-comment / issue report. `row`, if given, is a list of column
+        values — when every issue in a category has one, build_markdown()
+        renders that whole category as a single sortable table instead of
+        a bullet per issue, which is far more readable for anything with
+        more than a couple of findings."""
         self.issues.append({
             "severity": severity,
             "category": category,
             "file": file,
             "message": message,
+            "detail": detail,
+            "row": row,
         })
 
     def errors(self):
@@ -51,6 +61,20 @@ class Report:
 
     def warnings(self):
         return [i for i in self.issues if i["severity"] == WARNING]
+
+
+# Column headers for categories that report structured `row` data. Any
+# category not listed here (or where an issue is missing its `row`) falls
+# back to a plain bullet list using `message`.
+TABLE_HEADERS = {
+    "duplicate-filename": ["Filename stem", "Colliding files"],
+    "duplicate-waypoint": ["Waypoint", "Occurrences"],
+    "overlapping-coords": ["Coordinates", "Waypoints sharing them"],
+    "duplicate-callsign": ["Callsign", "Files"],
+    "duplicate-name": ["Sector name", "Files"],
+    "duplicate-icao-exact": ["ICAO", "Callsign", "Repeated ×"],
+    "duplicate-icao-conflict": ["ICAO", "Conflicting callsign entries"],
+}
 
 
 def _dup_key_hook(pairs):
@@ -123,7 +147,8 @@ def find_duplicate_filenames(source_dir, report, repo_root, case_insensitive=Tru
                 ERROR, "duplicate-filename", source_dir,
                 f"Filename stem '{key}' appears in {len(paths)} files — the build script "
                 f"keys its output by filename only, so these silently collide: "
-                f"{', '.join(sorted(paths))}"
+                f"{', '.join(sorted(paths))}",
+                row=[f"`{key}`", ", ".join(f"`{p}`" for p in sorted(paths))],
             )
 
 
@@ -179,7 +204,8 @@ def validate_sectors(repo_root, report):
     for name, paths in names_seen.items():
         if len(paths) > 1:
             report.add(WARNING, "duplicate-name", source_dir,
-                        f"Sector name '{name}' is used in {len(paths)} files: {', '.join(paths)}")
+                        f"Sector name '{name}' is used in {len(paths)} files: {', '.join(paths)}",
+                        row=[name, ", ".join(f"`{p}`" for p in paths)])
 
 
 def validate_stations(repo_root, report):
@@ -219,7 +245,8 @@ def validate_stations(repo_root, report):
             unique_paths = sorted(set(paths))
             report.add(ERROR, "duplicate-callsign", source_dir,
                         f"Callsign '{callsign}' is used {len(paths)} times "
-                        f"across {len(unique_paths)} file(s): {', '.join(unique_paths)}")
+                        f"across {len(unique_paths)} file(s): {', '.join(unique_paths)}",
+                        row=[f"`{callsign}`", ", ".join(f"`{p}`" for p in unique_paths)])
 
 
 def validate_waypoints(repo_root, report):
@@ -262,16 +289,18 @@ def validate_waypoints(repo_root, report):
         if len(occurrences) > 1:
             locs = "; ".join(f"{p} @ ({x}, {y})" for p, x, y in occurrences)
             report.add(ERROR, "duplicate-waypoint", "waypoints",
-                        f"Waypoint name '{name}' is defined {len(occurrences)} times: {locs}")
+                        f"Waypoint name '{name}' is defined {len(occurrences)} times: {locs}",
+                        row=[f"`{name}`", "<br>".join(f"`{p}` @ ({x}, {y})" for p, x, y in occurrences)])
 
     for (x, y), names in coords_seen.items():
         unique_names = sorted(set(names))
         if len(unique_names) > 1:
             report.add(WARNING, "overlapping-coords", "waypoints",
-                        f"Waypoints {unique_names} share the exact same coordinates ({x}, {y}).")
+                        f"Waypoints {unique_names} share the exact same coordinates ({x}, {y}).",
+                        row=[f"({x}, {y})", ", ".join(f"`{n}`" for n in unique_names)])
 
 
-def validate_callsigns(repo_root, report, verbose_callsigns=False):
+def validate_callsigns(repo_root, report):
     path = os.path.join(repo_root, "callsigns.json")
     if not os.path.isfile(path):
         return
@@ -289,20 +318,57 @@ def validate_callsigns(repo_root, report, verbose_callsigns=False):
             continue
         icao_seen[entry["icao"]].append(entry["callsign"])
 
-    # Large pre-existing backlog here, and ICAO 3-letter codes are legitimately
-    # reused by different real-world airlines in different regions — non-blocking.
-    dupes = {icao: callsigns for icao, callsigns in icao_seen.items() if len(callsigns) > 1}
-    if not dupes:
-        return
+    # "exact" = every entry for that ICAO has the identical callsign text —
+    # a plain redundant copy, safe to auto-remove (see dedupe_callsigns.py).
+    # "conflicting" = different callsign text competing for the same ICAO —
+    # needs a human to pick the right one; ICAO reuse across regions can be
+    # legitimate, so this is never auto-fixed.
+    for icao, callsigns in sorted(icao_seen.items()):
+        if len(callsigns) < 2:
+            continue
+        distinct = sorted(set(callsigns))
+        if len(distinct) == 1:
+            report.add(WARNING, "duplicate-icao-exact", path,
+                        f"ICAO '{icao}' repeats \"{distinct[0]}\" {len(callsigns)}×.",
+                        row=[f"`{icao}`", distinct[0], str(len(callsigns))])
+        else:
+            report.add(WARNING, "duplicate-icao-conflict", path,
+                        f"ICAO '{icao}' has conflicting entries: {distinct}",
+                        row=[f"`{icao}`", " vs ".join(f"\"{c}\"" for c in distinct)])
 
-    if verbose_callsigns:
-        for icao, callsigns in sorted(dupes.items()):
-            report.add(WARNING, "duplicate-icao", path,
-                        f"ICAO '{icao}' has {len(callsigns)} callsign entries: {callsigns}")
-    else:
-        report.add(WARNING, "duplicate-icao", path,
-                    f"{len(dupes)} ICAO code(s) have more than one callsign entry. "
-                    f"Run with --verbose-callsigns to list them.")
+
+def _render_category_group(category, issues, repo_root):
+    headers = TABLE_HEADERS.get(category)
+    has_rows = headers and all(i.get("row") for i in issues)
+
+    if has_rows:
+        table_lines = ["| " + " | ".join(headers) + " |",
+                       "|" + "|".join(["---"] * len(headers)) + "|"]
+        for i in issues:
+            cells = [str(c).replace("\n", " ") for c in i["row"]]
+            table_lines.append("| " + " | ".join(cells) + " |")
+        table = "\n".join(table_lines)
+
+        title = f"{category} — {len(issues)} finding(s)"
+        if len(issues) > 6:
+            return f"<details><summary>{title}</summary>\n\n{table}\n\n</details>"
+        return f"**{title}**\n\n{table}"
+
+    # Fall back to one bullet per issue when there's no structured row data.
+    lines = [f"**{category}**"]
+    for i in issues:
+        rel = os.path.relpath(i["file"], repo_root) if os.path.isabs(i["file"]) else i["file"]
+        lines.append(f"- **`{rel}`**: {i['message']}")
+        if i.get("detail"):
+            lines.append(i["detail"])
+    return "\n".join(lines)
+
+
+def _group_by_category(issues):
+    grouped = {}
+    for i in issues:
+        grouped.setdefault(i["category"], []).append(i)
+    return grouped
 
 
 def build_markdown(report, repo_root):
@@ -315,16 +381,17 @@ def build_markdown(report, repo_root):
 
     if errors:
         lines.append(f"### ❌ {len(errors)} error(s) — must fix before merge")
-        for i in errors:
-            rel = os.path.relpath(i["file"], repo_root) if os.path.isabs(i["file"]) else i["file"]
-            lines.append(f"- **`{rel}`** [{i['category']}]: {i['message']}")
         lines.append("")
+        for category, group in _group_by_category(errors).items():
+            lines.append(_render_category_group(category, group, repo_root))
+            lines.append("")
 
     if warnings:
         lines.append(f"### ⚠️ {len(warnings)} warning(s) — non-blocking, worth a look")
-        for i in warnings:
-            rel = os.path.relpath(i["file"], repo_root) if os.path.isabs(i["file"]) else i["file"]
-            lines.append(f"- **`{rel}`** [{i['category']}]: {i['message']}")
+        lines.append("")
+        for category, group in _group_by_category(warnings).items():
+            lines.append(_render_category_group(category, group, repo_root))
+            lines.append("")
 
     return "\n".join(lines)
 
@@ -334,9 +401,6 @@ def main():
     parser.add_argument("--repo-root", default=".")
     parser.add_argument("--json", default="validation-report.json")
     parser.add_argument("--markdown", default="validation-report.md")
-    parser.add_argument("--verbose-callsigns", action="store_true",
-                         help="List every duplicate ICAO code in callsigns.json individually "
-                              "instead of a single summary line.")
     args = parser.parse_args()
 
     repo_root = os.path.abspath(args.repo_root)
@@ -346,7 +410,7 @@ def main():
     validate_sectors(repo_root, report)
     validate_stations(repo_root, report)
     validate_waypoints(repo_root, report)
-    validate_callsigns(repo_root, report, verbose_callsigns=args.verbose_callsigns)
+    validate_callsigns(repo_root, report)
 
     for i in report.issues:
         rel = os.path.relpath(i["file"], repo_root) if os.path.isabs(i["file"]) else i["file"]

@@ -1,0 +1,186 @@
+name: Validate data (nightly)
+
+# Full-repo validation on a schedule, independent of any specific PR or
+# push. If problems are found, they're tracked in a single persistent
+# issue (updated in place each run, not re-created). For the one class of
+# problem this repo can fix without human judgement — exact duplicate rows
+# in callsigns.json — it also opens a PR referencing that issue, requests
+# a review, and allows maintainer edits.
+#
+# Everything else this finds (duplicate waypoint names, colliding station/
+# sector filenames, genuinely conflicting callsign entries, schema errors)
+# has no safe automatic fix: picking the "right" one needs a human, so
+# those stay in the tracking issue for someone to resolve by hand — a PR
+# is only opened when there's actually something safe to commit.
+#
+# Runs against main directly (not a PR head), so there's no fork-trust
+# concern here — same reasoning as data-validate-push.yml.
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # midnight UTC, daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: data-validate-nightly
+  cancel-in-progress: false
+
+jobs:
+  nightly:
+    name: Full validation sweep
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run full validation
+        id: validate
+        continue-on-error: true
+        run: |
+          python .github/workflows/validate_data.py \
+            --repo-root . \
+            --json validation-report.json \
+            --markdown validation-report.md
+
+      - name: Sync tracking issue
+        id: issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const marker = '<!-- data-validation-nightly -->';
+            const validateFailed = '${{ steps.validate.outcome }}' === 'failure';
+
+            const { owner, repo } = context.repo;
+            const openIssues = await github.rest.issues.listForRepo({
+              owner, repo, state: 'open', labels: 'data-validation', per_page: 100,
+            });
+            const existing = openIssues.data.find(i => i.body && i.body.includes(marker));
+
+            if (!validateFailed) {
+              if (existing) {
+                await github.rest.issues.createComment({
+                  owner, repo, issue_number: existing.number,
+                  body: '✅ All checks pass as of this run — closing.',
+                });
+                await github.rest.issues.update({
+                  owner, repo, issue_number: existing.number, state: 'closed',
+                });
+              }
+              core.setOutput('number', '');
+              return;
+            }
+
+            let counts = { errorCount: 0, warningCount: 0 };
+            let reportMd = '_No report body was produced._';
+            try { counts = JSON.parse(fs.readFileSync('validation-report.json', 'utf8')); } catch (e) {}
+            try { reportMd = fs.readFileSync('validation-report.md', 'utf8'); } catch (e) {}
+
+            const body = [
+              marker,
+              `## 🛑 Nightly data validation: ${counts.errorCount} error(s), ${counts.warningCount} warning(s)`,
+              '',
+              'This issue is kept up to date automatically by the nightly validation workflow — its body is replaced each run, not appended to.',
+              '',
+              reportMd,
+            ].join('\n');
+
+            if (existing) {
+              await github.rest.issues.update({ owner, repo, issue_number: existing.number, body });
+              core.setOutput('number', existing.number);
+            } else {
+              const created = await github.rest.issues.create({
+                owner, repo,
+                title: '🛑 Data validation errors (auto-tracked)',
+                body,
+                labels: ['data-validation'],
+              });
+              core.setOutput('number', created.data.number);
+            }
+
+      - name: Attempt safe auto-fix (exact duplicate callsigns)
+        id: dedupe
+        run: |
+          python .github/workflows/dedupe_callsigns.py --repo-root . || true
+          if git diff --quiet -- callsigns.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check for an existing open fix PR
+        id: existing_pr
+        if: steps.dedupe.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          COUNT=$(gh pr list --state open --head "chore/dedupe-callsigns" --json number --jq 'length')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push fix branch
+        id: commit
+        if: steps.dedupe.outputs.changed == 'true' && steps.existing_pr.outputs.count == '0'
+        run: |
+          REMOVED=$(git diff -- callsigns.json | grep -c '^-.*"icao"')
+          BRANCH="chore/dedupe-callsigns"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add callsigns.json
+          git commit -m "Remove $REMOVED exact duplicate callsign entr$([ "$REMOVED" = "1" ] && echo y || echo ies)"
+          git push -u origin "$BRANCH" --force
+
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+          echo "removed=$REMOVED" >> "$GITHUB_OUTPUT"
+
+      - name: Open fix PR
+        if: steps.dedupe.outputs.changed == 'true' && steps.existing_pr.outputs.count == '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const removed = ${{ steps.commit.outputs.removed }};
+            const branch = '${{ steps.commit.outputs.branch }}';
+            const issueNumber = '${{ steps.issue.outputs.number }}';
+
+            const bodyLines = [
+              'Automated fix from the nightly data-validation workflow.',
+              '',
+              `Removes ${removed} exact duplicate row(s) from \`callsigns.json\` — same \`icao\` + \`callsign\` pair repeated, with no information loss. Conflicting entries (different callsign text for the same ICAO) are left untouched; those still need a human decision and remain tracked in the linked issue.`,
+            ];
+            if (issueNumber) {
+              bodyLines.push('', `Related to #${issueNumber}.`);
+            }
+
+            const { owner, repo } = context.repo;
+            const pr = await github.rest.pulls.create({
+              owner, repo,
+              title: 'Remove exact duplicate callsigns.json entries',
+              base: 'main',
+              head: branch,
+              body: bodyLines.join('\n'),
+              maintainer_can_modify: true,
+            });
+
+            await github.rest.pulls.requestReviewers({
+              owner, repo, pull_number: pr.data.number,
+              reviewers: ['jyang365'],
+            });
+
+      - name: Fail the run if blocking errors remain
+        if: steps.validate.outcome == 'failure'
+        run: |
+          echo "Nightly validation found blocking errors — see the tracking issue for details."
+          exit 1
