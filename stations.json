@@ -673,7 +673,7 @@
       "line3": "",
       "line4": "",
       "sectors": ["PAZA_S"]
-    }
+    },
     {
       "name": "Anchorage Center Arctic",
       "callsign": "ZAN_64_FSS",
@@ -719,7 +719,7 @@
       "line3": "",
       "line4": "",
       "sectors": ""
-    }
+    },
     {
       "name": "Fairbanks Ground",
       "callsign": "FAI_GND",
@@ -730,7 +730,7 @@
       "line3": "",
       "line4": "",
       "sectors": ""
-    }
+    },
     {
       "name": "Fairbanks Delivery",
       "callsign": "FAI_DEL",
