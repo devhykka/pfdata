@@ -1,28 +1,3 @@
-#!/usr/bin/env python3
-"""
-validate_data.py — duplicate & error checker for the pfdata repository.
-
-Scans every source file that feeds the concatenate_*.py build scripts
-(.data/runways, .data/sectors, .data/stations, .data/waypoints if present,
-plus the hand-edited waypoints.json and callsigns.json) and reports:
-
-  ERROR   — will break the build or silently corrupt output (JSON syntax
-            errors, duplicate keys inside one JSON object, duplicate
-            filenames across sub-folders that the build scripts key by
-            filename stem, duplicate waypoint names, missing/mistyped
-            required fields, duplicate station callsigns).
-  WARNING — worth a human look but not build-breaking (duplicate ICAO
-            codes / callsign text in callsigns.json — there's a large
-            pre-existing backlog of these and ICAO reuse across regions
-            is sometimes legitimate).
-
-Exit code is 1 if any ERROR-level issue is found, 0 otherwise. Warnings
-never fail the build.
-
-Usage:
-    python validate_data.py [--repo-root .] [--json report.json] [--markdown report.md]
-"""
-
 import argparse
 import glob
 import json
@@ -36,17 +11,9 @@ WARNING = "warning"
 
 class Report:
     def __init__(self):
-        self.issues = []  # list of dicts: severity, category, file, message, detail, row
+        self.issues = []
 
     def add(self, severity, category, file, message, detail=None, row=None):
-        """`message` is the short, single-line form used in GitHub Actions
-        annotations and the job log. `detail`, if given, is a longer
-        (optionally markdown/HTML) block used instead of `message` in the
-        PR-comment / issue report. `row`, if given, is a list of column
-        values — when every issue in a category has one, build_markdown()
-        renders that whole category as a single sortable table instead of
-        a bullet per issue, which is far more readable for anything with
-        more than a couple of findings."""
         self.issues.append({
             "severity": severity,
             "category": category,
@@ -62,10 +29,7 @@ class Report:
     def warnings(self):
         return [i for i in self.issues if i["severity"] == WARNING]
 
-
-# Column headers for categories that report structured `row` data. Any
-# category not listed here (or where an issue is missing its `row`) falls
-# back to a plain bullet list using `message`.
+    
 TABLE_HEADERS = {
     "duplicate-filename": ["Filename stem", "Colliding files"],
     "duplicate-waypoint": ["Waypoint", "Occurrences"],
@@ -78,7 +42,6 @@ TABLE_HEADERS = {
 
 
 def _dup_key_hook(pairs):
-    """object_pairs_hook that records duplicate keys but still returns a usable dict."""
     seen = {}
     dupes = []
     for k, v in pairs:
