@@ -1,7 +1,7 @@
 {
       "name": "Bahrain Radar",
       "callsign": "OBBB_1_CTR",
-      "frequency": 0.0,
+      "frequency": 127.575,
       "facility": "Enroute",
       "line1": "Bahrain Radar | CPDLC [INOP]",
       "line2": "Submit feedback at feedback.pfatc.net",

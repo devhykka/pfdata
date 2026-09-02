@@ -21,8 +21,18 @@
   },
   {
     "name": "Gatwick Ground",
-    "callsign": "EGKK_GND",
+    "callsign": "EGKK_S_GND",
     "frequency": 121.805,
+    "facility": "Ground",
+    "line1": "Gatwick Ground",
+    "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line3": "Submit feedback at feedback.pfatc.net",
+    "line4": ""
+  },
+  {
+    "name": "Gatwick Ground",
+    "callsign": "EGKK_N_GND",
+    "frequency": 121.540,
     "facility": "Ground",
     "line1": "Gatwick Ground",
     "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
