@@ -74,7 +74,7 @@ export const STARS: TStars = {
 				"KATOK", "AGNAL"
 			],
 			"ANTEX1W": [
-				"ANTEX", "KATOK", "AGNAL"
+				"ANTEX", "PC101", "AGNAL"
 			]
 		},
 		"09": {
@@ -88,7 +88,7 @@ export const STARS: TStars = {
 				"KATOK", "AGNAL"
 			],
 			"ANTEX2B": [
-				"ANTEX", "KATOK", "AGNAL"
+				"ANTEX", "PC101", "AGNAL"
 			]
 		},
 		"26": {
@@ -107,7 +107,7 @@ export const STARS: TStars = {
 		},
 		"27": {
 			"POKEG2C": [
-				"POKEG", "BEREL", "AGNAL", "PC203", "LETAD", "MESPA"
+				"POKEG", "BEREL", "AGNAL", "PC101", "MAROG"
 			],
 			"BETIR2C": [
 				"BETIR", "PC101", "MAROG"
@@ -116,7 +116,7 @@ export const STARS: TStars = {
 				"KATOK", "MAROG"
 			],
 			"ANTEX2C": [
-				"ANTEX", "MAROG"
+				"ANTEX", "MESPA", "PC103", "MAROG"
 			]
 		}
 	},
