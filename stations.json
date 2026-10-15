@@ -1,11 +1,11 @@
 {
   "KZAK": [
     {
-      "name": "Oakland Radio",
+      "name": "San Francisco Radio",
       "callsign": "KZAK_FSS",
       "frequency": 0.0,
       "facility": "Flight Service Station",
-      "line1": "Oakland Radio | CPDLC [INOP]",
+      "line1": "San Francisco Radio | CPDLC [INOP]",
       "line2": "Submit feedback at feedback.pfatc.net",
       "line3": "",
       "line4": "",
@@ -15,7 +15,7 @@
   "OBBB": {
     "name": "Bahrain Radar",
     "callsign": "OBBB_1_CTR",
-    "frequency": 0.0,
+    "frequency": 127.575,
     "facility": "Enroute",
     "line1": "Bahrain Radar | CPDLC [INOP]",
     "line2": "Submit feedback at feedback.pfatc.net",
@@ -234,7 +234,7 @@
     {
       "name": "Nicosia Radar",
       "callsign": "LCCC_CTR",
-      "frequency": 128.6,
+      "frequency": 128.605,
       "facility": "Enroute",
       "line1": "Nicosia Radar",
       "line2": "Coverage at map.pfatc.net",
@@ -245,7 +245,7 @@
     {
       "name": "Nicosia Radar (East Sector)",
       "callsign": "LCCC_E_CTR",
-      "frequency": 126.3,
+      "frequency": 126.305,
       "facility": "Enroute",
       "line1": "Nicosia Radar",
       "line2": "Coverage at map.pfatc.net",
@@ -256,7 +256,7 @@
     {
       "name": "Nicosia Radar (West Sector)",
       "callsign": "LCCC_W_CTR",
-      "frequency": 125.5,
+      "frequency": 125.505,
       "facility": "Enroute",
       "line1": "Nicosia Radar",
       "line2": "Coverage at map.pfatc.net",
@@ -265,9 +265,20 @@
       "sectors": ["LCCC_W"]
     },
     {
+      "name": "Nicosia Radar (South 1 Sector)",
+      "callsign": "LCCC_S1_CTR",
+      "frequency": 124.205,
+      "facility": "Enroute",
+      "line1": "Nicosia Radar",
+      "line2": "Coverage at map.pfatc.net",
+      "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line4": "Submit feedback at feedback.pfatc.net",
+      "sectors": ["LCCC_S1"]
+    },
+    {
       "name": "Nicosia Radar (South 2 Sector)",
       "callsign": "LCCC_S2_CTR",
-      "frequency": 124.2,
+      "frequency": 129.555,
       "facility": "Enroute",
       "line1": "Nicosia Radar",
       "line2": "Coverage at map.pfatc.net",
@@ -280,7 +291,7 @@
     {
       "name": "Larnaca Approach",
       "callsign": "LCLK_APP",
-      "frequency": 130.2,
+      "frequency": 130.205,
       "facility": "Approach/Departure",
       "line1": "Larnaka Approach",
       "line2": "Charts at charts.pfatc.net",
@@ -290,7 +301,7 @@
     {
       "name": "Larnaca Tower",
       "callsign": "LCLK_TWR",
-      "frequency": 121.2,
+      "frequency": 121.205,
       "facility": "Tower",
       "line1": "Larnaka Tower",
       "line2": "Charts at charts.pfatc.net",
@@ -300,7 +311,7 @@
     {
       "name": "Larnaca Ground",
       "callsign": "LCLK_GND",
-      "frequency": 119.4,
+      "frequency": 121.905,
       "facility": "Ground",
       "line1": "Larnaka Ground",
       "line2": "Charts at charts.pfatc.net",
@@ -310,7 +321,7 @@
     {
       "name": "Larnaca Clearance",
       "callsign": "LCLK_DEL",
-      "frequency": 120.575,
+      "frequency": 120.58,
       "facility": "Clearance/Delivery",
       "line1": "Larnaka Clearance",
       "line2": "Charts at charts.pfatc.net",
@@ -322,7 +333,7 @@
     {
       "name": "Paphos Approach",
       "callsign": "LCPH_APP",
-      "frequency": 130.625,
+      "frequency": 119.905,
       "facility": "Approach/Departure",
       "line1": "Paphos Approach",
       "line2": "Charts at charts.pfatc.net",
@@ -332,7 +343,7 @@
     {
       "name": "Paphos Tower",
       "callsign": "LCPH_TWR",
-      "frequency": 119.9,
+      "frequency": 119.905,
       "facility": "Tower",
       "line1": "Paphos Tower",
       "line2": "Charts at charts.pfatc.net",
@@ -342,7 +353,7 @@
     {
       "name": "Paphos Ground",
       "callsign": "LCPH_GND",
-      "frequency": 120.8,
+      "frequency": 120.805,
       "facility": "Ground",
       "line1": "Paphos Ground",
       "line2": "Charts at charts.pfatc.net",
@@ -418,7 +429,7 @@
     {
       "name": "Shanwick Radio",
       "callsign": "EGGX_CTR",
-      "frequency": 0.0,
+      "frequency": 124.175,
       "facility": "Enroute",
       "line1": "Shanwick Radio | CPDLC [INOP]",
       "line2": "Submit feedback at feedback.pfatc.net",
@@ -450,8 +461,18 @@
     },
     {
       "name": "Gatwick Ground",
-      "callsign": "EGKK_GND",
+      "callsign": "EGKK_S_GND",
       "frequency": 121.805,
+      "facility": "Ground",
+      "line1": "Gatwick Ground",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
+      "line4": ""
+    },
+     {
+      "name": "Gatwick Ground",
+      "callsign": "EGKK_N_GND",
+      "frequency": 121.540,
       "facility": "Ground",
       "line1": "Gatwick Ground",
       "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
@@ -483,7 +504,7 @@
     {
       "name": "Scottish Control",
       "callsign": "EGPX_CTR",
-      "frequency": 135.53,
+      "frequency": 121.375,
       "facility": "Enroute",
       "line1": "Scottish Control | CPDLC [INOP]",
       "line2": "Submit feedback at feedback.pfatc.net",
@@ -551,7 +572,7 @@
     {
       "name": "London Control",
       "callsign": "EGTT_CTR",
-      "frequency": 129.205,
+      "frequency": 127.43,
       "facility": "Enroute",
       "line1": "London Control | CPDLC [INOP]",
       "line2": "Submit feedback at feedback.pfatc.net",
@@ -597,7 +618,7 @@
     {
       "name": "Copenhagen Control",
       "callsign": "EKDK_CTR",
-      "frequency": 0.0,
+      "frequency": 134.680,
       "facility": "Enroute",
       "line1": "Copenhagen Control | CPDLC [INOP]",
       "line2": "Submit feedback at feedback.pfatc.net",
@@ -610,7 +631,7 @@
     {
       "name": "Amsterdam Radar",
       "callsign": "EHAA_CTR",
-      "frequency": 0.0,
+      "frequency": 125.75,
       "facility": "Enroute",
       "line1": "Amsterdam Radar | CPDLC [INOP]",
       "line2": "Submit feedback at feedback.pfatc.net",
@@ -622,19 +643,19 @@
   "PAZA": [
     {
       "name": "Anchorage Center",
-      "callsign": "PAZA_D_CTR",
-      "frequency": 0.0,
+      "callsign": "ANC_06_CTR",
+      "frequency": 132.3,
       "facility": "Enroute",
       "line1": "Anchorage Center | CPDLC [INOP]",
       "line2": "Submit feedback at feedback.pfatc.net",
       "line3": "",
       "line4": "",
-      "sectors": ["PAZA_N", "PAZA_S"]
+      "sectors": ["PAZA_N", "PAZA_S", "PAZA_H"]
     },
     {
       "name": "Anchorage Center North",
-      "callsign": "PAZA_N_CTR",
-      "frequency": 0.0,
+      "callsign": "ANC_13_CTR",
+      "frequency": 125.2,
       "facility": "Enroute",
       "line1": "Anchorage Center North | CPDLC [INOP]",
       "line2": "Submit feedback at feedback.pfatc.net",
@@ -644,14 +665,82 @@
     },
     {
       "name": "Anchorage Center South",
-      "callsign": "PAZA_S_CTR",
-      "frequency": 0.0,
+      "callsign": "ANC_06_CTR",
+      "frequency": 132.2,
       "facility": "Enroute",
       "line1": "Anchorage Center South | CPDLC [INOP]",
       "line2": "Submit feedback at feedback.pfatc.net",
       "line3": "",
       "line4": "",
       "sectors": ["PAZA_S"]
+    },
+    {
+      "name": "Anchorage Center Arctic",
+      "callsign": "ZAN_64_FSS",
+      "frequency": 134.4,
+      "facility": "Flight Service Station",
+      "line1": "Arctic Radio | CPDLC [INOP]",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["PAZA_H"]
+    }
+  ],
+  "PAFA": [
+    {
+      "name": "Fairbanks Approach",
+      "callsign": "FAI_W_APP",
+      "frequency": 125.35,
+      "facility": "Approach/Departure",
+      "line1": "Fairbanks Approach",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["PAFA_W", "PAFA_E"]
+    },
+    {
+      "name": "Fairbanks Approach",
+      "callsign": "FAI_E_APP",
+      "frequency": 127.1,
+      "facility": "Approach/Departure",
+      "line1": "Fairbanks Approach",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["PAFA_E"]
+    },
+    {
+      "name": "Fairbanks Tower",
+      "callsign": "FAI_TWR",
+      "frequency": 118.3,
+      "facility": "Tower",
+      "line1": "Fairbanks Tower",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ""
+    },
+    {
+      "name": "Fairbanks Ground",
+      "callsign": "FAI_GND",
+      "frequency": 121.9,
+      "facility": "Ground",
+      "line1": "Fairbanks Ground",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ""
+    },
+    {
+      "name": "Fairbanks Delivery",
+      "callsign": "FAI_DEL",
+      "frequency": 127.6,
+      "facility": "Clearance/Delivery",
+      "line1": "Fairbanks Delivery",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ""
     }
   ]
 }
