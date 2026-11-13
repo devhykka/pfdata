@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Thames Director",
+    "callsign": "EGLC_APP",
+    "frequency": 132.7,
+    "facility": "Approach/Departure",
+    "line1": "Thames Director",
+    "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line3": "Submit feedback at feedback.pfatc.net",
+    "line4": ""
+  },
+  {
+    "name": "City Tower",
+    "callsign": "EGLC_TWR",
+    "frequency": 118.08,
+    "facility": "Tower",
+    "line1": "City Tower",
+    "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line3": "Submit feedback at feedback.pfatc.net",
+    "line4": ""
+  },
+  {
+    "name": "City Ground",
+    "callsign": "EGLC_GND",
+    "frequency": 121.83,
+    "facility": "Ground",
+    "line1": "City Ground",
+    "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+    "line3": "Submit feedback at feedback.pfatc.net",
+    "line4": ""
+  }
+]
