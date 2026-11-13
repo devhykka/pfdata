@@ -312,6 +312,38 @@
       "line4": ""
     }
   ],
+  "EGLC": [
+    {
+      "name": "Thames Director",
+      "callsign": "EGLC_APP",
+      "frequency": 132.7,
+      "facility": "Approach/Departure",
+      "line1": "Thames Director",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
+      "line4": ""
+    },
+    {
+      "name": "City Tower",
+      "callsign": "EGLC_TWR",
+      "frequency": 118.08,
+      "facility": "Tower",
+      "line1": "City Tower",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
+      "line4": ""
+    },
+    {
+      "name": "City Ground",
+      "callsign": "EGLC_GND",
+      "frequency": 121.83,
+      "facility": "Ground",
+      "line1": "City Ground",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
+      "line4": ""
+    }
+  ],
   "EGPX": [
     {
       "name": "Scottish Control",
@@ -424,6 +456,58 @@
       "line3": "",
       "line4": "",
       "sectors": ["EGTT_N"]
+    }
+  ],
+  "PAFA": [
+    {
+      "name": "Fairbanks Approach (West)",
+      "callsign": "FAI_W_APP",
+      "frequency": 125.35,
+      "facility": "Approach/Departure",
+      "line1": "Fairbanks Approach",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
+      "line4": ""
+    },
+    {
+      "name": "Fairbanks Approach (East)",
+      "callsign": "FAI_E_APP",
+      "frequency": 127.1,
+      "facility": "Approach/Departure",
+      "line1": "Fairbanks Approach",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
+      "line4": ""
+    },
+    {
+      "name": "Fairbanks Tower",
+      "callsign": "FAI_TWR",
+      "frequency": 118.3,
+      "facility": "Tower",
+      "line1": "Fairbanks Tower",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
+      "line4": ""
+    },
+    {
+      "name": "Fairbanks Ground",
+      "callsign": "FAI_GND",
+      "frequency": 121.9,
+      "facility": "Ground",
+      "line1": "Fairbanks Ground",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
+      "line4": ""
+    },
+    {
+      "name": "Fairbanks Clearance Delivery",
+      "callsign": "FAI_DEL",
+      "frequency": 127.6,
+      "facility": "Clearance/Delivery",
+      "line1": "Fairbanks Clearance Delivery",
+      "line2": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
+      "line3": "Submit feedback at feedback.pfatc.net",
+      "line4": ""
     }
   ],
   "PAZA": [
