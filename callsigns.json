@@ -53,7 +53,7 @@
   },
   {
     "icao": "ASD",
-    "callsign": "AIR SINAI"
+    "callsign": "AIR SPHINX"
   },
   {
     "icao": "SEK",
@@ -177,7 +177,7 @@
   },
   {
     "icao": "AES",
-    "callsign": "ACES"
+    "callsign": "GEMINA"
   },
   {
     "icao": "BVR",
@@ -257,7 +257,7 @@
   },
   {
     "icao": "ADV",
-    "callsign": "ADVANCE"
+    "callsign": "ADVANCED"
   },
   {
     "icao": "AXX",
@@ -270,10 +270,6 @@
   {
     "icao": "WSN",
     "callsign": "WINGSPAN"
-  },
-  {
-    "icao": "ADV",
-    "callsign": "ADVANCED"
   },
   {
     "icao": "RDD",
@@ -308,16 +304,12 @@
     "callsign": "AEROW"
   },
   {
-    "icao": "AED",
-    "callsign": "AERNSPA"
-  },
-  {
     "icao": "AKR",
     "callsign": "AERO CLINKER"
   },
   {
     "icao": "CND",
-    "callsign": "CONDOMINICANA"
+    "callsign": "DUTCH CORENDON"
   },
   {
     "icao": "ARP",
@@ -325,7 +317,7 @@
   },
   {
     "icao": "AEK",
-    "callsign": "ACORISA"
+    "callsign": "AEROCON"
   },
   {
     "icao": "EPU",
@@ -448,16 +440,12 @@
     "callsign": "AECA"
   },
   {
-    "icao": "AES",
-    "callsign": "AEROPARAGUAY"
-  },
-  {
     "icao": "BTS",
     "callsign": "AEROLINEAS ALBATROS"
   },
   {
     "icao": "PRI",
-    "callsign": "AEROPRIV"
+    "callsign": "ROVATE"
   },
   {
     "icao": "PVA",
@@ -481,15 +469,11 @@
   },
   {
     "icao": "AAR",
-    "callsign": "PATRIOT"
+    "callsign": "ASIANA"
   },
   {
     "icao": "AAS",
-    "callsign": "AVIASERVICE"
-  },
-  {
-    "icao": "AAS",
-    "callsign": "AIR SERVICES"
+    "callsign": "AL-AAS"
   },
   {
     "icao": "AAT",
@@ -497,35 +481,19 @@
   },
   {
     "icao": "AAW",
-    "callsign": "AUSTIN"
-  },
-  {
-    "icao": "AAW",
-    "callsign": "ALMETA AIR"
+    "callsign": "AFRIQIYAH"
   },
   {
     "icao": "ABT",
-    "callsign": "AMBITION"
-  },
-  {
-    "icao": "ABE",
-    "callsign": "ARBERIA AIRLINES"
+    "callsign": "BENWAYS"
   },
   {
     "icao": "ACS",
     "callsign": "AIRCRAFT SALES"
   },
   {
-    "icao": "ABS",
-    "callsign": "AIR CENTRAL"
-  },
-  {
     "icao": "ADT",
     "callsign": "ARRENDATRANS"
-  },
-  {
-    "icao": "AED",
-    "callsign": "AIE EXPERIENCE"
   },
   {
     "icao": "AFF",
@@ -537,7 +505,7 @@
   },
   {
     "icao": "FLA",
-    "callsign": "PALM"
+    "callsign": "BLUEROCK"
   },
   {
     "icao": "MAC",
@@ -581,7 +549,7 @@
   },
   {
     "icao": "ALN",
-    "callsign": "TOLEMAC"
+    "callsign": "ALKAN AVIATION"
   },
   {
     "icao": "APN",
@@ -613,11 +581,7 @@
   },
   {
     "icao": "AZB",
-    "callsign": "TUMARA"
-  },
-  {
-    "icao": "AEN",
-    "callsign": "AEROLAND"
+    "callsign": "AIR ZAMBIA"
   },
   {
     "icao": "NGF",
@@ -677,7 +641,7 @@
   },
   {
     "icao": "STT",
-    "callsign": "STAR CHARTER"
+    "callsign": "SAWTOOTH"
   },
   {
     "icao": "HEZ",
@@ -693,7 +657,7 @@
   },
   {
     "icao": "AEH",
-    "callsign": "AEROCUTTER"
+    "callsign": "VEGA"
   },
   {
     "icao": "ERO",
@@ -725,7 +689,7 @@
   },
   {
     "icao": "VRE",
-    "callsign": "COTE DIVORIE"
+    "callsign": "COTE D'IVOIRE"
   },
   {
     "icao": "AXY",
@@ -753,7 +717,7 @@
   },
   {
     "icao": "AAD",
-    "callsign": "SUNRISE"
+    "callsign": "PANABEAR"
   },
   {
     "icao": "SII",
@@ -780,16 +744,8 @@
     "callsign": "ATLANTIS AIR"
   },
   {
-    "icao": "AAP",
-    "callsign": "AEROVISTA GROUP"
-  },
-  {
     "icao": "AE",
     "callsign": "CEYLON"
-  },
-  {
-    "icao": "AAS",
-    "callsign": "ALASS"
   },
   {
     "icao": "AAU",
@@ -800,16 +756,8 @@
     "callsign": "ASTROPHIL"
   },
   {
-    "icao": "AAW",
-    "callsign": "AFRIQIYAH"
-  },
-  {
     "icao": "AFU",
     "callsign": "AFRINAT"
-  },
-  {
-    "icao": "AAX",
-    "callsign": "AFREX"
   },
   {
     "icao": "BRL",
@@ -825,19 +773,11 @@
   },
   {
     "icao": "AAG",
-    "callsign": "ATLANTIC"
-  },
-  {
-    "icao": "AAG",
-    "callsign": "ATLANTIC"
+    "callsign": "APRICOT"
   },
   {
     "icao": "AAJ",
-    "callsign": "AIR ALMA"
-  },
-  {
-    "icao": "ADT",
-    "callsign": "AIR DORVAL"
+    "callsign": "ALFA SUDAN"
   },
   {
     "icao": "AHN",
@@ -852,20 +792,12 @@
     "callsign": "AIR HONG KONG"
   },
   {
-    "icao": "AHS",
-    "callsign": "AIRSAR"
-  },
-  {
     "icao": "AAI",
     "callsign": "BOREALIS"
   },
   {
     "icao": "ACU",
     "callsign": "AFRISPIRIT"
-  },
-  {
-    "icao": "ADC",
-    "callsign": "ATLANDOMINICAN"
   },
   {
     "icao": "ADW",
@@ -936,20 +868,12 @@
     "callsign": "ANTILLEAN"
   },
   {
-    "icao": "ALN",
-    "callsign": "CHICAGO LINCOLN"
-  },
-  {
     "icao": "ACM",
     "callsign": "WEST CAL"
   },
   {
     "icao": "AXE",
     "callsign": "GALILEO"
-  },
-  {
-    "icao": "AGM",
-    "callsign": "AIR GUAM"
   },
   {
     "icao": "AWI",
@@ -981,7 +905,7 @@
   },
   {
     "icao": "AAQ",
-    "callsign": "LIAISON"
+    "callsign": "ASIA ATLANTIC"
   },
   {
     "icao": "ATW",
@@ -1017,7 +941,7 @@
   },
   {
     "icao": "LIB",
-    "callsign": "LIBERTE"
+    "callsign": "LIBELLE"
   },
   {
     "icao": "KLA",
@@ -1025,7 +949,7 @@
   },
   {
     "icao": "AIM",
-    "callsign": "MALAWI"
+    "callsign": "PIJO"
   },
   {
     "icao": "AMI",
@@ -1100,10 +1024,6 @@
     "callsign": "LIVONIA"
   },
   {
-    "icao": "ABL",
-    "callsign": "AIRCOACH"
-  },
-  {
     "icao": "LJA",
     "callsign": "AIR JAMAHIRIYA"
   },
@@ -1165,7 +1085,7 @@
   },
   {
     "icao": "SNG",
-    "callsign": "AIR SENEGAL"
+    "callsign": "SNOW EAGLE"
   },
   {
     "icao": "SNY",
@@ -1186,10 +1106,6 @@
   {
     "icao": "BER",
     "callsign": "AIR BERLIN"
-  },
-  {
-    "icao": "ABT",
-    "callsign": "AIR BROUSSE"
   },
   {
     "icao": "APV",
@@ -1216,10 +1132,6 @@
     "callsign": "AIR STAR"
   },
   {
-    "icao": "ASD",
-    "callsign": "AIR SINAI"
-  },
-  {
     "icao": "AQN",
     "callsign": "BUSHAIR"
   },
@@ -1241,7 +1153,7 @@
   },
   {
     "icao": "WOW",
-    "callsign": "SWALLOW"
+    "callsign": "WOW AIR"
   },
   {
     "icao": "ATJ",
@@ -1253,7 +1165,7 @@
   },
   {
     "icao": "ATQ",
-    "callsign": "MULTI"
+    "callsign": "COLIBRI"
   },
   {
     "icao": "AVG",
@@ -1305,15 +1217,7 @@
   },
   {
     "icao": "AFW",
-    "callsign": "AFRAIR"
-  },
-  {
-    "icao": "AFW",
     "callsign": "BLACKSTAR"
-  },
-  {
-    "icao": "ACX",
-    "callsign": "PARAIR"
   },
   {
     "icao": "AEL",
@@ -1329,7 +1233,7 @@
   },
   {
     "icao": "AWT",
-    "callsign": "AIR WEST"
+    "callsign": "ALBAWINGS"
   },
   {
     "icao": "AWW",
@@ -1464,10 +1368,6 @@
     "callsign": "ANGUS"
   },
   {
-    "icao": "ABA",
-    "callsign": "ARTEMAVIA"
-  },
-  {
     "icao": "ABB",
     "callsign": "AFRICAN BUSINESS"
   },
@@ -1488,16 +1388,8 @@
     "callsign": "ANTRAK"
   },
   {
-    "icao": "ABX",
-    "callsign": "ABEX"
-  },
-  {
-    "icao": "ABZ",
-    "callsign": "ATABRAZIL"
-  },
-  {
     "icao": "ACY",
-    "callsign": "ATLAS CARGOLINES"
+    "callsign": "CRUX"
   },
   {
     "icao": "ADA",
@@ -1560,24 +1452,12 @@
     "callsign": "ANDAX"
   },
   {
-    "icao": "AEI",
-    "callsign": "INTERAM"
-  },
-  {
     "icao": "AEJ",
     "callsign": "KHAKI EXPRESS"
   },
   {
-    "icao": "AEK",
-    "callsign": "AEROCON"
-  },
-  {
     "icao": "AEM",
     "callsign": "AEROMADRID"
-  },
-  {
-    "icao": "AEN",
-    "callsign": "AIR ENTERPRISE"
   },
   {
     "icao": "AEO",
@@ -1589,15 +1469,11 @@
   },
   {
     "icao": "AAC",
-    "callsign": "CONNECT AMERICA"
+    "callsign": "ARMYAIR"
   },
   {
     "icao": "AAA",
     "callsign": "ANSETT"
-  },
-  {
-    "icao": "AAC",
-    "callsign": "ARMYAIR"
   },
   {
     "icao": "AEU",
@@ -2008,10 +1884,6 @@
     "callsign": "ALLPOINTS"
   },
   {
-    "icao": "ALP",
-    "callsign": "ALPINER"
-  },
-  {
     "icao": "ALQ",
     "callsign": "ALTAIR"
   },
@@ -2053,19 +1925,11 @@
   },
   {
     "icao": "AMM",
-    "callsign": "AEROM"
-  },
-  {
-    "icao": "AMM",
-    "callsign": "JETSET"
+    "callsign": "METAVIA"
   },
   {
     "icao": "AMP",
     "callsign": "ATSA"
-  },
-  {
-    "icao": "AMQ",
-    "callsign": "LIFELINE"
   },
   {
     "icao": "AMQ",
@@ -2102,10 +1966,6 @@
   {
     "icao": "ANM",
     "callsign": "NORAM"
-  },
-  {
-    "icao": "ANM",
-    "callsign": "ANTARES"
   },
   {
     "icao": "ANO",
@@ -2265,11 +2125,11 @@
   },
   {
     "icao": "BLA",
-    "callsign": "ALL CHARTER"
+    "callsign": "BLUE AIR"
   },
   {
     "icao": "APL",
-    "callsign": "APPALACHIAN"
+    "callsign": "AEREO PRINCIPAL"
   },
   {
     "icao": "APM",
@@ -2336,20 +2196,12 @@
     "callsign": "AVIAIR"
   },
   {
-    "icao": "AWT",
-    "callsign": "ALBAWINGS"
-  },
-  {
     "icao": "ARE",
-    "callsign": "AIRES"
+    "callsign": "LAN COLOMBIA"
   },
   {
     "icao": "ARG",
     "callsign": "ARGENTINA"
-  },
-  {
-    "icao": "ARH",
-    "callsign": "ARROWHEAD"
   },
   {
     "icao": "ARI",
@@ -2358,10 +2210,6 @@
   {
     "icao": "SUO",
     "callsign": "SERVICIO SANLUIS"
-  },
-  {
-    "icao": "SUP",
-    "callsign": "AEROSUPER"
   },
   {
     "icao": "ARK",
@@ -2374,10 +2222,6 @@
   {
     "icao": "ARM",
     "callsign": "AMEX"
-  },
-  {
-    "icao": "ARO",
-    "callsign": "ARROW"
   },
   {
     "icao": "KLD",
@@ -2393,7 +2237,7 @@
   },
   {
     "icao": "ART",
-    "callsign": "AEROTAL"
+    "callsign": "SMART LYNX"
   },
   {
     "icao": "ARV",
@@ -2405,7 +2249,7 @@
   },
   {
     "icao": "OST",
-    "callsign": "ALANIA"
+    "callsign": "OSTATE"
   },
   {
     "icao": "HUC",
@@ -2432,10 +2276,6 @@
     "callsign": "MOROZOV"
   },
   {
-    "icao": "ASF",
-    "callsign": "SCHEFF"
-  },
-  {
     "icao": "ASG",
     "callsign": "AFRICAN STAR"
   },
@@ -2456,20 +2296,12 @@
     "callsign": "AIRSPRINT"
   },
   {
-    "icao": "ASR",
-    "callsign": "ALL STAR"
-  },
-  {
     "icao": "AST",
     "callsign": "AEROESTE"
   },
   {
     "icao": "WAP",
     "callsign": "ARROW PANAMA"
-  },
-  {
-    "icao": "ASV",
-    "callsign": "ASTRAVIA"
   },
   {
     "icao": "ASZ",
@@ -2537,7 +2369,7 @@
   },
   {
     "icao": "ATT",
-    "callsign": "AERTURAS"
+    "callsign": "HANN"
   },
   {
     "icao": "ATU",
@@ -2546,10 +2378,6 @@
   {
     "icao": "ATV",
     "callsign": "AVANTI AIR"
-  },
-  {
-    "icao": "ATW",
-    "callsign": "AERO TRADES"
   },
   {
     "icao": "AUA",
@@ -2589,7 +2417,7 @@
   },
   {
     "icao": "AUN",
-    "callsign": "AVIONES UNIDOS"
+    "callsign": "COMMON SKY"
   },
   {
     "icao": "SVE",
@@ -2641,10 +2469,6 @@
   },
   {
     "icao": "AVP",
-    "callsign": "AVCORP"
-  },
-  {
-    "icao": "AVP",
     "callsign": "AVIA PUEBLA"
   },
   {
@@ -2681,7 +2505,7 @@
   },
   {
     "icao": "YRG",
-    "callsign": "YUGAIR"
+    "callsign": "YAKAIR GEORGIA"
   },
   {
     "icao": "BGA",
@@ -2777,7 +2601,7 @@
   },
   {
     "icao": "IAD",
-    "callsign": "ARIYA"
+    "callsign": "RED KNIGHT"
   },
   {
     "icao": "AXN",
@@ -2810,14 +2634,6 @@
   {
     "icao": "AXV",
     "callsign": "AXAVIA"
-  },
-  {
-    "icao": "AXX",
-    "callsign": "IMPEX"
-  },
-  {
-    "icao": "AXY",
-    "callsign": "AXIS"
   },
   {
     "icao": "AYD",
@@ -2865,7 +2681,7 @@
   },
   {
     "icao": "AZI",
-    "callsign": "ASTRA"
+    "callsign": "GREEK STAR"
   },
   {
     "icao": "AZK",
@@ -2881,7 +2697,7 @@
   },
   {
     "icao": "AZP",
-    "callsign": "ARIZONA PACIFIC"
+    "callsign": "GUARANI"
   },
   {
     "icao": "AZS",
@@ -2898,10 +2714,6 @@
   {
     "icao": "MHC",
     "callsign": "AERO JOMACHA"
-  },
-  {
-    "icao": "AZY",
-    "callsign": "ARIZAIR"
   },
   {
     "icao": "AZZ",
@@ -2938,10 +2750,6 @@
   {
     "icao": "NGE",
     "callsign": "ANGEL AIR"
-  },
-  {
-    "icao": "NGF",
-    "callsign": "ANGEL FLIGHT"
   },
   {
     "icao": "OUL",
@@ -3000,10 +2808,6 @@
     "callsign": "PULLMANTUR"
   },
   {
-    "icao": "AEH",
-    "callsign": "AVEX"
-  },
-  {
     "icao": "PSG",
     "callsign": "SERVIAVIONES"
   },
@@ -3060,10 +2864,6 @@
     "callsign": "PUELCHE"
   },
   {
-    "icao": "AZI",
-    "callsign": "AZZURRA"
-  },
-  {
     "icao": "ETC",
     "callsign": "TRANATTICO"
   },
@@ -3089,7 +2889,7 @@
   },
   {
     "icao": "VLR",
-    "callsign": "VILLAVERDE"
+    "callsign": "VOLAX"
   },
   {
     "icao": "WIL",
@@ -3173,7 +2973,7 @@
   },
   {
     "icao": "VDR",
-    "callsign": "VARDAR"
+    "callsign": "VOLDIR"
   },
   {
     "icao": "VIM",
@@ -3289,7 +3089,7 @@
   },
   {
     "icao": "KHV",
-    "callsign": "AIR ANGKOR"
+    "callsign": "CAMBODIA AIR"
   },
   {
     "icao": "VBC",
@@ -3417,7 +3217,7 @@
   },
   {
     "icao": "CRF",
-    "callsign": "AIR CENTRAL"
+    "callsign": "CROIX ROUGE"
   },
   {
     "icao": "CRJ",
@@ -3548,16 +3348,8 @@
     "callsign": "DYNAJET"
   },
   {
-    "icao": "DRD",
-    "callsign": "ALADA AIR"
-  },
-  {
     "icao": "DRM",
     "callsign": "DARTMOOR"
-  },
-  {
-    "icao": "DRO",
-    "callsign": "AERONORESTE"
   },
   {
     "icao": "DRU",
@@ -3688,12 +3480,8 @@
     "callsign": "AEROSIETE"
   },
   {
-    "icao": "EUK",
-    "callsign": "SNOWBIRD"
-  },
-  {
     "icao": "EVE",
-    "callsign": "SUNBEAM"
+    "callsign": "EVELOP"
   },
   {
     "icao": "EVR",
@@ -3785,7 +3573,7 @@
   },
   {
     "icao": "FPY",
-    "callsign": "AFRICOMPANY"
+    "callsign": "PLAYER"
   },
   {
     "icao": "FRJ",
@@ -3934,10 +3722,6 @@
   {
     "icao": "GUA",
     "callsign": "AGUASCALIENTES"
-  },
-  {
-    "icao": "GUY",
-    "callsign": "GREEN BIRD"
   },
   {
     "icao": "GVI",
@@ -4524,10 +4308,6 @@
     "callsign": "PERUMAX"
   },
   {
-    "icao": "MNE",
-    "callsign": "AEROAMANECER"
-  },
-  {
     "icao": "MNG",
     "callsign": "AERO MONGOLIA"
   },
@@ -4569,7 +4349,7 @@
   },
   {
     "icao": "MSK",
-    "callsign": "AIR SPORT"
+    "callsign": "MAK AIRLINES"
   },
   {
     "icao": "MSM",
@@ -4777,7 +4557,7 @@
   },
   {
     "icao": "PRT",
-    "callsign": "PATRIOT"
+    "callsign": "PRIME ITALIA"
   },
   {
     "icao": "PRZ",
@@ -4912,10 +4692,6 @@
     "callsign": "AERO AFRICA"
   },
   {
-    "icao": "AZP",
-    "callsign": "GUARANI"
-  },
-  {
     "icao": "RFD",
     "callsign": "RAFHILER"
   },
@@ -5032,10 +4808,6 @@
     "callsign": "BRAVO QUEBEC"
   },
   {
-    "icao": "ROO",
-    "callsign": "AEROITALIA"
-  },
-  {
     "icao": "ROD",
     "callsign": "AERODAN"
   },
@@ -5081,7 +4853,7 @@
   },
   {
     "icao": "RTO",
-    "callsign": "ARTOAIR"
+    "callsign": "RACCOON"
   },
   {
     "icao": "RTQ",
@@ -5249,11 +5021,7 @@
   },
   {
     "icao": "STK",
-    "callsign": "SAT PAK"
-  },
-  {
-    "icao": "STT",
-    "callsign": "PARADISE"
+    "callsign": "STOBART AIR"
   },
   {
     "icao": "SUE",
@@ -5289,7 +5057,7 @@
   },
   {
     "icao": "TBL",
-    "callsign": "AEROTREBOL"
+    "callsign": "TERRIBLES"
   },
   {
     "icao": "TBO",
@@ -5472,10 +5240,6 @@
     "callsign": "ATACARGO"
   },
   {
-    "icao": "AAJ",
-    "callsign": "ALFA SUDAN"
-  },
-  {
     "icao": "AER",
     "callsign": "ACE AIR"
   },
@@ -5488,16 +5252,12 @@
     "callsign": "ALOHA"
   },
   {
-    "icao": "AAH",
-    "callsign": "ALOHA"
-  },
-  {
     "icao": "AAL",
     "callsign": "AMERICAN"
   },
   {
     "icao": "AAN",
-    "callsign": "AMSTEL"
+    "callsign": "ATMOJET"
   },
   {
     "icao": "ABI",
@@ -5512,28 +5272,16 @@
     "callsign": "STOBART"
   },
   {
-    "icao": "AAR",
-    "callsign": "ASIANA"
-  },
-  {
     "icao": "ABR",
     "callsign": "CONTRACT"
   },
   {
     "icao": "AAE",
-    "callsign": "AIR EAST"
+    "callsign": "EUROVIKING"
   },
   {
     "icao": "ACP",
     "callsign": "ASTRAL CARGO"
-  },
-  {
-    "icao": "AAP",
-    "callsign": "ASTRO AIR"
-  },
-  {
-    "icao": "ATT",
-    "callsign": "ATTAWASOL AIR"
   },
   {
     "icao": "XME",
@@ -5741,7 +5489,7 @@
   },
   {
     "icao": "BTK",
-    "callsign": "BALTYKA"
+    "callsign": "BATIK"
   },
   {
     "icao": "BAV",
@@ -5801,11 +5549,7 @@
   },
   {
     "icao": "BAL",
-    "callsign": "BELLEAIR EUROPE"
-  },
-  {
-    "icao": "BAL",
-    "callsign": "BRITANNIA"
+    "callsign": "BALMORAL"
   },
   {
     "icao": "BAM",
@@ -5822,10 +5566,6 @@
   {
     "icao": "BAU",
     "callsign": "AIR BISSAU"
-  },
-  {
-    "icao": "BAV",
-    "callsign": "BAY AIR"
   },
   {
     "icao": "BAW",
@@ -5881,7 +5621,7 @@
   },
   {
     "icao": "BCY",
-    "callsign": "CITY JET"
+    "callsign": "CITYIRELAND"
   },
   {
     "icao": "BDA",
@@ -6200,10 +5940,6 @@
     "callsign": "KUMANOVO"
   },
   {
-    "icao": "BNZ",
-    "callsign": "BONZA"
-  },
-  {
     "icao": "BOE",
     "callsign": "BOEING"
   },
@@ -6264,16 +6000,8 @@
     "callsign": "BRANSON"
   },
   {
-    "icao": "BRO",
-    "callsign": "COASTRIDER"
-  },
-  {
     "icao": "BRS",
     "callsign": "BRAZILIAN AIR FORCE"
-  },
-  {
-    "icao": "BRT",
-    "callsign": "BRITISH"
   },
   {
     "icao": "BRU",
@@ -6309,7 +6037,7 @@
   },
   {
     "icao": "BSJ",
-    "callsign": "BLUE SWAN"
+    "callsign": "SKYBUS JET"
   },
   {
     "icao": "BSS",
@@ -6326,14 +6054,6 @@
   {
     "icao": "BSY",
     "callsign": "BIG SKY"
-  },
-  {
-    "icao": "BTI",
-    "callsign": "AIR BALTIC"
-  },
-  {
-    "icao": "BTK",
-    "callsign": "BATIK"
   },
   {
     "icao": "BTQ",
@@ -6481,7 +6201,7 @@
   },
   {
     "icao": "EXP",
-    "callsign": "EXPRESS AIR"
+    "callsign": "ISLAND EXPRESS"
   },
   {
     "icao": "GAA",
@@ -6506,10 +6226,6 @@
   {
     "icao": "IVR",
     "callsign": "RERUN"
-  },
-  {
-    "icao": "BLA",
-    "callsign": "BLUE AIR"
   },
   {
     "icao": "LAJ",
@@ -6585,7 +6301,7 @@
   },
   {
     "icao": "SCJ",
-    "callsign": "SCANJET"
+    "callsign": "SPRING CITY"
   },
   {
     "icao": "SHT",
@@ -6594,10 +6310,6 @@
   {
     "icao": "SKH",
     "callsign": "SKYNEWS"
-  },
-  {
-    "icao": "TBL",
-    "callsign": "TELCO"
   },
   {
     "icao": "TXB",
@@ -6692,10 +6404,6 @@
     "callsign": "CLUB HOUSE"
   },
   {
-    "icao": "CRF",
-    "callsign": "CROIX ROUGE"
-  },
-  {
     "icao": "CAA",
     "callsign": "INSPECTOR"
   },
@@ -6710,14 +6418,6 @@
   {
     "icao": "BBN",
     "callsign": "BRABAZON"
-  },
-  {
-    "icao": "ATQ",
-    "callsign": "COLIBRI"
-  },
-  {
-    "icao": "APL",
-    "callsign": "AEREO PRINCIPAL"
   },
   {
     "icao": "AIO",
@@ -6760,10 +6460,6 @@
     "callsign": "HELIBIRD"
   },
   {
-    "icao": "AUN",
-    "callsign": "COMMON SKY"
-  },
-  {
     "icao": "CBI",
     "callsign": "CABI"
   },
@@ -6801,7 +6497,7 @@
   },
   {
     "icao": "SCH",
-    "callsign": "SCHREINER"
+    "callsign": "OCEAN BIRD"
   },
   {
     "icao": "HKS",
@@ -6884,10 +6580,6 @@
     "callsign": "AIR CAMAI"
   },
   {
-    "icao": "KHV",
-    "callsign": "ANGKOR AIR"
-  },
-  {
     "icao": "UYC",
     "callsign": "CAMAIR"
   },
@@ -6922,10 +6614,6 @@
   {
     "icao": "BZD",
     "callsign": "BLIZZARD"
-  },
-  {
-    "icao": "CDN",
-    "callsign": "CANADIAN"
   },
   {
     "icao": "TKR",
@@ -7044,10 +6732,6 @@
     "callsign": "MAURICARGO"
   },
   {
-    "icao": "CRV",
-    "callsign": "CARGOIV"
-  },
-  {
     "icao": "CLM",
     "callsign": "CARGO LINK"
   },
@@ -7141,7 +6825,7 @@
   },
   {
     "icao": "ULS",
-    "callsign": "ULSTER"
+    "callsign": "AIR ULTRA"
   },
   {
     "icao": "CMT",
@@ -7449,7 +7133,7 @@
   },
   {
     "icao": "DES",
-    "callsign": "CHILCOTIN"
+    "callsign": "DESTINIA"
   },
   {
     "icao": "CAD",
@@ -7518,10 +7202,6 @@
   {
     "icao": "CXH",
     "callsign": "XINHUA"
-  },
-  {
-    "icao": "CYH",
-    "callsign": "YUNNAN"
   },
   {
     "icao": "CGU",
@@ -7593,15 +7273,11 @@
   },
   {
     "icao": "SDR",
-    "callsign": "SWEDESTAR"
+    "callsign": "SUNDAIR"
   },
   {
     "icao": "CIX",
     "callsign": "CONNEXION"
-  },
-  {
-    "icao": "BCY",
-    "callsign": "CITYIRELAND"
   },
   {
     "icao": "CAQ",
@@ -7610,10 +7286,6 @@
   {
     "icao": "CII",
     "callsign": "CITYFLY"
-  },
-  {
-    "icao": "CFE",
-    "callsign": "FLYER"
   },
   {
     "icao": "CNB",
@@ -7633,7 +7305,7 @@
   },
   {
     "icao": "CAT",
-    "callsign": "MANDARIN"
+    "callsign": "AIRCAT"
   },
   {
     "icao": "CIA",
@@ -7765,7 +7437,7 @@
   },
   {
     "icao": "CMJ",
-    "callsign": "COMFORT JET"
+    "callsign": "MUDANJIANG"
   },
   {
     "icao": "CLA",
@@ -7837,7 +7509,7 @@
   },
   {
     "icao": "LCT",
-    "callsign": "STELLAIR"
+    "callsign": "CONEXION LINK"
   },
   {
     "icao": "EJV",
@@ -7861,7 +7533,7 @@
   },
   {
     "icao": "CYF",
-    "callsign": "COMPANY FLIGHT"
+    "callsign": "TUS AIR"
   },
   {
     "icao": "CPZ",
@@ -7870,10 +7542,6 @@
   {
     "icao": "CPS",
     "callsign": "COMPASS"
-  },
-  {
-    "icao": "CRC",
-    "callsign": "CONAIRCANADA"
   },
   {
     "icao": "COD",
@@ -7960,16 +7628,8 @@
     "callsign": "COPA"
   },
   {
-    "icao": "CAT",
-    "callsign": "AIRCAT"
-  },
-  {
     "icao": "COP",
     "callsign": "COPPER STATE"
-  },
-  {
-    "icao": "AAQ",
-    "callsign": "COPTERLINE"
   },
   {
     "icao": "CCW",
@@ -7978,10 +7638,6 @@
   {
     "icao": "CAI",
     "callsign": "CORENDON"
-  },
-  {
-    "icao": "CND",
-    "callsign": "DUTCH CORENDON"
   },
   {
     "icao": "CRA",
@@ -8036,16 +7692,12 @@
     "callsign": "CORSAIR"
   },
   {
-    "icao": "CCM",
-    "callsign": "CORSICA"
-  },
-  {
     "icao": "COZ",
     "callsign": "COSMIC AIR"
   },
   {
     "icao": "COT",
-    "callsign": "COAIR"
+    "callsign": "MARA"
   },
   {
     "icao": "CHI",
@@ -8117,7 +7769,7 @@
   },
   {
     "icao": "ECC",
-    "callsign": "CIGOGNE"
+    "callsign": "ECLAIR"
   },
   {
     "icao": "CWX",
@@ -8146,10 +7798,6 @@
   {
     "icao": "CYT",
     "callsign": "CRYSTALAIR"
-  },
-  {
-    "icao": "IRO",
-    "callsign": "IRON AIR"
   },
   {
     "icao": "CUB",
@@ -8236,10 +7884,6 @@
     "callsign": "CARSON"
   },
   {
-    "icao": "ABA",
-    "callsign": "AEROBETA"
-  },
-  {
     "icao": "DJT",
     "callsign": "DREAMJET"
   },
@@ -8250,10 +7894,6 @@
   {
     "icao": "DJR",
     "callsign": "DESERT FLIGHT"
-  },
-  {
-    "icao": "DLA",
-    "callsign": "DOLOMITI"
   },
   {
     "icao": "DLC",
@@ -8301,7 +7941,7 @@
   },
   {
     "icao": "ENT",
-    "callsign": "DATENT"
+    "callsign": "ENTERAIR"
   },
   {
     "icao": "BDN",
@@ -8512,10 +8152,6 @@
     "callsign": "FALCON EXPRESS"
   },
   {
-    "icao": "DJT",
-    "callsign": "DENVER JET"
-  },
-  {
     "icao": "FGC",
     "callsign": "FORESTALS"
   },
@@ -8545,7 +8181,7 @@
   },
   {
     "icao": "SPK",
-    "callsign": "SPARKLE"
+    "callsign": "SOLSTAS LAB"
   },
   {
     "icao": "DRB",
@@ -8725,10 +8361,6 @@
   },
   {
     "icao": "DBR",
-    "callsign": "DUTCHBIRD"
-  },
-  {
-    "icao": "DBR",
     "callsign": "DOBROLET"
   },
   {
@@ -8774,10 +8406,6 @@
   {
     "icao": "ELN",
     "callsign": "ELERON"
-  },
-  {
-    "icao": "ECC",
-    "callsign": "ECLAIR"
   },
   {
     "icao": "ELU",
@@ -8940,10 +8568,6 @@
     "callsign": "EASTERN"
   },
   {
-    "icao": "EAL",
-    "callsign": "EASTERN"
-  },
-  {
     "icao": "EZE",
     "callsign": "EASTFLIGHT"
   },
@@ -8977,7 +8601,7 @@
   },
   {
     "icao": "SGR",
-    "callsign": "STINGER"
+    "callsign": "SKYGREECE"
   },
   {
     "icao": "FYE",
@@ -9124,10 +8748,6 @@
     "callsign": "ELIDOLOMITI"
   },
   {
-    "icao": "ELB",
-    "callsign": "ELILOBARDIA"
-  },
-  {
     "icao": "EFG",
     "callsign": "ELIFRIULIA"
   },
@@ -9157,7 +8777,7 @@
   },
   {
     "icao": "EAI",
-    "callsign": "ELAIR"
+    "callsign": "GEMSTONE"
   },
   {
     "icao": "EJD",
@@ -9190,10 +8810,6 @@
   {
     "icao": "XSL",
     "callsign": "SATSLAB"
-  },
-  {
-    "icao": "EAI",
-    "callsign": "GEMSTONE"
   },
   {
     "icao": "JEM",
@@ -9236,10 +8852,6 @@
     "callsign": "ASPAR"
   },
   {
-    "icao": "CRN",
-    "callsign": "AEROCARIBBEAN"
-  },
-  {
     "icao": "VNA",
     "callsign": "EBBA"
   },
@@ -9272,20 +8884,12 @@
     "callsign": "ENIMEX"
   },
   {
-    "icao": "ENK",
-    "callsign": "ENKOR"
-  },
-  {
     "icao": "EGV",
     "callsign": "GLEISNER"
   },
   {
     "icao": "ESE",
     "callsign": "ENSENADA ESPECIAL"
-  },
-  {
-    "icao": "ENT",
-    "callsign": "ENTER"
   },
   {
     "icao": "ENS",
@@ -9468,10 +9072,6 @@
     "callsign": "FIESTA"
   },
   {
-    "icao": "EAL",
-    "callsign": "STAR WING"
-  },
-  {
     "icao": "BCS",
     "callsign": "POSTMAN"
   },
@@ -9514,10 +9114,6 @@
   {
     "icao": "EVA",
     "callsign": "EVA"
-  },
-  {
-    "icao": "EVE",
-    "callsign": "EVELOP"
   },
   {
     "icao": "EVK",
@@ -9646,14 +9242,6 @@
   {
     "icao": "XTO",
     "callsign": "EXPRESS TOURS"
-  },
-  {
-    "icao": "ASQ",
-    "callsign": "ACEY"
-  },
-  {
-    "icao": "XSL",
-    "callsign": "EXCELAIRE"
   },
   {
     "icao": "LTD",
@@ -10160,10 +9748,6 @@
     "callsign": "BIRDVIEW"
   },
   {
-    "icao": "ACY",
-    "callsign": "ARNA"
-  },
-  {
     "icao": "FCT",
     "callsign": "DEALER"
   },
@@ -10206,10 +9790,6 @@
   {
     "icao": "FRB",
     "callsign": "RAKWAY"
-  },
-  {
-    "icao": "IAD",
-    "callsign": "FLYWEX"
   },
   {
     "icao": "VAW",
@@ -10297,7 +9877,7 @@
   },
   {
     "icao": "FRE",
-    "callsign": "PELICAN"
+    "callsign": "FREEDOM"
   },
   {
     "icao": "FOX",
@@ -10384,20 +9964,12 @@
     "callsign": "FREE AIR"
   },
   {
-    "icao": "FRE",
-    "callsign": "FREEDOM"
-  },
-  {
     "icao": "FFF",
     "callsign": "INTER FREEDOM"
   },
   {
     "icao": "FRL",
     "callsign": "FREEDOM AIR"
-  },
-  {
-    "icao": "FAS",
-    "callsign": "FREEDOM AIRWAYS"
   },
   {
     "icao": "FWC",
@@ -10582,10 +10154,6 @@
   {
     "icao": "GET",
     "callsign": "AIR FLOW"
-  },
-  {
-    "icao": "GET",
-    "callsign": "GETRA"
   },
   {
     "icao": "GGT",
@@ -10920,10 +10488,6 @@
     "callsign": "GOL TRANSPORTE"
   },
   {
-    "icao": "GBT",
-    "callsign": "GOLD BELT"
-  },
-  {
     "icao": "GDA",
     "callsign": "AIR PARTNER"
   },
@@ -11010,10 +10574,6 @@
   {
     "icao": "LMK",
     "callsign": "LANDMARK"
-  },
-  {
-    "icao": "GRA",
-    "callsign": "GREAT AMERICAN"
   },
   {
     "icao": "GRA",
@@ -11186,10 +10746,6 @@
   {
     "icao": "GWN",
     "callsign": "GWYN"
-  },
-  {
-    "icao": "ALX",
-    "callsign": "ALLCONGO"
   },
   {
     "icao": "AHT",
@@ -11580,10 +11136,6 @@
     "callsign": "OFAVI"
   },
   {
-    "icao": "HLT",
-    "callsign": "HELITOURS"
-  },
-  {
     "icao": "HTA",
     "callsign": "SCANBIRD"
   },
@@ -11805,7 +11357,7 @@
   },
   {
     "icao": "UBD",
-    "callsign": "HAWLER"
+    "callsign": "URAIR"
   },
   {
     "icao": "HYA",
@@ -11844,16 +11396,12 @@
     "callsign": "WHIRLEYBIRD"
   },
   {
-    "icao": "EXP",
-    "callsign": "ISLAND EXPRESS"
-  },
-  {
     "icao": "KAR",
     "callsign": "IKAR"
   },
   {
     "icao": "IAC",
-    "callsign": "INTERCHARTER"
+    "callsign": "IBEX AIRLINES"
   },
   {
     "icao": "IDG",
@@ -12016,10 +11564,6 @@
     "callsign": "IMPROTEX"
   },
   {
-    "icao": "PNX",
-    "callsign": "PHOENIX"
-  },
-  {
     "icao": "IMG",
     "callsign": "IMPERIAL AIRLINES"
   },
@@ -12050,10 +11594,6 @@
   {
     "icao": "IFC",
     "callsign": "INDIAN AIRFORCE"
-  },
-  {
-    "icao": "IAC",
-    "callsign": "INDAIR"
   },
   {
     "icao": "IDR",
@@ -12133,7 +11673,7 @@
   },
   {
     "icao": "TCU",
-    "callsign": "TROPAIR"
+    "callsign": "TRANSGLOBAL"
   },
   {
     "icao": "ITA",
@@ -12202,14 +11742,6 @@
   {
     "icao": "ISN",
     "callsign": "TRIBIRD"
-  },
-  {
-    "icao": "IWY",
-    "callsign": "ISLANDWAYS"
-  },
-  {
-    "icao": "AIJ",
-    "callsign": "ABC AEROLINEAS"
   },
   {
     "icao": "IHE",
@@ -12316,10 +11848,6 @@
     "callsign": "IONA"
   },
   {
-    "icao": "IOA",
-    "callsign": "IOWA AIR"
-  },
-  {
     "icao": "IRA",
     "callsign": "IRANAIR"
   },
@@ -12345,7 +11873,7 @@
   },
   {
     "icao": "RDK",
-    "callsign": "IRISH TRANS"
+    "callsign": "RED DUKE"
   },
   {
     "icao": "XMR",
@@ -12509,7 +12037,7 @@
   },
   {
     "icao": "JES",
-    "callsign": "JAYESS AVIATION"
+    "callsign": "SMARTBIRD"
   },
   {
     "icao": "JCK",
@@ -12548,12 +12076,8 @@
     "callsign": "JAPANAIR"
   },
   {
-    "icao": "JAL",
-    "callsign": "JBIRD"
-  },
-  {
     "icao": "JAA",
-    "callsign": "ASIA"
+    "callsign": "JET ASIA"
   },
   {
     "icao": "JTA",
@@ -12568,14 +12092,6 @@
     "callsign": "RED SMART"
   },
   {
-    "icao": "JES",
-    "callsign": "SMARTBIRD"
-  },
-  {
-    "icao": "JAT",
-    "callsign": "JAT"
-  },
-  {
     "icao": "JTY",
     "callsign": "JATAYU"
   },
@@ -12586,10 +12102,6 @@
   {
     "icao": "JJA",
     "callsign": "JEJU AIR"
-  },
-  {
-    "icao": "JNY",
-    "callsign": "JENAIR"
   },
   {
     "icao": "JPN",
@@ -12669,7 +12181,7 @@
   },
   {
     "icao": "HTL",
-    "callsign": "HEARTLAND"
+    "callsign": "HOTLINE"
   },
   {
     "icao": "JTL",
@@ -12690,10 +12202,6 @@
   {
     "icao": "JSA",
     "callsign": "JETSTAR ASIA"
-  },
-  {
-    "icao": "JDI",
-    "callsign": "JEDI"
   },
   {
     "icao": "JSM",
@@ -12744,16 +12252,8 @@
     "callsign": "JET MAGIC"
   },
   {
-    "icao": "JAA",
-    "callsign": "JET ASIA"
-  },
-  {
     "icao": "JAF",
     "callsign": "BEAUTY"
-  },
-  {
-    "icao": "JTL",
-    "callsign": "FIREFLY"
   },
   {
     "icao": "JAG",
@@ -12993,7 +12493,7 @@
   },
   {
     "icao": "KGZ",
-    "callsign": "BERMET"
+    "callsign": "SKY FRU"
   },
   {
     "icao": "KDC",
@@ -13066,10 +12566,6 @@
   {
     "icao": "KSU",
     "callsign": "KSTATE"
-  },
-  {
-    "icao": "AKT",
-    "callsign": "AVIAKARAT"
   },
   {
     "icao": "KRB",
@@ -13268,10 +12764,6 @@
     "callsign": "KIWI AIR"
   },
   {
-    "icao": "KRA",
-    "callsign": "REGIONAL"
-  },
-  {
     "icao": "KNA",
     "callsign": "KUNMING AIR"
   },
@@ -13306,10 +12798,6 @@
   {
     "icao": "KMV",
     "callsign": "KOMIINTER"
-  },
-  {
-    "icao": "KNM",
-    "callsign": "KNAAPO"
   },
   {
     "icao": "KOB",
@@ -13392,16 +12880,8 @@
     "callsign": "KWENA"
   },
   {
-    "icao": "KGZ",
-    "callsign": "BERMET"
-  },
-  {
     "icao": "KTC",
     "callsign": "DINARA"
-  },
-  {
-    "icao": "LYN",
-    "callsign": "ALTYN AVIA"
   },
   {
     "icao": "KGA",
@@ -13454,10 +12934,6 @@
   {
     "icao": "LWA",
     "callsign": "LIBYAN WINGS"
-  },
-  {
-    "icao": "LCT",
-    "callsign": "TAR"
   },
   {
     "icao": "LAH",
@@ -13516,10 +12992,6 @@
     "callsign": "LAN CHILE"
   },
   {
-    "icao": "ARE",
-    "callsign": "LAN COLOMBIA"
-  },
-  {
     "icao": "LNC",
     "callsign": "LANCANA"
   },
@@ -13552,10 +13024,6 @@
     "callsign": "POLLOT"
   },
   {
-    "icao": "JKA",
-    "callsign": "JACKET"
-  },
-  {
     "icao": "LTE",
     "callsign": "FUN JET"
   },
@@ -13574,10 +13042,6 @@
   {
     "icao": "LUK",
     "callsign": "LUKOIL"
-  },
-  {
-    "icao": "ASK",
-    "callsign": "AIR SASK"
   },
   {
     "icao": "LVT",
@@ -13616,20 +13080,12 @@
     "callsign": "TICOS"
   },
   {
-    "icao": "ISL",
-    "callsign": "ISLANDIA"
-  },
-  {
     "icao": "PAP",
     "callsign": "PROFLIGHT"
   },
   {
     "icao": "LKN",
     "callsign": "LANKAIR"
-  },
-  {
-    "icao": "RLN",
-    "callsign": "AERO LANKA"
   },
   {
     "icao": "LZA",
@@ -13682,10 +13138,6 @@
   {
     "icao": "LDI",
     "callsign": "LAUDA ITALY"
-  },
-  {
-    "icao": "LEP",
-    "callsign": "LAUGHLIN EXPRESS"
   },
   {
     "icao": "LSU",
@@ -13832,10 +13284,6 @@
     "callsign": "LINEAS DURANGO"
   },
   {
-    "icao": "EDR",
-    "callsign": "ELDORADRO"
-  },
-  {
     "icao": "FED",
     "callsign": "FEDERALES"
   },
@@ -13886,10 +13334,6 @@
   {
     "icao": "LVG",
     "callsign": "LIVINGSTON"
-  },
-  {
-    "icao": "SNG",
-    "callsign": "SNOW EAGLE"
   },
   {
     "icao": "LLB",
@@ -14084,10 +13528,6 @@
     "callsign": "SURAMERICANO"
   },
   {
-    "icao": "SNG",
-    "callsign": "SNOW EAGLE"
-  },
-  {
     "icao": "LYB",
     "callsign": "HIGHLANDS"
   },
@@ -14109,7 +13549,7 @@
   },
   {
     "icao": "MSF",
-    "callsign": "MEINSHENG"
+    "callsign": "MINSHENG"
   },
   {
     "icao": "MXS",
@@ -14138,10 +13578,6 @@
   {
     "icao": "MYP",
     "callsign": "MANN ROYAL"
-  },
-  {
-    "icao": "RDK",
-    "callsign": "RED DUKE"
   },
   {
     "icao": "MLV",
@@ -14174,10 +13610,6 @@
   {
     "icao": "MFB",
     "callsign": "MOUNTAINHELI"
-  },
-  {
-    "icao": "HTL",
-    "callsign": "HOTLINE"
   },
   {
     "icao": "JNH",
@@ -14268,10 +13700,6 @@
     "callsign": "MAERSKAIR"
   },
   {
-    "icao": "MSK",
-    "callsign": "BLUESTAR"
-  },
-  {
     "icao": "MJB",
     "callsign": "MAGIC BLUE"
   },
@@ -14320,10 +13748,6 @@
     "callsign": "MALI AIREXPRESS"
   },
   {
-    "icao": "VXP",
-    "callsign": "AVION EXPRESS"
-  },
-  {
     "icao": "MTZ",
     "callsign": "MALI AIRWAYS"
   },
@@ -14342,10 +13766,6 @@
   {
     "icao": "SCW",
     "callsign": "SCANWING"
-  },
-  {
-    "icao": "MAC",
-    "callsign": "MALTA CHARTER"
   },
   {
     "icao": "MWS",
@@ -14388,10 +13808,6 @@
     "callsign": "MANNION"
   },
   {
-    "icao": "MTS",
-    "callsign": "MANTRUST"
-  },
-  {
     "icao": "MNX",
     "callsign": "MANX"
   },
@@ -14410,10 +13826,6 @@
   {
     "icao": "MGI",
     "callsign": "MARGHI"
-  },
-  {
-    "icao": "MRK",
-    "callsign": "MARKAIR"
   },
   {
     "icao": "MKO",
@@ -14504,10 +13916,6 @@
     "callsign": "MAX AVIA"
   },
   {
-    "icao": "MSF",
-    "callsign": "MAXESA"
-  },
-  {
     "icao": "MAX",
     "callsign": "MAX AVIATION"
   },
@@ -14522,10 +13930,6 @@
   {
     "icao": "MXJ",
     "callsign": "MAXJET"
-  },
-  {
-    "icao": "MXS",
-    "callsign": "MAXSUSAVIA"
   },
   {
     "icao": "MXP",
@@ -14745,15 +14149,7 @@
   },
   {
     "icao": "MDW",
-    "callsign": "MIDWAY"
-  },
-  {
-    "icao": "MDW",
-    "callsign": "MIDWAY"
-  },
-  {
-    "icao": "FLA",
-    "callsign": "PALM"
+    "callsign": "MEDWING"
   },
   {
     "icao": "FAX",
@@ -14869,7 +14265,7 @@
   },
   {
     "icao": "MSA",
-    "callsign": "AIRMERCI"
+    "callsign": "MISTRAL WINGS"
   },
   {
     "icao": "MJF",
@@ -15008,10 +14404,6 @@
     "callsign": "MOUNTAIN VALLEY"
   },
   {
-    "icao": "CMJ",
-    "callsign": "MUDANJIANG"
-  },
-  {
     "icao": "MTX",
     "callsign": "MULTITAXI"
   },
@@ -15070,10 +14462,6 @@
   {
     "icao": "VKG",
     "callsign": "VIKING"
-  },
-  {
-    "icao": "AAD",
-    "callsign": "AMBASSADOR"
   },
   {
     "icao": "MHV",
@@ -15193,7 +14581,7 @@
   },
   {
     "icao": "NSR",
-    "callsign": "NASAIR"
+    "callsign": "AIR STAR"
   },
   {
     "icao": "RFI",
@@ -15201,7 +14589,7 @@
   },
   {
     "icao": "NAN",
-    "callsign": "NATION AIR"
+    "callsign": "NORSHIP"
   },
   {
     "icao": "ROK",
@@ -15209,7 +14597,7 @@
   },
   {
     "icao": "NAL",
-    "callsign": "NATIONAL"
+    "callsign": "NORTHWAY"
   },
   {
     "icao": "NCR",
@@ -15249,7 +14637,7 @@
   },
   {
     "icao": "AND",
-    "callsign": "AIR INDIANA"
+    "callsign": "SERVI ANDES"
   },
   {
     "icao": "NJS",
@@ -15262,10 +14650,6 @@
   {
     "icao": "NLS",
     "callsign": "PANDER"
-  },
-  {
-    "icao": "NAE",
-    "callsign": "NATIONS EXPRESS"
   },
   {
     "icao": "NTW",
@@ -15456,10 +14840,6 @@
     "callsign": "NIMBUS"
   },
   {
-    "icao": "NSR",
-    "callsign": "AIR STAR"
-  },
-  {
     "icao": "NCA",
     "callsign": "NIPPON CARGO"
   },
@@ -15629,7 +15009,7 @@
   },
   {
     "icao": "PTO",
-    "callsign": "PHOTO"
+    "callsign": "ROOKIE"
   },
   {
     "icao": "NEN",
@@ -15676,10 +15056,6 @@
     "callsign": "YUKON"
   },
   {
-    "icao": "BYC",
-    "callsign": "BEIYA"
-  },
-  {
     "icao": "NDA",
     "callsign": "NORTHERN DAKOTA"
   },
@@ -15716,10 +15092,6 @@
     "callsign": "NORTHUMBRIA"
   },
   {
-    "icao": "NAL",
-    "callsign": "NORTHWAY"
-  },
-  {
     "icao": "NWA",
     "callsign": "NORTHWEST"
   },
@@ -15748,20 +15120,12 @@
     "callsign": "NORDIC"
   },
   {
-    "icao": "NRS",
-    "callsign": "REDNOSE"
-  },
-  {
     "icao": "NAA",
     "callsign": "NORUEGA"
   },
   {
     "icao": "NLH",
     "callsign": "NORSTAR"
-  },
-  {
-    "icao": "NAN",
-    "callsign": "NORSHIP"
   },
   {
     "icao": "NSZ",
@@ -15824,10 +15188,6 @@
     "callsign": "NUNASI"
   },
   {
-    "icao": "NIN",
-    "callsign": "NURVINDO"
-  },
-  {
     "icao": "NYS",
     "callsign": "NYASA"
   },
@@ -15848,10 +15208,6 @@
     "callsign": "FREIGHT LINE"
   },
   {
-    "icao": "OCN",
-    "callsign": "OBIRD"
-  },
-  {
     "icao": "OCM",
     "callsign": "OCONNOR"
   },
@@ -15862,10 +15218,6 @@
   {
     "icao": "OWE",
     "callsign": "OWENAIR"
-  },
-  {
-    "icao": "AAN",
-    "callsign": "OASIS"
   },
   {
     "icao": "OHK",
@@ -15964,10 +15316,6 @@
     "callsign": "ON AIR"
   },
   {
-    "icao": "OST",
-    "callsign": "OSTATE"
-  },
-  {
     "icao": "OTG",
     "callsign": "THAI EXPRESS"
   },
@@ -16040,10 +15388,6 @@
     "callsign": "ORENBURG"
   },
   {
-    "icao": "OTA",
-    "callsign": "ORGANIZACION"
-  },
-  {
     "icao": "OML",
     "callsign": "MAMBRA"
   },
@@ -16054,10 +15398,6 @@
   {
     "icao": "OTR",
     "callsign": "ORIENTROC"
-  },
-  {
-    "icao": "ORN",
-    "callsign": "ORIENT LINER"
   },
   {
     "icao": "OEA",
@@ -16152,14 +15492,6 @@
     "callsign": "SCARLET"
   },
   {
-    "icao": "OAL",
-    "callsign": "OLYMPIC"
-  },
-  {
-    "icao": "AAN",
-    "callsign": "OASIS"
-  },
-  {
     "icao": "ORT",
     "callsign": "SKYWALKER"
   },
@@ -16170,14 +15502,6 @@
   {
     "icao": "HRS",
     "callsign": "HORSEMAN"
-  },
-  {
-    "icao": "NCT",
-    "callsign": "PETE AIR"
-  },
-  {
-    "icao": "PRT",
-    "callsign": "PRIME ITALIA"
   },
   {
     "icao": "PXT",
@@ -16197,7 +15521,7 @@
   },
   {
     "icao": "PNC",
-    "callsign": "PRINCE"
+    "callsign": "PRINCE AVIATION"
   },
   {
     "icao": "PMI",
@@ -16284,10 +15608,6 @@
     "callsign": "PACAV"
   },
   {
-    "icao": "PTO",
-    "callsign": "ROOKIE"
-  },
-  {
     "icao": "PBN",
     "callsign": "BLUEBIRD"
   },
@@ -16356,16 +15676,12 @@
     "callsign": "PAKKER AVIO"
   },
   {
-    "icao": "LPA",
-    "callsign": "LINEASPAL"
-  },
-  {
     "icao": "PPC",
     "callsign": "PALAU ASIAPAC"
   },
   {
     "icao": "PNA",
-    "callsign": "SEBUS"
+    "callsign": "TROPIC BIRD"
   },
   {
     "icao": "PTP",
@@ -16402,10 +15718,6 @@
   {
     "icao": "PMA",
     "callsign": "PAN MALAYSIA"
-  },
-  {
-    "icao": "PNC",
-    "callsign": "PANAIRSA"
   },
   {
     "icao": "PNF",
@@ -16544,10 +15856,6 @@
     "callsign": "SUNTURK"
   },
   {
-    "icao": "PEV",
-    "callsign": "PEOPLES"
-  },
-  {
     "icao": "HAK",
     "callsign": "HELIFALCON"
   },
@@ -16637,7 +15945,7 @@
   },
   {
     "icao": "EZD",
-    "callsign": "REDHOT"
+    "callsign": "ZEST AIRWAYS"
   },
   {
     "icao": "PAL",
@@ -16684,10 +15992,6 @@
     "callsign": "PAPAGO"
   },
   {
-    "icao": "WDY",
-    "callsign": "WINDYCITY"
-  },
-  {
     "icao": "PHY",
     "callsign": "PHOENIX ARMENIA"
   },
@@ -16698,10 +16002,6 @@
   {
     "icao": "VAP",
     "callsign": "PHUKET AIR"
-  },
-  {
-    "icao": "PAI",
-    "callsign": "PIEDMONT"
   },
   {
     "icao": "PDT",
@@ -16756,16 +16056,8 @@
     "callsign": "PLANET"
   },
   {
-    "icao": "FPY",
-    "callsign": "PLAYER"
-  },
-  {
     "icao": "PYZ",
     "callsign": "PLAYERS AIR"
-  },
-  {
-    "icao": "LIB",
-    "callsign": "LIBELLE"
   },
   {
     "icao": "PSF",
@@ -16932,10 +16224,6 @@
     "callsign": "PORTUGUESE NAVY"
   },
   {
-    "icao": "MSA",
-    "callsign": "AIRMERCI"
-  },
-  {
     "icao": "PDC",
     "callsign": "DISTRICT"
   },
@@ -17018,10 +16306,6 @@
   {
     "icao": "PKZ",
     "callsign": "PRAVI"
-  },
-  {
-    "icao": "CME",
-    "callsign": "COMET"
   },
   {
     "icao": "PJP",
@@ -17160,10 +16444,6 @@
     "callsign": "PULKOVO"
   },
   {
-    "icao": "PRI",
-    "callsign": "PRIMERA"
-  },
-  {
     "icao": "PRW",
     "callsign": "JETBIRD"
   },
@@ -17270,10 +16550,6 @@
   {
     "icao": "CBY",
     "callsign": "TYPHOON"
-  },
-  {
-    "icao": "COT",
-    "callsign": "COTTESMORE"
   },
   {
     "icao": "CWL",
@@ -17428,10 +16704,6 @@
     "callsign": "REBUS"
   },
   {
-    "icao": "RTO",
-    "callsign": "RACCOON"
-  },
-  {
     "icao": "RIX",
     "callsign": "RECTRIX"
   },
@@ -17501,11 +16773,7 @@
   },
   {
     "icao": "RAG",
-    "callsign": "GERMAN LINK"
-  },
-  {
-    "icao": "RGR",
-    "callsign": "REGIONAIR"
+    "callsign": "RAGLAN"
   },
   {
     "icao": "RAE",
@@ -17566,10 +16834,6 @@
   {
     "icao": "RGS",
     "callsign": "RENOWN"
-  },
-  {
-    "icao": "REP",
-    "callsign": "REPUBLIC"
   },
   {
     "icao": "RPA",
@@ -17654,10 +16918,6 @@
   {
     "icao": "RIO",
     "callsign": "RIO"
-  },
-  {
-    "icao": "RSL",
-    "callsign": "RIO SUL"
   },
   {
     "icao": "RVM",
@@ -18013,15 +17273,11 @@
   },
   {
     "icao": "SEN",
-    "callsign": "SERVISIERRA"
+    "callsign": "SENIOR AIR"
   },
   {
     "icao": "SGC",
-    "callsign": "SAINT GEORGE"
-  },
-  {
-    "icao": "SCJ",
-    "callsign": "SIAMJET"
+    "callsign": "SPEC WINGS"
   },
   {
     "icao": "SIX",
@@ -18056,14 +17312,6 @@
     "callsign": "SINO SKY"
   },
   {
-    "icao": "SCH",
-    "callsign": "OCEAN BIRD"
-  },
-  {
-    "icao": "BYF",
-    "callsign": "BAY FLIGHT"
-  },
-  {
     "icao": "SXT",
     "callsign": "SERTAXI"
   },
@@ -18078,10 +17326,6 @@
   {
     "icao": "SBD",
     "callsign": "SIBIA"
-  },
-  {
-    "icao": "ART",
-    "callsign": "SMART LYNX"
   },
   {
     "icao": "MYX",
@@ -18102,10 +17346,6 @@
   {
     "icao": "TVQ",
     "callsign": "SLOVAKTRAVEL"
-  },
-  {
-    "icao": "DES",
-    "callsign": "DESTINA"
   },
   {
     "icao": "FUF",
@@ -18132,32 +17372,12 @@
     "callsign": "HELICARE"
   },
   {
-    "icao": "BIS",
-    "callsign": "JUMA AIR"
-  },
-  {
     "icao": "KYE",
     "callsign": "SKY CUBE"
   },
   {
     "icao": "KPM",
     "callsign": "SKY PRIMAIR"
-  },
-  {
-    "icao": "BSJ",
-    "callsign": "SKYBUS JET"
-  },
-  {
-    "icao": "SGR",
-    "callsign": "SKYGREECE"
-  },
-  {
-    "icao": "USW",
-    "callsign": "AKSAR"
-  },
-  {
-    "icao": "SHA",
-    "callsign": "SHARP"
   },
   {
     "icao": "SHA",
@@ -18253,23 +17473,15 @@
   },
   {
     "icao": "SBA",
-    "callsign": "SOL"
+    "callsign": "SOL BRASIL"
   },
   {
     "icao": "SGU",
     "callsign": "SOLPARAGUAYO"
   },
   {
-    "icao": "SBA",
-    "callsign": "STAMALI"
-  },
-  {
     "icao": "SBB",
     "callsign": "SABER EXPRESS"
-  },
-  {
-    "icao": "SEN",
-    "callsign": "TUNEXPRESS"
   },
   {
     "icao": "SBF",
@@ -18370,10 +17582,6 @@
   {
     "icao": "AHI",
     "callsign": "AEROCHISA"
-  },
-  {
-    "icao": "AND",
-    "callsign": "SERVI ANDES"
   },
   {
     "icao": "SCP",
@@ -18488,10 +17696,6 @@
     "callsign": "SPICEJET"
   },
   {
-    "icao": "SEK",
-    "callsign": "SKALA"
-  },
-  {
     "icao": "SEL",
     "callsign": "SENTEL"
   },
@@ -18576,10 +17780,6 @@
     "callsign": "SONGBIRD"
   },
   {
-    "icao": "SGC",
-    "callsign": "SOUTHERNRIGHT"
-  },
-  {
     "icao": "SGD",
     "callsign": "AIR BISHKEK"
   },
@@ -18618,10 +17818,6 @@
   {
     "icao": "SGT",
     "callsign": "SKYGATE"
-  },
-  {
-    "icao": "SGU",
-    "callsign": "RAUSHAN"
   },
   {
     "icao": "SGY",
@@ -18718,10 +17914,6 @@
   {
     "icao": "SIL",
     "callsign": "SILVER WINGS"
-  },
-  {
-    "icao": "SIL",
-    "callsign": "SERVICIOS INTEGRALES"
   },
   {
     "icao": "SIO",
@@ -18833,10 +18025,6 @@
   },
   {
     "icao": "SRL",
-    "callsign": "STARLINE"
-  },
-  {
-    "icao": "SRL",
     "callsign": "SERVICIOS PERSONAL"
   },
   {
@@ -18849,7 +18037,7 @@
   },
   {
     "icao": "SRQ",
-    "callsign": "SEAIR"
+    "callsign": "BLUE JAY"
   },
   {
     "icao": "SRS",
@@ -18980,10 +18168,6 @@
     "callsign": "STELLAVIA"
   },
   {
-    "icao": "STK",
-    "callsign": "STOBART"
-  },
-  {
     "icao": "STL",
     "callsign": "STAPLEFORD"
   },
@@ -18994,10 +18178,6 @@
   {
     "icao": "STQ",
     "callsign": "STERA"
-  },
-  {
-    "icao": "STU",
-    "callsign": "FUEGUINO"
   },
   {
     "icao": "STU",
@@ -19141,7 +18321,7 @@
   },
   {
     "icao": "SWD",
-    "callsign": "SOUTHERN WINDS"
+    "callsign": "SAWBLADE"
   },
   {
     "icao": "SWE",
@@ -19174,14 +18354,6 @@
   {
     "icao": "SWR",
     "callsign": "SWISS"
-  },
-  {
-    "icao": "SWR",
-    "callsign": "SWISSAIR"
-  },
-  {
-    "icao": "SDR",
-    "callsign": "SUNDAIR"
   },
   {
     "icao": "SWS",
@@ -19217,10 +18389,6 @@
   },
   {
     "icao": "SWZ",
-    "callsign": "SWISSBIRD"
-  },
-  {
-    "icao": "SWZ",
     "callsign": "SKYWISE"
   },
   {
@@ -19242,10 +18410,6 @@
   {
     "icao": "SXS",
     "callsign": "SUNEXPRESS"
-  },
-  {
-    "icao": "SXT",
-    "callsign": "SERTA"
   },
   {
     "icao": "SXX",
@@ -19332,10 +18496,6 @@
     "callsign": "ARABIA EGYPT"
   },
   {
-    "icao": "CBN",
-    "callsign": "CALIBRATION"
-  },
-  {
     "icao": "CDG",
     "callsign": "SHANDONG"
   },
@@ -19410,10 +18570,6 @@
   {
     "icao": "EAN",
     "callsign": "NIGERIA EXPRESS"
-  },
-  {
-    "icao": "ERO",
-    "callsign": "ECHO ROMEO"
   },
   {
     "icao": "ESK",
@@ -19776,10 +18932,6 @@
     "callsign": "SKYISLE"
   },
   {
-    "icao": "AZG",
-    "callsign": "SAKSERVICE"
-  },
-  {
     "icao": "SKF",
     "callsign": "SKYCRAFT"
   },
@@ -20085,10 +19237,6 @@
   },
   {
     "icao": "SOW",
-    "callsign": "SOWIND"
-  },
-  {
-    "icao": "SOW",
     "callsign": "SPARROW"
   },
   {
@@ -20132,10 +19280,6 @@
     "callsign": "SOUTH PACIFIC"
   },
   {
-    "icao": "SPK",
-    "callsign": "SPARK"
-  },
-  {
     "icao": "SPL",
     "callsign": "CORPORATIVOS LAGUNA"
   },
@@ -20150,10 +19294,6 @@
   {
     "icao": "SPQ",
     "callsign": "SERVICOS PALENQUE"
-  },
-  {
-    "icao": "TBS",
-    "callsign": "TRIBASA"
   },
   {
     "icao": "TCF",
@@ -20344,24 +19484,12 @@
     "callsign": "YANGTZE RIVER"
   },
   {
-    "icao": "ATC",
-    "callsign": "TANZANIA"
-  },
-  {
     "icao": "TOW",
     "callsign": "TOWLINE"
   },
   {
-    "icao": "SRQ",
-    "callsign": "BLUE JAY"
-  },
-  {
     "icao": "TLO",
     "callsign": "TALON AIR"
-  },
-  {
-    "icao": "EXS",
-    "callsign": "CHANNEX"
   },
   {
     "icao": "OSY",
@@ -20466,10 +19594,6 @@
   {
     "icao": "TFF",
     "callsign": "TALON FLIGHT"
-  },
-  {
-    "icao": "LAP",
-    "callsign": "PARAGUAYA"
   },
   {
     "icao": "TAE",
@@ -20652,10 +19776,6 @@
     "callsign": "TEHRAN AIR"
   },
   {
-    "icao": "CYF",
-    "callsign": "TUS AIR"
-  },
-  {
     "icao": "TCM",
     "callsign": "TELEDYNE"
   },
@@ -20741,7 +19861,7 @@
   },
   {
     "icao": "TCG",
-    "callsign": "THAI CARGO"
+    "callsign": "AFRICARGO"
   },
   {
     "icao": "AIQ",
@@ -20782,10 +19902,6 @@
   {
     "icao": "TPV",
     "callsign": "THAI PACIFIC"
-  },
-  {
-    "icao": "LLR",
-    "callsign": "THAI SKY AIR"
   },
   {
     "icao": "THD",
@@ -20856,14 +19972,6 @@
     "callsign": "TIGGOZ"
   },
   {
-    "icao": "MDL",
-    "callsign": "MANDALA"
-  },
-  {
-    "icao": "TGW",
-    "callsign": "GO CAT"
-  },
-  {
     "icao": "TTW",
     "callsign": "SMART CAT"
   },
@@ -20882,10 +19990,6 @@
   {
     "icao": "TIE",
     "callsign": "TIME AIR"
-  },
-  {
-    "icao": "BOX",
-    "callsign": "BOX"
   },
   {
     "icao": "TVI",
@@ -20972,20 +20076,12 @@
     "callsign": "TOURAINE HELICO"
   },
   {
-    "icao": "TOW",
-    "callsign": "TEE AIR"
-  },
-  {
     "icao": "TOY",
     "callsign": "TOYOTA"
   },
   {
     "icao": "TGE",
     "callsign": "TASA"
-  },
-  {
-    "icao": "AIM",
-    "callsign": "PIJO"
   },
   {
     "icao": "TVH",
@@ -21076,10 +20172,6 @@
     "callsign": "ATLANTIC LEONE"
   },
   {
-    "icao": "LTA",
-    "callsign": "LANTRA"
-  },
-  {
     "icao": "TCC",
     "callsign": "TRANSCAL"
   },
@@ -21160,10 +20252,6 @@
     "callsign": "TRANSFAS"
   },
   {
-    "icao": "TCG",
-    "callsign": "AFRICARGO"
-  },
-  {
     "icao": "TSA",
     "callsign": "AIRTRAF"
   },
@@ -21228,10 +20316,6 @@
     "callsign": "TRANSBALLERIO"
   },
   {
-    "icao": "TBA",
-    "callsign": "TRANSBRASIL"
-  },
-  {
     "icao": "TIW",
     "callsign": "TIACA"
   },
@@ -21242,10 +20326,6 @@
   {
     "icao": "TCH",
     "callsign": "TRANS GULF"
-  },
-  {
-    "icao": "KRA",
-    "callsign": "REGATA"
   },
   {
     "icao": "TCT",
@@ -21262,10 +20342,6 @@
   {
     "icao": "TFA",
     "callsign": "TRANS FLORIDA"
-  },
-  {
-    "icao": "TCU",
-    "callsign": "TRANSGLOBAL"
   },
   {
     "icao": "TXE",
@@ -21345,7 +20421,7 @@
   },
   {
     "icao": "TCB",
-    "callsign": "AERO COLOMBIA"
+    "callsign": "AEREO COLOMBIA"
   },
   {
     "icao": "TAD",
@@ -21366,10 +20442,6 @@
   {
     "icao": "TMZ",
     "callsign": "TRANS AMAZON"
-  },
-  {
-    "icao": "TCB",
-    "callsign": "TRANSCARIBE"
   },
   {
     "icao": "EAR",
@@ -21406,10 +20478,6 @@
   {
     "icao": "DCL",
     "callsign": "DON CARLOS"
-  },
-  {
-    "icao": "ROU",
-    "callsign": "ROBINSON CRUSOE"
   },
   {
     "icao": "TSP",
@@ -21465,15 +20533,11 @@
   },
   {
     "icao": "UTN",
-    "callsign": "TRANSULGII"
+    "callsign": "UT UKRAINE"
   },
   {
     "icao": "TWE",
     "callsign": "TRANSWEDE"
-  },
-  {
-    "icao": "ABS",
-    "callsign": "ATHABASKA"
   },
   {
     "icao": "TRW",
@@ -21494,10 +20558,6 @@
   {
     "icao": "TSK",
     "callsign": "TOMSKAVIA"
-  },
-  {
-    "icao": "TAX",
-    "callsign": "TRAVELAIR"
   },
   {
     "icao": "TIC",
@@ -21524,10 +20584,6 @@
     "callsign": "TRI AIR"
   },
   {
-    "icao": "SWD",
-    "callsign": "SAWBLADE"
-  },
-  {
     "icao": "TGN",
     "callsign": "TRIGANA"
   },
@@ -21538,10 +20594,6 @@
   {
     "icao": "TIB",
     "callsign": "TRIP"
-  },
-  {
-    "icao": "CLU",
-    "callsign": "CAROLUS"
   },
   {
     "icao": "TTP",
@@ -21606,10 +20658,6 @@
   {
     "icao": "TOM",
     "callsign": "TOM JET"
-  },
-  {
-    "icao": "JAF",
-    "callsign": "BEAUTY"
   },
   {
     "icao": "TUI",
@@ -21784,10 +20832,6 @@
     "callsign": "UNITED"
   },
   {
-    "icao": "UBD",
-    "callsign": "UNITED BANGLADESH"
-  },
-  {
     "icao": "UAC",
     "callsign": "UNITAIR"
   },
@@ -21856,10 +20900,6 @@
     "callsign": "SIOUX"
   },
   {
-    "icao": "PNA",
-    "callsign": "PACIFIC NORTHERN"
-  },
-  {
     "icao": "RAU",
     "callsign": "UGANDA ROYAL"
   },
@@ -21898,10 +20938,6 @@
   {
     "icao": "UES",
     "callsign": "AVIASYSTEM"
-  },
-  {
-    "icao": "UGA",
-    "callsign": "UGANDA"
   },
   {
     "icao": "UGD",
@@ -21964,10 +21000,6 @@
     "callsign": "VIPER"
   },
   {
-    "icao": "ULS",
-    "callsign": "AIR ULTRA"
-  },
-  {
     "icao": "UNC",
     "callsign": "UNICOPTER"
   },
@@ -22000,10 +21032,6 @@
     "callsign": "URAI"
   },
   {
-    "icao": "AWE",
-    "callsign": "CACTUS"
-  },
-  {
     "icao": "UBG",
     "callsign": "BANGLA STAR"
   },
@@ -22022,14 +21050,6 @@
   {
     "icao": "USX",
     "callsign": "AIR EXPRESS"
-  },
-  {
-    "icao": "UTN",
-    "callsign": "UT UKRAINE"
-  },
-  {
-    "icao": "TUM",
-    "callsign": "UTAIRCARGO"
   },
   {
     "icao": "UTA",
@@ -22054,10 +21074,6 @@
   {
     "icao": "UVM",
     "callsign": "UVAVEMEX"
-  },
-  {
-    "icao": "AIO",
-    "callsign": "AIR CHIEF"
   },
   {
     "icao": "UVN",
@@ -22100,20 +21116,8 @@
     "callsign": "VECA"
   },
   {
-    "icao": "VLR",
-    "callsign": "VOLAX"
-  },
-  {
-    "icao": "VDR",
-    "callsign": "VOLDIR"
-  },
-  {
     "icao": "VVV",
     "callsign": "VALAIRJET"
-  },
-  {
-    "icao": "VIV",
-    "callsign": "VIVA"
   },
   {
     "icao": "VIL",
@@ -22182,10 +21186,6 @@
   {
     "icao": "VFC",
     "callsign": "VASCO AIR"
-  },
-  {
-    "icao": "VAG",
-    "callsign": "SEGA"
   },
   {
     "icao": "WGA",
@@ -22288,10 +21288,6 @@
     "callsign": "GREEN ISLE"
   },
   {
-    "icao": "VRD",
-    "callsign": "REDWOOD"
-  },
-  {
     "icao": "VJC",
     "callsign": "VIETJET"
   },
@@ -22365,11 +21361,7 @@
   },
   {
     "icao": "VJT",
-    "callsign": "VISTA"
-  },
-  {
-    "icao": "VJT",
-    "callsign": "VISTA MALTA"
+    "callsign": "VISTA JET"
   },
   {
     "icao": "VVM",
@@ -22408,10 +21400,6 @@
     "callsign": "VOYAGER AIR"
   },
   {
-    "icao": "VPA",
-    "callsign": "VIAIR"
-  },
-  {
     "icao": "VPB",
     "callsign": "VETERAN"
   },
@@ -22422,10 +21410,6 @@
   {
     "icao": "VRA",
     "callsign": "VERITAIR"
-  },
-  {
-    "icao": "VRE",
-    "callsign": "UKRAINE VOLARE"
   },
   {
     "icao": "VRL",
@@ -22512,10 +21496,6 @@
     "callsign": "GOUMRAK"
   },
   {
-    "icao": "VNR",
-    "callsign": "VIENNAIR"
-  },
-  {
     "icao": "VTI",
     "callsign": "VISTARA"
   },
@@ -22588,10 +21568,6 @@
     "callsign": "WESTAF CARGO"
   },
   {
-    "icao": "CHB",
-    "callsign": "WEST CHINA"
-  },
-  {
     "icao": "WLX",
     "callsign": "WEST LUX"
   },
@@ -22618,10 +21594,6 @@
   {
     "icao": "WCA",
     "callsign": "WESTLEONE"
-  },
-  {
-    "icao": "WCC",
-    "callsign": "WEST COAST"
   },
   {
     "icao": "TEE",
@@ -22652,10 +21624,6 @@
     "callsign": "BLUE FLAME"
   },
   {
-    "icao": "STT",
-    "callsign": "SAWTOOTH"
-  },
-  {
     "icao": "WST",
     "callsign": "WESTERN BAHAMAS"
   },
@@ -22669,27 +21637,11 @@
   },
   {
     "icao": "WAL",
-    "callsign": "WESTERN"
-  },
-  {
-    "icao": "KLC",
-    "callsign": "CITY"
-  },
-  {
-    "icao": "WAL",
-    "callsign": "WESTERN ARCTIC"
+    "callsign": "DORAL"
   },
   {
     "icao": "WTV",
     "callsign": "WESTAVIA"
-  },
-  {
-    "icao": "AAE",
-    "callsign": "ARIZONA"
-  },
-  {
-    "icao": "WES",
-    "callsign": "WEST EX"
   },
   {
     "icao": "WGN",
@@ -22734,10 +21686,6 @@
   {
     "icao": "WIF",
     "callsign": "WIDEROE"
-  },
-  {
-    "icao": "WAA",
-    "callsign": "WIEN"
   },
   {
     "icao": "WIG",
@@ -22848,10 +21796,6 @@
     "callsign": "WORLDWIDE"
   },
   {
-    "icao": "WOW",
-    "callsign": "WOW AIR"
-  },
-  {
     "icao": "WRT",
     "callsign": "WRIGHTAIR"
   },
@@ -22874,10 +21818,6 @@
   {
     "icao": "WAN",
     "callsign": "WATANIYA"
-  },
-  {
-    "icao": "VNR",
-    "callsign": "WANAIR"
   },
   {
     "icao": "WEN",
@@ -22920,10 +21860,6 @@
     "callsign": "STARWAY"
   },
   {
-    "icao": "GXL",
-    "callsign": "STARDUST"
-  },
-  {
     "icao": "XOJ",
     "callsign": "EXOJET"
   },
@@ -22936,16 +21872,8 @@
     "callsign": "XPRESS"
   },
   {
-    "icao": "RAG",
-    "callsign": "RAGLAN"
-  },
-  {
     "icao": "DGA",
     "callsign": "YELLOW RIVER"
-  },
-  {
-    "icao": "YRG",
-    "callsign": "YAKAIR GEORGIA"
   },
   {
     "icao": "AKY",
@@ -22958,14 +21886,6 @@
   {
     "icao": "LLM",
     "callsign": "YAMAL"
-  },
-  {
-    "icao": "YAK",
-    "callsign": "YAK AVIA"
-  },
-  {
-    "icao": "SYL",
-    "callsign": "AIR YAKUTIA"
   },
   {
     "icao": "CYG",
@@ -23012,10 +21932,6 @@
     "callsign": "AIR YING AN"
   },
   {
-    "icao": "TUD",
-    "callsign": "TUNDRA"
-  },
-  {
     "icao": "UGN",
     "callsign": "PLUTON"
   },
@@ -23028,16 +21944,8 @@
     "callsign": "ZENSTAR"
   },
   {
-    "icao": "AZB",
-    "callsign": "ZAAB AIR"
-  },
-  {
     "icao": "AZR",
     "callsign": "ZENAIR"
-  },
-  {
-    "icao": "CDC",
-    "callsign": "HUALONG"
   },
   {
     "icao": "CIT",
@@ -23046,10 +21954,6 @@
   {
     "icao": "EMR",
     "callsign": "ZENMOUR"
-  },
-  {
-    "icao": "EZD",
-    "callsign": "ZEST AIRWAYS"
   },
   {
     "icao": "GZQ",
@@ -23162,9 +22066,5 @@
   {
     "icao": "OOM",
     "callsign": "ZOOM"
-  },
-  {
-    "icao": "ORZ",
-    "callsign": "ZOREX"
   }
 ]
