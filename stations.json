@@ -602,7 +602,7 @@
       "line2": "This is a development station, do not contact.",
       "line3": "Provides coverage for all regions.",
       "line4": "Report issues at my.pfatc.net/feedback",
-      "sectors": ["EGTT_W", "EGTT_SC", "EGTT_N", "EGPX_W", "EGPX_S", "EGPX_N", "EGPX_D", "LPPC", "EHAA", "EKDK", "OBBB_1", "LCCC_S0", "LCCC_S2", "LCCC_S3", "LCCC_S4", "LCCC_W", "LCCC_E", "MDCS", "MTEG", "EGGX", "KZAK", "PAZA_N", "PAZA_S", "EISN"]
+      "sectors": ["EGTT_W", "EGTT_SC", "EGTT_N", "EGPX_W", "EGPX_S", "EGPX_N", "EGPX_D", "LPPC", "EHAA", "EKDK", "OBBB", "LCCC_S0", "LCCC_S2", "LCCC_S3", "LCCC_S4", "LCCC_W", "LCCC_E", "MDCS", "MTEG", "EGGX", "KZAK", "PAZA_N", "PAZA_S", "EISN"]
     }
   ],
   "EDYY": [
@@ -634,14 +634,14 @@
   "OBBB": [
     {
       "name": "Bahrain Radar",
-      "callsign": "OBBB_1_CTR",
+      "callsign": "OBBB_CTR",
       "frequency": 0.0,
       "facility": "Enroute",
       "line1": "Bahrain Radar | CPDLC [INOP]",
       "line2": "Submit feedback at feedback.pfatc.net",
       "line3": "",
       "line4": "",
-      "sectors": ["OBBB_1"]
+      "sectors": ["OBBB"]
     }
   ],
   "EKDK": [
