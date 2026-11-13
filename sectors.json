@@ -24,7 +24,7 @@
     "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"]
   },
   "LPPO": {
-    "name": "Santa Maria Control",
+    "name": "Santa Maria Radar",
     "topdown": ["MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LPMA"]
   },
   "EGPX_D": {
