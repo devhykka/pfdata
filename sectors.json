@@ -1,11 +1,67 @@
 {
+  "LPPC": {
+    "name": "Lisboa Control",
+    "topdown": ["LPMA"]
+  },
   "MDCS": {
     "name": "Santo Domingo Control",
     "topdown": ["MDPC", "MDST", "MDAB", "MDCR"]
   },
+  "OBBB": {
+    "name": "Bahrain Radar",
+    "topdown": [""]
+  },
+  "EURO": {
+    "name": "Euro Control",
+    "topdown": ["EGKK", "EGLC", "EGFF", "LCLK", "LCPH", "LCRA", "LPMA"]
+  },
   "KZAK": {
     "name": "Oakland Oceanic",
     "topdown": [""]
+  },
+  "DEVC": {
+    "name": "Developer Control",
+    "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"]
+  },
+  "LPPO": {
+    "name": "Santa Maria Control",
+    "topdown": ["MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LPMA"]
+  },
+  "EGPX_D": {
+    "name": "Scottish Control (Deancross)",
+    "topdown": [""]
+  },
+  "EGPX_E": {
+    "name": "Scottish Control (East)",
+    "topdown": [""]
+  },
+  "EGPX_N": {
+    "name": "Scottish Control (North)",
+    "topdown": [""]
+  },
+  "EGPX_S": {
+    "name": "Scottish Control (South)",
+    "topdown": [""]
+  },
+  "EGPX_W": {
+    "name": "Scottish Control (West)",
+    "topdown": [""]
+  },
+  "EHAA": {
+    "name": "Amsterdam Radar",
+    "topdown": [""]
+  },
+  "EGTT_N": {
+    "name": "London Control (North)",
+    "topdown": [""]
+  },
+  "EGTT_SC": {
+    "name": "London Control (South Central)",
+    "topdown": ["EGLC", "EGKK"]
+  },
+  "EGTT_W": {
+    "name": "London Control (Berry Head)",
+    "topdown": ["EGFF"]
   },
   "LCCC_E": {
     "name": "Nicosia Radar (East)",
@@ -31,64 +87,20 @@
     "name": "Nicosia Radar (West)",
     "topdown": ["LCLK"]
   },
-  "OBBB": {
-    "name": "Bahrain Radar",
-    "topdown": [""]
-  },
-  "EURO": {
-    "name": "Euro Control",
-    "topdown": ["EGKK", "EGLC", "EGFF", "LCLK", "LCPH", "LCRA", "LPMA"]
-  },
-  "DEVC": {
-    "name": "Developer Control",
-    "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"]
-  },
-  "EHAA": {
-    "name": "Amsterdam Radar",
-    "topdown": [""]
-  },
-  "EGTT_N": {
-    "name": "London Control (North)",
-    "topdown": [""]
-  },
-  "EGTT_SC": {
-    "name": "London Control (South Central)",
-    "topdown": ["EGLC", "EGKK"]
-  },
-  "EGTT_W": {
-    "name": "London Control (Berry Head)",
-    "topdown": ["EGFF"]
-  },
-  "LPPC": {
-    "name": "Lisboa Control",
-    "topdown": ["LPMA"]
-  },
   "MTEG": {
     "name": "Port Au Prince Center",
     "topdown": ["MTCA"]
   },
-  "EGPX_D": {
-    "name": "Scottish Control (Deancross)",
-    "topdown": [""]
-  },
-  "EGPX_E": {
-    "name": "Scottish Control (East)",
-    "topdown": [""]
-  },
-  "EGPX_N": {
-    "name": "Scottish Control (North)",
-    "topdown": [""]
-  },
-  "EGPX_S": {
-    "name": "Scottish Control (South)",
-    "topdown": [""]
-  },
-  "EGPX_W": {
-    "name": "Scottish Control (West)",
-    "topdown": [""]
-  },
   "EGGX": {
     "name": "Shanwick Oceanic",
+    "topdown": [""]
+  },
+  "EDYY": {
+    "name": "Maastricht Radar",
+    "topdown": [""]
+  },
+  "EKDK": {
+    "name": "Copenhagen Control",
     "topdown": [""]
   },
   "PAZA_N": {
@@ -97,18 +109,6 @@
   },
   "PAZA_S": {
     "name": "Anchorage Center (South)",
-    "topdown": [""]
-  },
-  "LPPO": {
-    "name": "Santa Maria Control",
-    "topdown": ["MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LPMA"]
-  },
-  "EDYY": {
-    "name": "Maastricht Radar",
-    "topdown": [""]
-  },
-  "EKDK": {
-    "name": "Copenhagen Control",
     "topdown": [""]
   }
 }
