@@ -704,10 +704,6 @@
     "callsign": "AUSTRIAN AIRFORCE"
   },
   {
-    "icao": "AVG",
-    "callsign": "AVILEF"
-  },
-  {
     "icao": "AZY",
     "callsign": "AZTEC WORLD"
   },
@@ -7902,10 +7898,6 @@
   {
     "icao": "DMF",
     "callsign": "DEMLY"
-  },
-  {
-    "icao": "NAU",
-    "callsign": "DANAUS"
   },
   {
     "icao": "DDA",
@@ -15945,7 +15937,7 @@
   },
   {
     "icao": "EZD",
-    "callsign": "ZEST AIRWAYS"
+    "callsign": "ZEST"
   },
   {
     "icao": "PAL",
