@@ -157,15 +157,6 @@ export const STARS: TStars = {
 		}
   },
 
-	"EGHI": {
-		"02": {
-			"Vectors": []
-		},
-		"20": {
-			"Vectors": []
-		}
-  },
-
   "EGLC": {
     "09": {
       "Vectors": []
