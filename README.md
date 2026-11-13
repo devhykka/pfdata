@@ -3,21 +3,21 @@
 Multiple sources of data for the Project Flight flight simulator on Roblox. 
 
 
-Excluding the `callsigns.json` and the `waypoints.json` file, all files **NOT IN** the `.data` folder (and sub-folders) should NOT be edited. All pull requests targeting these files will be invalidated.
+Excluding the `callsigns.json` and `waypoints.json` files, all files **NOT IN** the `.data` folder (and sub-folders) should NOT be edited. All pull requests targeting these files will be invalidated.
 
 ## Data Files Information
 `.data/sectors/*` | Enroute Sectors only, format:
 ```json
 {
   "name": "Developer Control", // This is the name of the sector.
-  "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"], // These are the airports the sector covers top-down.
+  "topdown": ["EGKK", "EGLC", "EGFF", "PAFA", "MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LCLK", "LCPH", "LCRA", "LPMA"] // These are the airports the sector covers top-down.
 }
 ```
 
 ```json
 {
   "name": "London Control (Bandbox)", // This is the name of the sector.
-  "topdown": ["EGKK", "EGLC", "EGFF"], // These are the airports the sector covers top-down.
+  "topdown": ["EGKK", "EGLC", "EGFF"] // These are the airports the sector covers top-down.
 }
 ```
 

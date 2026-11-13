@@ -1533,7 +1533,7 @@
   },
   {
     "icao": "ADY",
-    "callsign": "NAWRAS [6][7]"
+    "callsign": "NAWRAS"
   },
   {
     "icao": "ADQ",
@@ -3121,7 +3121,7 @@
   },
   {
     "icao": "XAA",
-    "callsign": "ROCKFISH|UNITED STATES"
+    "callsign": "ROCKFISH"
   },
   {
     "icao": "VUO",
@@ -3700,8 +3700,8 @@
     "callsign": "DIANA"
   },
   {
-    "icao": "EWE/EWL",
-    "callsign": "EUROPWINGS BLACK PEARL"
+    "icao": "EWE",
+    "callsign": "EUROWINGS"
   },
   {
     "icao": "EXG",
@@ -10200,7 +10200,7 @@
     "callsign": "FLYBIRD"
   },
   {
-    "icao": "PVV[27][28]",
+    "icao": "PVV",
     "callsign": "SUNDAY"
   },
   {
@@ -11669,7 +11669,7 @@
   },
   {
     "icao": "VMS",
-    "callsign": "VICTOR MIKE[32]"
+    "callsign": "VICTOR MIKE"
   },
   {
     "icao": "HGA",
@@ -15700,10 +15700,6 @@
     "callsign": "NORTAX"
   },
   {
-    "icao": "RVF",
-    "callsign": "—RAVEN FLIGHT"
-  },
-  {
     "icao": "NTA",
     "callsign": "THUNDERBIRD"
   },
@@ -15753,7 +15749,7 @@
   },
   {
     "icao": "NRS",
-    "callsign": "REDNOSE*"
+    "callsign": "REDNOSE"
   },
   {
     "icao": "NAA",
@@ -18801,7 +18797,7 @@
   },
   {
     "icao": "SPX",
-    "callsign": "GLOW|UNITED STATES"
+    "callsign": "GLOW"
   },
   {
     "icao": "SQA",

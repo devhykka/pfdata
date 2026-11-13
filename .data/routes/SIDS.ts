@@ -1,7 +1,7 @@
 type TSids = {
 	[airportCode: string]: {
 		[runway: string]: {
-			[sidNamw: string]: string[]
+			[sidName: string]: string[]
 		}
 	}
 }
@@ -150,15 +150,6 @@ export const SIDS: TSids = {
 			]
 		}
 	},
-
-	"EGHI": {
-		"02": {
-			"Vectors": []
-		},
-		"20": {
-			"Vectors": []
-		}
-  },
 
   "EGLC": {
 		"09": {

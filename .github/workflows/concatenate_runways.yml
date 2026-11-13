@@ -173,10 +173,8 @@ jobs:
           # APPROVED AIRPORT CODES (keep in sync with the validate job above)
           # ---------------------------------------------------------------
           APPROVED_CODES=(
-            EFKT
             EGFF
             EGLC
-            EGHI
             EGKK
             GCLP
             LCLK

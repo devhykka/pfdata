@@ -35,6 +35,7 @@ TABLE_HEADERS = {
     "duplicate-waypoint": ["Waypoint", "Occurrences"],
     "overlapping-coords": ["Coordinates", "Waypoints sharing them"],
     "duplicate-callsign": ["Callsign", "Files"],
+    "unknown-sector": ["Station", "Missing sector", "File"],
     "duplicate-name": ["Sector name", "Files"],
     "duplicate-icao-exact": ["ICAO", "Callsign", "Repeated ×"],
     "duplicate-icao-conflict": ["ICAO", "Conflicting callsign entries"],
@@ -126,14 +127,14 @@ def validate_runways(repo_root, report):
         if data is None:
             continue
         if not isinstance(data, dict):
-            report.add(ERROR, "schema", path, "Expected a JSON object of {runway: [freq, x, heading]}.")
+            report.add(ERROR, "schema", path, "Expected a JSON object of {runway: [x, y, heading]}.")
             continue
         for ident, value in data.items():
             if ident == "__duplicate_keys__":
                 continue
             if not isinstance(value, list) or len(value) != 3:
                 report.add(ERROR, "schema", path,
-                            f"Runway '{ident}' should be a 3-element array [freq, x, heading], got: {value!r}")
+                            f"Runway '{ident}' should be a 3-element array [x, y, heading], got: {value!r}")
                 continue
             for v in value:
                 try:
@@ -180,10 +181,22 @@ def validate_stations(repo_root, report):
     callsigns_seen = defaultdict(list)
     required_fields = ("name", "callsign", "frequency", "facility")
 
+    # Sector IDs are the filename stems under .data/sectors (that's how
+    # concatenate_sectors.py keys sectors.json).
+    sectors_dir = os.path.join(repo_root, ".data", "sectors")
+    known_sectors = {
+        os.path.splitext(os.path.basename(p))[0]
+        for p in glob.glob(os.path.join(sectors_dir, "**", "*.json"), recursive=True)
+    }
+
     for path in sorted(glob.glob(os.path.join(source_dir, "**", "*.json"), recursive=True)):
         data = load_json_checked(path, report)
         if data is None:
             continue
+        if not isinstance(data, list):
+            report.add(WARNING, "schema", path,
+                        "Station file is a single object, not a list — every other station file "
+                        "is a JSON array, so consumers of stations.json may not expect this.")
         # Source files may be a single station object or a list of them.
         stations = data if isinstance(data, list) else [data]
 
@@ -199,6 +212,17 @@ def validate_stations(repo_root, report):
                 report.add(ERROR, "schema", path,
                             f"Entry {idx} ('{station.get('name', '?')}') has a non-numeric frequency: "
                             f"{station['frequency']!r}")
+            if station.get("facility") == "Enroute" and "sectors" not in station:
+                report.add(WARNING, "schema", path,
+                            f"Entry {idx} ('{station.get('callsign', '?')}') is an Enroute station "
+                            f"with no 'sectors' list.")
+            for sector in station.get("sectors") or []:
+                if known_sectors and sector not in known_sectors:
+                    report.add(WARNING, "unknown-sector", path,
+                                f"Entry {idx} ('{station.get('callsign', '?')}') references sector "
+                                f"'{sector}', which has no file in .data/sectors.",
+                                row=[f"`{station.get('callsign', '?')}`", f"`{sector}`",
+                                     f"`{os.path.relpath(path, repo_root)}`"])
             callsign = station.get("callsign")
             if isinstance(callsign, str) and callsign:
                 callsigns_seen[callsign].append(os.path.relpath(path, repo_root))
