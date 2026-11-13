@@ -63,6 +63,6 @@
     "line2": "Submit feedback at feedback.pfatc.net",
     "line3": "",
     "line4": "",
-    "sectors": ["EGPX_WD"]
+    "sectors": ["EGPX_W", "EGPX_D"]
   }
 ]

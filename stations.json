@@ -12,17 +12,19 @@
       "sectors": ["KZAK"]
     }
   ],
-  "OBBB": {
-    "name": "Bahrain Radar",
-    "callsign": "OBBB_1_CTR",
-    "frequency": 0.0,
-    "facility": "Enroute",
-    "line1": "Bahrain Radar | CPDLC [INOP]",
-    "line2": "Submit feedback at feedback.pfatc.net",
-    "line3": "",
-    "line4": "",
-    "sectors": ["OBBB"]
-  },
+  "OBBB": [
+    {
+      "name": "Bahrain Radar",
+      "callsign": "OBBB_1_CTR",
+      "frequency": 0.0,
+      "facility": "Enroute",
+      "line1": "Bahrain Radar | CPDLC [INOP]",
+      "line2": "Submit feedback at feedback.pfatc.net",
+      "line3": "",
+      "line4": "",
+      "sectors": ["OBBB_1"]
+    }
+  ],
   "MDAB": [
     {
       "name": "Arroyo Barril Tower",
@@ -164,7 +166,7 @@
       "line2": "This is a development station, do not contact.",
       "line3": "Provides coverage for all regions.",
       "line4": "Report issues at my.pfatc.net/feedback",
-      "sectors": ["EGTT_W", "EGTT_SC", "EGTT_N", "EGPX_W", "EGPX_S", "EGPX_N", "EGPX_D", "LPPC", "EHAA", "EKDK", "OBBB", "LCCC_S0", "LCCC_S2", "LCCC_S3", "LCCC_S4", "LCCC_W", "LCCC_E", "MDCS", "MTEG", "EGGX", "KZAK", "PAZA_N", "PAZA_S", "EISN"]
+      "sectors": ["EGTT_W", "EGTT_SC", "EGTT_N", "EGPX_W", "EGPX_S", "EGPX_N", "EGPX_D", "LPPC", "EHAA", "EKDK", "OBBB_1", "LCCC_S0", "LCCC_S2", "LCCC_S3", "LCCC_S4", "LCCC_W", "LCCC_E", "MDCS", "MTEG", "EGGX", "KZAK", "PAZA_N", "PAZA_S", "EISN"]
     }
   ],
   "EDYY": [
@@ -214,7 +216,8 @@
       "line1": "Port Au Prince Center",
       "line2": "Coverage at map.pfatc.net",
       "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
-      "line4": "Submit feedback at feedback.pfatc.net"
+      "line4": "Submit feedback at feedback.pfatc.net",
+      "sectors": ["MTEG"]
     }
   ],
   "LPPC": [
@@ -282,7 +285,7 @@
       "callsign": "LCLK_APP",
       "frequency": 130.2,
       "facility": "Approach/Departure",
-      "line1": "Larnaka Approach",
+      "line1": "Larnaca Approach",
       "line2": "Charts at charts.pfatc.net",
       "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
       "line4": "Submit feedback at feedback.pfatc.net"
@@ -292,7 +295,7 @@
       "callsign": "LCLK_TWR",
       "frequency": 121.2,
       "facility": "Tower",
-      "line1": "Larnaka Tower",
+      "line1": "Larnaca Tower",
       "line2": "Charts at charts.pfatc.net",
       "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
       "line4": "Submit feedback at feedback.pfatc.net"
@@ -302,7 +305,7 @@
       "callsign": "LCLK_GND",
       "frequency": 119.4,
       "facility": "Ground",
-      "line1": "Larnaka Ground",
+      "line1": "Larnaca Ground",
       "line2": "Charts at charts.pfatc.net",
       "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
       "line4": "Submit feedback at feedback.pfatc.net"
@@ -312,7 +315,7 @@
       "callsign": "LCLK_DEL",
       "frequency": 120.575,
       "facility": "Clearance/Delivery",
-      "line1": "Larnaka Clearance",
+      "line1": "Larnaca Clearance",
       "line2": "Charts at charts.pfatc.net",
       "line3": "Pilot briefings at wiki.pfatc.net/pilots/briefings",
       "line4": "Submit feedback at feedback.pfatc.net"
@@ -544,7 +547,7 @@
       "line2": "Submit feedback at feedback.pfatc.net",
       "line3": "",
       "line4": "",
-      "sectors": ["EGPX_WD"]
+      "sectors": ["EGPX_W", "EGPX_D"]
     }
   ],
   "EGTT": [

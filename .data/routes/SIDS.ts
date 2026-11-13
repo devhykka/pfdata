@@ -1,7 +1,7 @@
 type TSids = {
 	[airportCode: string]: {
 		[runway: string]: {
-			[sidNamw: string]: string[]
+			[sidName: string]: string[]
 		}
 	}
 }

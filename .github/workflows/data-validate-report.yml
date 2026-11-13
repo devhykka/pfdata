@@ -54,8 +54,8 @@ jobs:
 
             const marker = '<!-- data-validation-report -->';
             const header = counts.errorCount > 0
-              ? `## ${marker}\n## 🛑 Data validation: ${counts.errorCount} error(s), ${counts.warningCount} warning(s)`
-              : `## ${marker}\n## ✅ Data validation passed${counts.warningCount ? ` (${counts.warningCount} warning(s))` : ''}`;
+              ? `${marker}\n## 🛑 Data validation: ${counts.errorCount} error(s), ${counts.warningCount} warning(s)`
+              : `${marker}\n## ✅ Data validation passed${counts.warningCount ? ` (${counts.warningCount} warning(s))` : ''}`;
 
             const body = `${header}\n\n${reportMd}\n\n<sub>Updated automatically from workflow run ${context.payload.workflow_run.html_url}</sub>`;
 

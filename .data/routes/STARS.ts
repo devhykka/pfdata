@@ -43,7 +43,7 @@ export const STARS: TStars = {
 	},
 	
 	"PAFA": {
-		"2L": {
+		"02L": {
 			"LIBER5": [
 				"CAWIN", "STARC", "GLOWS"
 			],
