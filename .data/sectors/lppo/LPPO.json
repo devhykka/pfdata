@@ -1,4 +1,4 @@
 {
-  "name": "Santa Maria Control",
+  "name": "Santa Maria Radar",
   "topdown": ["MDPC", "MDST", "MTCA", "MDAB", "MDCR", "LPMA"]
 }
